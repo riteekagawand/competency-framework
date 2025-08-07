@@ -1,0 +1,129 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 1 - Software Engineer II",
+  "Role": "Software Engineer II",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "12%",
+            "Competencies": [
+              "Independently manage moderately complex tasks and deliver on time.",
+              "Proactively identify issues and suggest solutions.",
+              "Mentor junior engineers or interns on basic tasks.",
+              "Contribute actively in sprint planning and retrospectives.",
+              "Demonstrate accountability in delivering business value."
+            ],
+            "Default Competencies":3
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "8%",
+            "Competencies": [
+              "Seek feedback regularly and integrate it into work.",
+              "Develop deeper knowledge of chosen tech stack or framework.",
+              "Engage in peer knowledge sharing sessions.",
+              "Pursue relevant certifications or internal training.",
+              "Demonstrate understanding of organizational values."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "50%",
+        "Expected Competancy": [
+          {
+            "Title": "Code Quality & Tooling",
+            "Weightage": "25%",
+            "Competencies": [
+              "Write maintainable and optimized code for production systems.",
+              "Ensure code review comments are minimal and mostly stylistic.",
+              "Apply secure coding and performance best practices.",
+              "Automate routine tasks and workflows where possible.",
+              "Demonstrate fluency with CI/CD and debugging tools."
+            ],
+            "Default Competencies": 3
+          },
+          {
+            "Title": "Testing & DevOps",
+            "Weightage": "25%",
+            "Competencies": [
+              "Design and maintain test cases for new features.",
+              "Contribute to automation frameworks and pipelines.",
+              "Perform root cause analysis for recurring issues.",
+              "Manage deployments with minimal supervision.",
+              "Participate in improving monitoring and alerting systems."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Product Features",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understand module-level dependencies and integrations.",
+              "Develop features aligned with product roadmap priorities.",
+              "Highlight risks and propose mitigation strategies early.",
+              "Consider scalability and maintainability during design.",
+              "Contribute to knowledge base and documentation."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "User Perspective",
+            "Weightage": "8%",
+            "Competencies": [
+              "Understand user pain points for assigned modules.",
+              "Participate in usability reviews and incorporate feedback.",
+              "Translate product requirements into user-focused designs.",
+              "Evaluate performance impacts of user-facing features.",
+              "Analyze user behavior data to guide feature decisions."
+            ],
+            "Default Competencies":2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Stay updated with emerging tools and frameworks.",
+              "Propose new technologies to improve product efficiency.",
+              "Document and share learnings from external events.",
+              "Identify competitive feature differentiators.",
+              "Follow thought leaders in relevant technical areas."
+            ],
+            "Default Competencies": 1
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Understand competitive offerings at a feature level.",
+              "Compare product modules with industry best practices.",
+              "Recognize opportunities to improve technical positioning.",
+              "Propose innovative solutions to improve product market fit.",
+              "Assist in product demos or technical showcases."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      }
+    ]
+  }
+}

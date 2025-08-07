@@ -1,0 +1,153 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 1 - Engineer II - Cloud Ops",
+  "Role": "Engineer II - Cloud Ops",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "12%",
+            "Competencies": [
+              "Take ownership of cloud infrastructure stability and scalability.",
+              "Proactively identify cost optimization opportunities.",
+              "Document and improve cloud operations processes.",
+              "Mentor juniors on cloud environment practices.",
+              "Ensure uptime and operational excellence."
+            ],
+            "Default Competencies": [
+              "Take ownership of cloud infrastructure stability and scalability.",
+              "Proactively identify cost optimization opportunities."
+            ]
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "8%",
+            "Competencies": [
+              "Pursue cloud certifications like AWS Solutions Architect, Azure Admin, etc.",
+              "Stay updated on emerging cloud technologies.",
+              "Seek feedback on cloud architecture decisions.",
+              "Engage in self-learning of cloud automation tools.",
+              "Contribute to internal knowledge-sharing sessions."
+            ],
+            "Default Competencies": [
+              "Pursue cloud certifications like AWS Solutions Architect, Azure Admin, etc.",
+              "Stay updated on emerging cloud technologies."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "50%",
+        "Expected Competancy": [
+          {
+            "Title": "Cloud Infrastructure Management",
+            "Weightage": "25%",
+            "Competencies": [
+              "Deploy and manage cloud-based resources efficiently.",
+              "Monitor and optimize cloud resource usage.",
+              "Implement cost tracking and reporting.",
+              "Ensure compliance with security and governance policies.",
+              "Automate provisioning and scaling."
+            ],
+            "Default Competencies": [
+              "Deploy and manage cloud-based resources efficiently.",
+              "Monitor and optimize cloud resource usage."
+            ]
+          },
+          {
+            "Title": "Monitoring & Incident Response",
+            "Weightage": "25%",
+            "Competencies": [
+              "Set up cloud monitoring and alerting systems.",
+              "Respond quickly to incidents and restore services.",
+              "Perform root cause analysis of cloud outages.",
+              "Document incident response procedures.",
+              "Ensure alignment with service-level agreements (SLAs)."
+            ],
+            "Default Competencies": [
+              "Set up cloud monitoring and alerting systems.",
+              "Respond quickly to incidents and restore services."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Cloud Application Support",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understand product cloud architecture requirements.",
+              "Support application deployments in cloud environments.",
+              "Coordinate with DevOps for smooth releases.",
+              "Evaluate resource requirements per feature or release.",
+              "Suggest improvements to cloud application performance."
+            ],
+            "Default Competencies": [
+              "Understand product cloud architecture requirements.",
+              "Support application deployments in cloud environments."
+            ]
+          },
+          {
+            "Title": "Data Security & Compliance",
+            "Weightage": "8%",
+            "Competencies": [
+              "Implement cloud security best practices.",
+              "Ensure compliance with data protection laws.",
+              "Support encryption and access management strategies.",
+              "Maintain secure cloud networking.",
+              "Conduct regular security audits."
+            ],
+            "Default Competencies": [
+              "Implement cloud security best practices.",
+              "Ensure compliance with data protection laws."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Stay informed about cloud innovations (Kubernetes, serverless).",
+              "Benchmark cloud efficiency against peers.",
+              "Explore multi-cloud and hybrid solutions.",
+              "Engage in cloud events and webinars.",
+              "Research cost optimization best practices."
+            ],
+            "Default Competencies": [
+              "Stay informed about cloud innovations (Kubernetes, serverless).",
+              "Benchmark cloud efficiency against peers."
+            ]
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Understand competitor cloud strategies.",
+              "Compare cloud architectures of similar companies.",
+              "Evaluate competitor uptime SLAs.",
+              "Recommend adoption of innovative cloud features.",
+              "Share insights with cloud governance teams."
+            ],
+            "Default Competencies": [
+              "Understand competitor cloud strategies.",
+              "Compare cloud architectures of similar companies."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

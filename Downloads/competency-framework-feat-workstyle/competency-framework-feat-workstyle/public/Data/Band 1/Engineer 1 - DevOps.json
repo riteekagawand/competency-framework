@@ -1,0 +1,155 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 1 - Foundational",
+  "Role": "Engineer 1 - DevOps",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "8%",
+            "Competencies": [
+              "Independently manage assigned CI/CD tasks.",
+              "Take initiative to automate repetitive deployment tasks.",
+              "Propose improvements to DevOps workflows.",
+              "Participate in production support activities when required.",
+              "Maintain clear documentation for all automation processes."
+            ],
+            "Default Competencies": [
+              "Independently manage assigned CI/CD tasks.",
+              "Take initiative to automate repetitive deployment tasks.",
+              "Propose improvements to DevOps workflows."
+            ]
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "7%",
+            "Competencies": [
+              "Stay updated on DevOps tools and trends.",
+              "Engage in cloud and containerization upskilling programs.",
+              "Seek mentorship from senior DevOps engineers.",
+              "Actively participate in learning sessions for new automation scripts.",
+              "Maintain strong adherence to operational ethics and security."
+            ],
+            "Default Competencies": [
+              "Stay updated on DevOps tools and trends.",
+              "Engage in cloud and containerization upskilling programs."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "55%",
+        "Expected Competancy": [
+          {
+            "Title": "Automation & CI/CD",
+            "Weightage": "30%",
+            "Competencies": [
+              "Build and maintain CI/CD pipelines using Jenkins or GitHub Actions.",
+              "Automate basic deployment processes.",
+              "Monitor and troubleshoot pipeline failures.",
+              "Assist in implementing infrastructure as code (IaC).",
+              "Ensure versioning and rollback mechanisms are in place."
+            ],
+            "Default Competencies": [
+              "Build and maintain CI/CD pipelines using Jenkins or GitHub Actions.",
+              "Automate basic deployment processes.",
+              "Monitor and troubleshoot pipeline failures."
+            ]
+          },
+          {
+            "Title": "Cloud & Containerization",
+            "Weightage": "25%",
+            "Competencies": [
+              "Support cloud deployment tasks.",
+              "Work with container tools such as Docker and Kubernetes.",
+              "Understand cloud resource provisioning basics.",
+              "Assist in environment configuration for development and testing.",
+              "Monitor and optimize containerized applications."
+            ],
+            "Default Competencies": [
+              "Support cloud deployment tasks.",
+              "Work with container tools such as Docker and Kubernetes.",
+              "Monitor and optimize containerized applications."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Infrastructure Understanding",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understand product deployment environments.",
+              "Support product teams with deployment issues.",
+              "Ensure DevOps pipelines align with product release cycles.",
+              "Know infrastructure needs for different features.",
+              "Document deployment steps for new modules."
+            ],
+            "Default Competencies": [
+              "Understand product deployment environments.",
+              "Ensure DevOps pipelines align with product release cycles."
+            ]
+          },
+          {
+            "Title": "Release Management",
+            "Weightage": "8%",
+            "Competencies": [
+              "Coordinate with teams for smooth release management.",
+              "Participate in release planning meetings.",
+              "Help track release issues and rollback strategies.",
+              "Communicate downtime or release risks proactively.",
+              "Ensure deployment documentation is updated."
+            ],
+            "Default Competencies": [
+              "Coordinate with teams for smooth release management.",
+              "Communicate downtime or release risks proactively."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Stay informed about new DevOps practices and automation tools.",
+              "Evaluate emerging container orchestration technologies.",
+              "Understand market trends in cloud cost optimization.",
+              "Share insights on industry-standard release frequencies.",
+              "Learn from case studies of successful DevOps implementations."
+            ],
+            "Default Competencies": [
+              "Stay informed about new DevOps practices and automation tools."
+            ]
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Monitor competitor automation strategies.",
+              "Understand competitor DevOps adoption levels.",
+              "Benchmark CI/CD metrics with industry leaders.",
+              "Suggest improvements based on competitive practices.",
+              "Document lessons learned from comparative studies."
+            ],
+            "Default Competencies": [
+              "Monitor competitor automation strategies.",
+              "Benchmark CI/CD metrics with industry leaders."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

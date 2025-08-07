@@ -1,0 +1,121 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 2 - Intermediate",
+  "Role": "Senior Database Administrator I",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Leadership",
+            "Weightage": "12%",
+            "Competencies": [
+              "Lead database operations and migration initiatives.",
+              "Mentor junior database engineers.",
+              "Take ownership of database scalability strategies.",
+              "Promote secure database practices.",
+              "Advocate for operational excellence."
+            ]
+          },
+          {
+            "Title": "Self-Development",
+            "Weightage": "8%",
+            "Competencies": [
+              "Pursue advanced database certifications (e.g., Oracle, MySQL, PostgreSQL).",
+              "Learn emerging database technologies (NoSQL, cloud-native DBs).",
+              "Engage in database performance communities.",
+              "Adopt automation in database administration.",
+              "Enhance scripting and monitoring skills."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "50%",
+        "Expected Competancy": [
+          {
+            "Title": "Database Operations",
+            "Weightage": "25%",
+            "Competencies": [
+              "Ensure database availability, backups, and recovery.",
+              "Monitor database performance and tune queries.",
+              "Implement HA and disaster recovery solutions.",
+              "Handle upgrades and patch management.",
+              "Ensure database security and compliance."
+            ]
+          },
+          {
+            "Title": "Automation & Optimization",
+            "Weightage": "25%",
+            "Competencies": [
+              "Automate routine database tasks.",
+              "Optimize indexing and storage strategies.",
+              "Analyze query performance and propose improvements.",
+              "Ensure cost-efficient database scaling.",
+              "Collaborate with developers for database design improvements."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Product Data Management",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understand application data models.",
+              "Align database design with product goals.",
+              "Support analytics and reporting requirements.",
+              "Ensure integrity during feature rollouts.",
+              "Handle data migrations effectively."
+            ]
+          },
+          {
+            "Title": "User Impact & Data Reliability",
+            "Weightage": "8%",
+            "Competencies": [
+              "Minimize downtime during schema changes.",
+              "Ensure compliance with data privacy regulations.",
+              "Monitor customer-facing data SLAs.",
+              "Implement auditing and access controls.",
+              "Optimize user experience via faster queries."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Database Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Track cloud-native database technologies.",
+              "Evaluate new tools for performance improvements.",
+              "Adopt database-as-a-service offerings where applicable.",
+              "Monitor AI-driven database optimization trends.",
+              "Promote modern database operational practices."
+            ]
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Analyze industry database adoption trends.",
+              "Compare performance benchmarks with competitors.",
+              "Track compliance expectations for databases.",
+              "Identify differentiators in database performance.",
+              "Support positioning of product via robust database performance."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

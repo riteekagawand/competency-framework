@@ -1,0 +1,121 @@
+{
+  "Department": "Engineering - Database Administration",
+  "Level": "Band 4 - Senior Principal",
+  "Role": "Senior Principal Engineer - Database Administration",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Strategic Leadership & Influence",
+            "Weightage": "8%",
+            "Competencies": [
+              "Define long-term database strategy for enterprise growth.",
+              "Mentor senior database architects and administrators.",
+              "Influence cross-functional data governance initiatives.",
+              "Champion data-driven decision making at the executive level.",
+              "Model leadership in managing mission-critical data systems."
+            ]
+          },
+          {
+            "Title": "Personal Growth & Reflection",
+            "Weightage": "7%",
+            "Competencies": [
+              "Pursue certifications in cloud and distributed databases.",
+              "Stay current on emerging data storage technologies.",
+              "Reflect on leadership effectiveness for global database teams.",
+              "Engage in thought leadership on data governance and security.",
+              "Maintain resilience during critical outage escalations."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "35%",
+        "Expected Competancy": [
+          {
+            "Title": "Advanced Database Architecture",
+            "Weightage": "20%",
+            "Competencies": [
+              "Design multi-region, high-availability database architectures.",
+              "Promote database automation for provisioning and scaling.",
+              "Lead data migration strategies to cloud and hybrid solutions.",
+              "Ensure compliance with evolving data regulations (GDPR, HIPAA).",
+              "Guide enterprise backup, recovery, and DR strategies."
+            ]
+          },
+          {
+            "Title": "Database Performance & Security",
+            "Weightage": "15%",
+            "Competencies": [
+              "Establish enterprise-wide database performance benchmarks.",
+              "Lead data security and encryption strategies.",
+              "Implement AI-driven database optimization solutions.",
+              "Integrate DevSecOps for database change automation.",
+              "Promote zero-trust security models for data infrastructure."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "30%",
+        "Expected Competancy": [
+          {
+            "Title": "Data-Driven Product Strategy",
+            "Weightage": "15%",
+            "Competencies": [
+              "Ensure database design supports product scalability and analytics.",
+              "Enable real-time data pipelines for business insights.",
+              "Promote API-driven database integrations for flexibility.",
+              "Guide schema design with future-proofing in mind.",
+              "Influence product roadmap to prioritize data reliability."
+            ]
+          },
+          {
+            "Title": "Customer Impact & Data Trust",
+            "Weightage": "15%",
+            "Competencies": [
+              "Ensure zero data loss during high-severity incidents.",
+              "Manage customer escalations related to data access and latency.",
+              "Maintain transparency on database security and compliance.",
+              "Build trust through audit-ready database practices.",
+              "Engage customers on database performance benchmarking."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Data & Database Technology Trends",
+            "Weightage": "10%",
+            "Competencies": [
+              "Track innovation in distributed and serverless databases.",
+              "Analyze competitors’ database performance and SLAs.",
+              "Adopt trends in multi-model and NoSQL systems.",
+              "Engage in database community and open-source contributions.",
+              "Influence industry practices on ethical data handling."
+            ]
+          },
+          {
+            "Title": "Thought Leadership & Advocacy",
+            "Weightage": "10%",
+            "Competencies": [
+              "Publish white papers on database performance engineering.",
+              "Present at global database and data governance forums.",
+              "Mentor peers across industries in database best practices.",
+              "Advocate for ethical data usage and sustainability.",
+              "Position enterprise as a leader in advanced database solutions."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 3 - Principal",
+  "Role": "Principal Engineer",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Strategic Leadership & Ownership",
+            "Weightage": "12%",
+            "Competencies": [
+              "Demonstrate accountability for cross-functional deliverables.",
+              "Act as a cultural ambassador promoting engineering excellence.",
+              "Drive initiatives that enhance team morale and productivity.",
+              "Handle ambiguity with clarity and structured decision-making.",
+              "Mentor and coach future engineering leaders."
+            ]
+          },
+          {
+            "Title": "Continuous Learning & Growth",
+            "Weightage": "8%",
+            "Competencies": [
+              "Stay updated on emerging architectural trends and practices.",
+              "Engage in external technical forums, publications, or speaking events.",
+              "Develop cross-domain expertise beyond core specialization.",
+              "Seek feedback from peers and leadership for continuous growth.",
+              "Lead knowledge-sharing sessions within and outside the team."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "40%",
+        "Expected Competancy": [
+          {
+            "Title": "Architecture & Design",
+            "Weightage": "20%",
+            "Competencies": [
+              "Define and enforce engineering architecture principles.",
+              "Design scalable, secure, and high-performance solutions.",
+              "Evaluate and introduce emerging technologies to solve business challenges.",
+              "Drive standardization of tools, processes, and best practices.",
+              "Ensure designs meet compliance and security standards."
+            ]
+          },
+          {
+            "Title": "Technical Excellence",
+            "Weightage": "20%",
+            "Competencies": [
+              "Guide teams on complex technical problem solving.",
+              "Review critical code and system implementations.",
+              "Optimize development processes for efficiency and quality.",
+              "Lead incident management and root cause analysis.",
+              "Influence technical roadmaps across multiple teams."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "25%",
+        "Expected Competancy": [
+          {
+            "Title": "Product Strategy Alignment",
+            "Weightage": "15%",
+            "Competencies": [
+              "Translate business objectives into technical strategies.",
+              "Collaborate with product leaders on long-term vision.",
+              "Anticipate market needs and design forward-compatible solutions.",
+              "Balance short-term delivery and long-term sustainability.",
+              "Influence prioritization based on business impact."
+            ]
+          },
+          {
+            "Title": "Customer-Centric Engineering",
+            "Weightage": "10%",
+            "Competencies": [
+              "Embed customer feedback loops in solution design.",
+              "Advocate for usability and performance improvements.",
+              "Analyze product usage patterns to guide engineering focus.",
+              "Promote experimentation for user-driven innovation.",
+              "Champion high availability and resilience goals."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry & Competitive Awareness",
+            "Weightage": "8%",
+            "Competencies": [
+              "Benchmark architecture against industry leaders.",
+              "Monitor competitor technology stacks and trends.",
+              "Assess potential disruptions and emerging opportunities.",
+              "Publish whitepapers or thought leadership content.",
+              "Engage with external partners and research bodies."
+            ]
+          },
+          {
+            "Title": "Technology Evangelism",
+            "Weightage": "7%",
+            "Competencies": [
+              "Represent the company at technology forums and events.",
+              "Advocate engineering achievements internally and externally.",
+              "Build external relationships with tech communities.",
+              "Contribute to open-source or industry consortiums.",
+              "Promote a culture of innovation within engineering."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

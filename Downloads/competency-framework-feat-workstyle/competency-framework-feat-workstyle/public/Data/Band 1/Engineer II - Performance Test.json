@@ -1,0 +1,152 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 1 - Engineer II - Performance Test",
+  "Role": "Engineer II - Performance Test",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "12%",
+            "Competencies": [
+              "Independently execute and optimize performance test suites.",
+              "Identify performance bottlenecks proactively.",
+              "Mentor junior testers on performance test concepts.",
+              "Actively participate in retrospectives and suggest improvements.",
+              "Ensure timely delivery of performance test results."
+            ],
+            "Default Competencies": [
+              "Independently execute and optimize performance test suites.",
+              "Mentor junior testers on performance test concepts.",
+              "Ensure timely delivery of performance test results."
+            ]
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "8%",
+            "Competencies": [
+              "Pursue performance testing certifications or courses.",
+              "Seek feedback on test strategy and execution.",
+              "Engage in peer learning sessions.",
+              "Stay updated on load testing frameworks.",
+              "Demonstrate continuous learning in performance optimization."
+            ],
+            "Default Competencies": [
+              "Pursue performance testing certifications or courses."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "50%",
+        "Expected Competancy": [
+          {
+            "Title": "Testing Tools & Analysis",
+            "Weightage": "25%",
+            "Competencies": [
+              "Proficiently use tools like JMeter or LoadRunner.",
+              "Design and execute complex performance test scenarios.",
+              "Collect, interpret, and report performance metrics.",
+              "Integrate performance tests with CI/CD pipelines.",
+              "Suggest code or infra optimizations based on test results."
+            ],
+            "Default Competencies": [
+              "Design and execute complex performance test scenarios.",
+              "Integrate performance tests with CI/CD pipelines."
+            ]
+          },
+          {
+            "Title": "System Performance Knowledge",
+            "Weightage": "25%",
+            "Competencies": [
+              "Understand system architecture for load distribution.",
+              "Monitor system performance during peak usage.",
+              "Support capacity planning based on performance data.",
+              "Conduct root cause analysis for performance issues.",
+              "Document and communicate performance benchmarks."
+            ],
+            "Default Competencies": [
+              "Monitor system performance during peak usage.",
+              "Conduct root cause analysis for performance issues.",
+              "Document and communicate performance benchmarks."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Product Performance",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understand product features with performance-critical paths.",
+              "Simulate real-world load patterns based on user behavior.",
+              "Provide input for performance requirements in design stages.",
+              "Benchmark performance against release goals.",
+              "Assist developers with performance best practices."
+            ],
+            "Default Competencies": [
+              "Simulate real-world load patterns based on user behavior.",
+              "Provide input for performance requirements in design stages."
+            ]
+          },
+          {
+            "Title": "User Perspective",
+            "Weightage": "8%",
+            "Competencies": [
+              "Understand user experience impact of performance issues.",
+              "Report end-user performance insights to product teams.",
+              "Analyze performance implications of new features.",
+              "Collaborate with design teams on performance-sensitive modules.",
+              "Support release readiness from a performance standpoint."
+            ],
+            "Default Competencies": [
+              "Understand user experience impact of performance issues."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Follow new performance testing tools and techniques.",
+              "Explore AI/ML-based performance testing methods.",
+              "Compare industry benchmarks for similar applications.",
+              "Share insights on evolving performance engineering practices.",
+              "Attend performance testing webinars or communities."
+            ],
+            "Default Competencies": [
+              "Explore AI/ML-based performance testing methods.",
+              "Compare industry benchmarks for similar applications."
+            ]
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Understand competitor product performance claims.",
+              "Benchmark performance KPIs against competitors.",
+              "Contribute to competitive performance analysis.",
+              "Provide input for improving product performance strategy.",
+              "Recommend industry-standard performance goals."
+            ],
+            "Default Competencies": [
+              "Contribute to competitive performance analysis."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

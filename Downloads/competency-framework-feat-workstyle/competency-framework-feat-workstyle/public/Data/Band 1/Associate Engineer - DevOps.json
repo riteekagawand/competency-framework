@@ -1,0 +1,153 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 1 - Foundational",
+  "Role": "Associate Engineer - DevOps",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "8%",
+            "Competencies": [
+              "Take ownership of assigned DevOps tasks.",
+              "Raise issues proactively and suggest solutions.",
+              "Collaborate with developers and operations teams.",
+              "Update documentation as part of process improvement.",
+              "Participate actively in daily stand-ups and retrospectives."
+            ],
+            "Default Competencies": [
+              "Take ownership of assigned DevOps tasks.",
+              "Raise issues proactively and suggest solutions."
+            ]
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "7%",
+            "Competencies": [
+              "Learn new DevOps tools and cloud practices.",
+              "Seek feedback to improve automation skills.",
+              "Enhance knowledge of containerization and orchestration.",
+              "Participate in internal DevOps knowledge sessions.",
+              "Improve scripting skills for automation."
+            ],
+            "Default Competencies": [
+              "Learn new DevOps tools and cloud practices.",
+              "Seek feedback to improve automation skills."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "60%",
+        "Expected Competancy": [
+          {
+            "Title": "CI/CD & Automation",
+            "Weightage": "35%",
+            "Competencies": [
+              "Build and maintain CI/CD pipelines using Jenkins, GitHub Actions, etc.",
+              "Automate deployment processes and environment setups.",
+              "Monitor and troubleshoot build failures.",
+              "Apply security best practices in DevOps pipelines.",
+              "Collaborate with QA for automated test integration."
+            ],
+            "Default Competencies": [
+              "Build and maintain CI/CD pipelines using Jenkins, GitHub Actions, etc.",
+              "Automate deployment processes and environment setups."
+            ]
+          },
+          {
+            "Title": "Infrastructure & Cloud Ops",
+            "Weightage": "25%",
+            "Competencies": [
+              "Work with AWS/Azure or GCP services for deployments.",
+              "Use containerization tools like Docker and Kubernetes.",
+              "Automate infrastructure provisioning using Terraform or Ansible.",
+              "Set up monitoring and alerting tools like Prometheus, Grafana.",
+              "Participate in system performance optimization."
+            ],
+            "Default Competencies": [
+              "Work with AWS/Azure or GCP services for deployments.",
+              "Use containerization tools like Docker and Kubernetes."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Product Deployment Understanding",
+            "Weightage": "10%",
+            "Competencies": [
+              "Understand deployment architecture and release processes.",
+              "Know the rollback and disaster recovery strategies.",
+              "Coordinate with product teams for release cycles.",
+              "Monitor deployed environments for issues.",
+              "Assist in improving deployment frequency and stability."
+            ],
+            "Default Competencies": [
+              "Understand deployment architecture and release processes.",
+              "Know the rollback and disaster recovery strategies."
+            ]
+          },
+          {
+            "Title": "System Reliability",
+            "Weightage": "5%",
+            "Competencies": [
+              "Support high availability and scalability goals.",
+              "Understand SLA and SLO concepts.",
+              "Participate in root cause analysis for incidents.",
+              "Document reliability issues and fixes.",
+              "Assist in implementing incident automation."
+            ],
+            "Default Competencies": [
+              "Support high availability and scalability goals.",
+              "Understand SLA and SLO concepts."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Track latest DevOps tools and practices.",
+              "Understand emerging trends like GitOps and DevSecOps.",
+              "Share relevant innovations with the team.",
+              "Follow open-source DevOps advancements.",
+              "Explore new cloud-native solutions."
+            ],
+            "Default Competencies": [
+              "Track latest DevOps tools and practices.",
+              "Understand emerging trends like GitOps and DevSecOps."
+            ]
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Compare CI/CD and automation practices with industry leaders.",
+              "Understand market expectations for deployment frequency.",
+              "Research innovative release engineering strategies.",
+              "Know competitive tooling differences.",
+              "Share learnings for process improvement."
+            ],
+            "Default Competencies": [
+              "Compare CI/CD and automation practices with industry leaders.",
+              "Understand market expectations for deployment frequency."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

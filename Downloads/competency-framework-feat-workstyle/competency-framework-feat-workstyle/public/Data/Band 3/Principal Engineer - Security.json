@@ -1,0 +1,121 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 3 - Principal",
+  "Role": "Principal Engineer - Security",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Strategic Leadership & Ownership",
+            "Weightage": "12%",
+            "Competencies": [
+              "Drive the vision for secure software delivery across the organization.",
+              "Act as an advocate for security-first culture.",
+              "Mentor security engineers and influence best practices across teams.",
+              "Resolve conflicts between speed and security trade-offs effectively.",
+              "Be accountable for compliance and audit readiness."
+            ]
+          },
+          {
+            "Title": "Continuous Learning & Growth",
+            "Weightage": "8%",
+            "Competencies": [
+              "Stay updated on evolving cyber threats and attack vectors.",
+              "Engage with security communities and certifications (CISSP, OSCP).",
+              "Lead internal training on secure coding and risk management.",
+              "Participate in industry security summits and research.",
+              "Coach teams on incident readiness and security metrics."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "40%",
+        "Expected Competancy": [
+          {
+            "Title": "Security Architecture & Governance",
+            "Weightage": "20%",
+            "Competencies": [
+              "Define enterprise-level security policies and frameworks.",
+              "Architect secure solutions for cloud, on-premise, and hybrid models.",
+              "Establish data protection strategies and encryption standards.",
+              "Integrate threat modeling into development lifecycles.",
+              "Ensure compliance with ISO, SOC2, and industry-specific regulations."
+            ]
+          },
+          {
+            "Title": "Vulnerability & Risk Management",
+            "Weightage": "20%",
+            "Competencies": [
+              "Oversee vulnerability scanning and penetration testing programs.",
+              "Manage risk assessments across applications and infrastructure.",
+              "Lead resolution strategies for critical security incidents.",
+              "Establish automated security testing in CI/CD pipelines.",
+              "Track KPIs on incident frequency, severity, and resolution time."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "25%",
+        "Expected Competancy": [
+          {
+            "Title": "Secure Product Delivery",
+            "Weightage": "15%",
+            "Competencies": [
+              "Ensure every product feature undergoes security review.",
+              "Influence prioritization of security enhancements in backlogs.",
+              "Collaborate with engineering leads on secure design patterns.",
+              "Advocate for privacy-by-design and compliance adherence.",
+              "Ensure secure coding guidelines are followed organization-wide."
+            ]
+          },
+          {
+            "Title": "Customer-Centric Security",
+            "Weightage": "10%",
+            "Competencies": [
+              "Integrate customer feedback on security issues.",
+              "Communicate security posture transparently to customers.",
+              "Enhance security UX, e.g., password policies and MFA.",
+              "Promote trust through certifications and attestations.",
+              "Drive adoption of secure customer-facing APIs."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Security Trends & Threat Intelligence",
+            "Weightage": "8%",
+            "Competencies": [
+              "Track global security threats and evolving attack methods.",
+              "Implement proactive defense mechanisms based on intelligence.",
+              "Collaborate with government and industry security task forces.",
+              "Publish thought leadership on enterprise security.",
+              "Benchmark organizational security posture against industry leaders."
+            ]
+          },
+          {
+            "Title": "Technology Evangelism",
+            "Weightage": "7%",
+            "Competencies": [
+              "Represent organization at security forums and conferences.",
+              "Promote secure engineering internally and externally.",
+              "Lead open-source contributions for security tools.",
+              "Develop partnerships with security solution providers.",
+              "Coach external partners/vendors on security compliance."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

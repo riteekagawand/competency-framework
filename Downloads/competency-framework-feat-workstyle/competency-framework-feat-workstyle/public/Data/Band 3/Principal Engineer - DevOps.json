@@ -1,0 +1,121 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 3 - Principal",
+  "Role": "Principal Engineer - DevOps",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Strategic Leadership & Ownership",
+            "Weightage": "12%",
+            "Competencies": [
+              "Own the DevOps transformation strategy and roadmap across the enterprise.",
+              "Mentor and guide engineering teams on DevOps principles and best practices.",
+              "Foster a culture of continuous improvement and automation.",
+              "Drive post-incident analysis and reliability engineering practices.",
+              "Advocate for infrastructure and process modernization."
+            ]
+          },
+          {
+            "Title": "Continuous Learning & Growth",
+            "Weightage": "8%",
+            "Competencies": [
+              "Stay updated on emerging DevOps tools, practices, and architectures.",
+              "Promote certifications and advanced training in cloud and DevOps domains.",
+              "Lead knowledge-sharing sessions across engineering groups.",
+              "Participate in communities of practice and industry forums.",
+              "Coach teams on new paradigms like GitOps and AIOps."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "40%",
+        "Expected Competancy": [
+          {
+            "Title": "CI/CD & Automation",
+            "Weightage": "20%",
+            "Competencies": [
+              "Design and maintain enterprise-scale CI/CD pipelines.",
+              "Establish automated deployment practices across environments.",
+              "Ensure compliance and security within pipelines.",
+              "Integrate testing frameworks into deployment workflows.",
+              "Drive adoption of Infrastructure as Code (IaC)."
+            ]
+          },
+          {
+            "Title": "Cloud Infrastructure & Reliability",
+            "Weightage": "20%",
+            "Competencies": [
+              "Architect and manage scalable cloud platforms.",
+              "Implement disaster recovery and high-availability solutions.",
+              "Lead infrastructure cost optimization initiatives.",
+              "Define observability standards for applications and infrastructure.",
+              "Collaborate with engineering on SLOs and SLAs."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "25%",
+        "Expected Competancy": [
+          {
+            "Title": "Product Reliability & Scalability",
+            "Weightage": "15%",
+            "Competencies": [
+              "Embed reliability and scalability requirements into product planning.",
+              "Proactively mitigate deployment risks for product launches.",
+              "Ensure seamless cloud-native and hybrid deployments.",
+              "Plan capacity for future product growth.",
+              "Champion performance-driven deployment strategies."
+            ]
+          },
+          {
+            "Title": "User-Centric Delivery",
+            "Weightage": "10%",
+            "Competencies": [
+              "Minimize deployment downtime and enhance release velocity.",
+              "Monitor real user experience metrics during rollouts.",
+              "Enable rapid rollback and recovery for failed releases.",
+              "Ensure transparent release notes and documentation.",
+              "Collaborate with support teams to improve operational resilience."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "DevOps Trends & Best Practices",
+            "Weightage": "8%",
+            "Competencies": [
+              "Track emerging DevOps tools, automation frameworks, and practices.",
+              "Benchmark delivery metrics against industry leaders.",
+              "Evaluate adoption of edge computing and containerization technologies.",
+              "Research innovations in CI/CD and infrastructure automation.",
+              "Advocate and adopt leading DevOps industry practices."
+            ]
+          },
+          {
+            "Title": "Technology Evangelism",
+            "Weightage": "7%",
+            "Competencies": [
+              "Represent organization at DevOps conferences and summits.",
+              "Publish thought leadership on DevOps and reliability engineering.",
+              "Build partnerships with vendors to enhance DevOps capability.",
+              "Promote open-source contributions from internal teams.",
+              "Foster a DevOps-first culture within product engineering."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

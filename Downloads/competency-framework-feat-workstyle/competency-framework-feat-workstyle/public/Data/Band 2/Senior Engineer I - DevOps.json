@@ -1,0 +1,121 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 2 - Intermediate",
+  "Role": "Senior Engineer I - DevOps",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Leadership & Initiative",
+            "Weightage": "12%",
+            "Competencies": [
+              "Lead DevOps initiatives and mentor junior engineers.",
+              "Own CI/CD pipeline strategy and improvements.",
+              "Promote automation and operational efficiency.",
+              "Drive adoption of DevOps best practices.",
+              "Encourage cross-team collaboration."
+            ]
+          },
+          {
+            "Title": "Self-Development",
+            "Weightage": "8%",
+            "Competencies": [
+              "Pursue certifications in cloud and automation tools.",
+              "Learn emerging DevOps frameworks and methodologies.",
+              "Participate in DevOps community meetups and forums.",
+              "Experiment with new deployment and monitoring solutions.",
+              "Enhance skills in infrastructure-as-code technologies."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "50%",
+        "Expected Competancy": [
+          {
+            "Title": "Automation & Tooling",
+            "Weightage": "25%",
+            "Competencies": [
+              "Design, build, and maintain CI/CD pipelines.",
+              "Automate infrastructure provisioning and scaling.",
+              "Manage containerization (Docker, Kubernetes).",
+              "Ensure system security and compliance in pipelines.",
+              "Implement observability (logging, monitoring, tracing)."
+            ]
+          },
+          {
+            "Title": "System Reliability & Scalability",
+            "Weightage": "25%",
+            "Competencies": [
+              "Design infrastructure for scalability and resilience.",
+              "Optimize deployment strategies and rollback mechanisms.",
+              "Ensure high availability and disaster recovery setups.",
+              "Integrate automated testing in deployment workflows.",
+              "Perform capacity planning and cost optimization."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Product-Aware DevOps",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understand product deployment needs and SLAs.",
+              "Work with developers to optimize build pipelines.",
+              "Ensure production changes align with business goals.",
+              "Collaborate on feature rollouts and blue-green deployments.",
+              "Evaluate infrastructure cost trade-offs."
+            ]
+          },
+          {
+            "Title": "User Experience & Reliability",
+            "Weightage": "8%",
+            "Competencies": [
+              "Minimize downtime and ensure seamless deployments.",
+              "Measure end-user impact of infrastructure changes.",
+              "Propose solutions to improve user-facing reliability.",
+              "Perform incident reviews to prevent recurrence.",
+              "Communicate deployment risks effectively."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "DevOps Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Monitor emerging DevOps tools and trends.",
+              "Assess serverless and edge computing opportunities.",
+              "Adopt innovative practices like GitOps.",
+              "Evaluate third-party services for operational efficiency.",
+              "Promote adoption of proven market practices."
+            ]
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Compare competitor deployment methodologies.",
+              "Understand cloud provider differentiators.",
+              "Track cost benchmarks for similar infrastructures.",
+              "Assess market demand for DevOps expertise.",
+              "Advocate for competitive, agile delivery models."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

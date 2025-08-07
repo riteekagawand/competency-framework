@@ -1,0 +1,129 @@
+[{
+  "Department": "Engineering",
+  "Level": "Band 1 - Foundational",
+  "Role": "Associate Software Engineer",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Self-Awareness & Professionalism",
+            "Weightage": "12%",
+            "Competencies": [
+              "Demonstrates integrity and adheres to organizational values.",
+              "Understands personal strengths and areas for development.",
+              "Manages time and work commitments effectively.",
+              "Maintains positive work relationships and respects diversity.",
+              "Displays professionalism and accountability in all tasks."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Continuous Learning",
+            "Weightage": "8%",
+            "Competencies": [
+              "Takes ownership of learning and development.",
+              "Seeks feedback and applies it to improve performance.",
+              "Learns from mistakes and shares lessons learned.",
+              "Stays open to new technologies and methodologies.",
+              "Engages in available training and upskilling programs."
+            ],
+            "Default Competencies": 3
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "50%",
+        "Expected Competancy": [
+          {
+            "Title": "Software Development Fundamentals",
+            "Weightage": "25%",
+            "Competencies": [
+              "Applies basic programming concepts and practices effectively.",
+              "Follows coding standards and organizational guidelines.",
+              "Uses version control and documentation tools effectively.",
+              "Participates actively in code reviews.",
+              "Ensures quality and maintainability of delivered code."
+            ],
+            "Default Competencies": 4
+          },
+          {
+            "Title": "Testing & Delivery Processes",
+            "Weightage": "25%",
+            "Competencies": [
+              "Writes and executes basic unit tests.",
+              "Follows established build and deployment processes.",
+              "Uses issue tracking and defect management tools effectively.",
+              "Adheres to project timelines and delivery quality standards.",
+              "Supports continuous integration and delivery processes."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Product Knowledge",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understands the basic architecture and key features of the product.",
+              "Knows how assigned work contributes to the overall product.",
+              "Recognizes basic user requirements and business goals.",
+              "Identifies how changes impact product performance and user experience.",
+              "Demonstrates awareness of product roadmap and priorities."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Customer Orientation",
+            "Weightage": "8%",
+            "Competencies": [
+              "Understands customer needs and pain points.",
+              "Assists in addressing user-reported issues.",
+              "Supports user acceptance testing activities.",
+              "Incorporates feedback from internal or external customers.",
+              "Focuses on delivering value to end users."
+            ],
+            "Default Competencies": 3
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Understands basic industry trends affecting technology solutions.",
+              "Keeps up with new tools, libraries, and frameworks.",
+              "Participates in knowledge-sharing forums and team learning sessions.",
+              "Recognizes competitors' technical capabilities at a high level.",
+              "Understands industry quality and compliance standards."
+            ],
+            "Default Competencies": 3
+          },
+          {
+            "Title": "Business Value Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Understands how engineering tasks impact business objectives.",
+              "Demonstrates cost and quality consciousness in deliverables.",
+              "Considers business priorities when making technical decisions.",
+              "Communicates the business impact of technical work when required.",
+              "Aligns personal work to organizational strategic goals."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      }
+    ]
+  }
+}]

@@ -1,0 +1,121 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 2 - Advanced",
+  "Role": "Senior Engineer II - DevOps",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Leadership",
+            "Weightage": "8%",
+            "Competencies": [
+              "Lead DevOps automation and infrastructure initiatives.",
+              "Mentor junior DevOps engineers and set best practices.",
+              "Drive initiatives for process efficiency and reliability.",
+              "Take ownership of production uptime and deployments.",
+              "Promote a culture of accountability and continuous improvement."
+            ]
+          },
+          {
+            "Title": "Continuous Learning",
+            "Weightage": "7%",
+            "Competencies": [
+              "Keep up with evolving DevOps and cloud-native trends.",
+              "Proactively adopt new automation frameworks and tools.",
+              "Seek and act on feedback to improve leadership skills.",
+              "Promote a learning culture within the team.",
+              "Organize and lead knowledge-sharing sessions."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "50%",
+        "Expected Competancy": [
+          {
+            "Title": "CI/CD & Automation",
+            "Weightage": "30%",
+            "Competencies": [
+              "Design and optimize CI/CD pipelines for multiple environments.",
+              "Implement release automation and rollback strategies.",
+              "Integrate security checks into CI/CD workflows.",
+              "Monitor pipeline health and reduce deployment failures.",
+              "Enhance developer productivity through automation."
+            ]
+          },
+          {
+            "Title": "Infrastructure & Monitoring",
+            "Weightage": "20%",
+            "Competencies": [
+              "Automate infrastructure provisioning (IaC).",
+              "Establish effective monitoring and alerting systems.",
+              "Maintain high system availability and reliability.",
+              "Implement disaster recovery and backup strategies.",
+              "Optimize infrastructure costs while maintaining performance."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Deployment Context",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understand the architecture and deployment dependencies.",
+              "Ensure deployment processes align with business priorities.",
+              "Collaborate with teams to identify deployment risks.",
+              "Map infrastructure requirements to product features.",
+              "Ensure system changes meet scalability demands."
+            ]
+          },
+          {
+            "Title": "User Experience & Reliability",
+            "Weightage": "8%",
+            "Competencies": [
+              "Align deployment strategies to ensure minimal downtime.",
+              "Implement features supporting customer SLAs.",
+              "Ensure high availability and disaster readiness.",
+              "Monitor user impact of infrastructure or deployment issues.",
+              "Support rapid response to customer-facing incidents."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "8%",
+            "Competencies": [
+              "Track DevOps automation tools and practices.",
+              "Adopt container orchestration and serverless technologies.",
+              "Benchmark against industry-leading deployment practices.",
+              "Incorporate emerging observability solutions.",
+              "Promote innovation in infrastructure management."
+            ]
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "7%",
+            "Competencies": [
+              "Understand competitor deployment strategies and uptime SLAs.",
+              "Analyze their approach to cloud optimization.",
+              "Adopt competitive practices that improve cost efficiency.",
+              "Apply innovations for faster time-to-market.",
+              "Suggest infrastructure differentiation strategies."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

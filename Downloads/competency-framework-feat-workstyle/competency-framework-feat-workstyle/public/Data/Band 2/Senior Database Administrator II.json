@@ -1,0 +1,121 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 2 - Advanced",
+  "Role": "Senior Database Administrator II",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Leadership",
+            "Weightage": "8%",
+            "Competencies": [
+              "Lead database performance and optimization initiatives.",
+              "Mentor junior DBAs on database best practices and troubleshooting.",
+              "Take accountability for database availability and performance SLAs.",
+              "Promote proactive database monitoring and preventive maintenance.",
+              "Drive adoption of data governance and compliance practices."
+            ]
+          },
+          {
+            "Title": "Continuous Learning",
+            "Weightage": "7%",
+            "Competencies": [
+              "Stay current with database engine advancements and cloud DB services.",
+              "Pursue certifications in database administration and security.",
+              "Evaluate and adopt emerging database technologies.",
+              "Share knowledge through documentation and workshops.",
+              "Actively learn from post-incident reviews and audits."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "50%",
+        "Expected Competancy": [
+          {
+            "Title": "Database Administration & Tuning",
+            "Weightage": "30%",
+            "Competencies": [
+              "Design high-performance database schemas and indexing strategies.",
+              "Analyze and resolve performance bottlenecks.",
+              "Implement partitioning, sharding, or replication strategies.",
+              "Optimize query performance using advanced tuning techniques.",
+              "Automate backup, restore, and routine maintenance tasks."
+            ]
+          },
+          {
+            "Title": "Database Security & Compliance",
+            "Weightage": "20%",
+            "Competencies": [
+              "Implement database encryption and access controls.",
+              "Ensure compliance with data privacy and retention regulations.",
+              "Monitor and mitigate database security threats.",
+              "Conduct regular security audits and risk assessments.",
+              "Support disaster recovery and high availability planning."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Data Architecture Alignment",
+            "Weightage": "12%",
+            "Competencies": [
+              "Align database designs with application architecture.",
+              "Support scalability for future product growth.",
+              "Collaborate with developers for efficient schema design.",
+              "Analyze data usage patterns to optimize infrastructure.",
+              "Ensure database architecture supports analytical needs."
+            ]
+          },
+          {
+            "Title": "Customer Data Experience",
+            "Weightage": "8%",
+            "Competencies": [
+              "Minimize query latency impacting end-user experience.",
+              "Ensure high availability of customer-facing databases.",
+              "Monitor and optimize customer data handling processes.",
+              "Support business intelligence and reporting accuracy.",
+              "Respond quickly to customer data issues or outages."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "8%",
+            "Competencies": [
+              "Adopt emerging database technologies and best practices.",
+              "Track advancements in cloud and distributed databases.",
+              "Evaluate performance benchmarks from leading vendors.",
+              "Explore trends in database automation and AI-driven tuning.",
+              "Promote data security innovations to enhance reputation."
+            ]
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "7%",
+            "Competencies": [
+              "Understand competitors' database performance benchmarks.",
+              "Analyze their use of advanced DB features or architectures.",
+              "Evaluate database technology adoption trends.",
+              "Benchmark backup and recovery strategies.",
+              "Adopt features improving database efficiency and scalability."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

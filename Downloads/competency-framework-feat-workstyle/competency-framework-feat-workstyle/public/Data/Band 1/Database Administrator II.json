@@ -1,0 +1,129 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 1 - Database Administrator II",
+  "Role": "Database Administrator II",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "12%",
+            "Competencies": [
+              "Own database uptime, performance, and availability.",
+              "Proactively address performance and capacity issues.",
+              "Mentor junior DBAs on best practices.",
+              "Propose improvements in database processes.",
+              "Ensure timely and accurate backup and recovery."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "8%",
+            "Competencies": [
+              "Pursue certifications like Oracle DBA, AWS Database Specialty.",
+              "Engage in database optimization training.",
+              "Seek feedback on database management skills.",
+              "Participate in database community events.",
+              "Continuously update knowledge of new DBMS versions."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "50%",
+        "Expected Competancy": [
+          {
+            "Title": "Database Management",
+            "Weightage": "25%",
+            "Competencies": [
+              "Perform database installation, upgrades, and patching.",
+              "Monitor database performance and tune queries.",
+              "Implement backup and recovery procedures.",
+              "Ensure database security and user management.",
+              "Automate routine database tasks."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "High Availability & Scalability",
+            "Weightage": "25%",
+            "Competencies": [
+              "Support clustering and replication strategies.",
+              "Implement disaster recovery for critical databases.",
+              "Monitor and manage large-scale databases.",
+              "Design for scalability and elasticity.",
+              "Support database migration projects."
+            ],
+            "Default Competencies": 3
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Application Support",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understand database needs for key applications.",
+              "Optimize queries supporting product features.",
+              "Collaborate with developers for DB schema design.",
+              "Support release cycles with DB changes.",
+              "Analyze database impact on user experience."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Data Security & Compliance",
+            "Weightage": "8%",
+            "Competencies": [
+              "Implement encryption and access control policies.",
+              "Ensure compliance with data protection laws.",
+              "Monitor database for unauthorized access.",
+              "Document compliance for audits.",
+              "Support user data retention and disposal policies."
+            ],
+            "Default Competencies": 1
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Follow emerging DBMS technologies.",
+              "Explore database-as-a-service innovations.",
+              "Stay updated on big data and NoSQL trends.",
+              "Benchmark DB performance against industry norms.",
+              "Engage in database knowledge communities."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Understand competitors’ database technologies.",
+              "Evaluate trends in cloud database adoption.",
+              "Compare database performance strategies.",
+              "Propose database innovations for competitive edge.",
+              "Share findings on industry compliance requirements."
+            ],
+            "Default Competencies": 3
+          }
+        ]
+      }
+    ]
+  }
+}

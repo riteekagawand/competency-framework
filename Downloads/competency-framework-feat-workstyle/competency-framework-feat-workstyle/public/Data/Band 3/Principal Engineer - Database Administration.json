@@ -1,0 +1,121 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 3 - Principal",
+  "Role": "Principal Engineer - Database Administration",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Leadership & Ownership",
+            "Weightage": "12%",
+            "Competencies": [
+              "Lead database strategy and technology roadmap development.",
+              "Mentor database teams on best practices and standards.",
+              "Drive enterprise-wide data management initiatives.",
+              "Foster a culture of continuous learning and collaboration.",
+              "Ensure alignment of database initiatives with business objectives."
+            ]
+          },
+          {
+            "Title": "Continuous Growth & Knowledge Sharing",
+            "Weightage": "8%",
+            "Competencies": [
+              "Stay informed on emerging database technologies and trends.",
+              "Facilitate internal workshops and training programs.",
+              "Promote knowledge sharing across cross-functional teams.",
+              "Participate in professional database communities and forums.",
+              "Support certification and skill advancement initiatives."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "40%",
+        "Expected Competancy": [
+          {
+            "Title": "Database Architecture & Optimization",
+            "Weightage": "20%",
+            "Competencies": [
+              "Design scalable, secure, and high-performing database architectures.",
+              "Implement database partitioning, replication, and clustering strategies.",
+              "Optimize query performance and manage large-scale data workloads.",
+              "Establish robust database backup and disaster recovery processes.",
+              "Evaluate and integrate emerging database solutions."
+            ]
+          },
+          {
+            "Title": "Automation & Data Reliability",
+            "Weightage": "20%",
+            "Competencies": [
+              "Develop automated monitoring and alerting solutions.",
+              "Implement Infrastructure as Code (IaC) for database provisioning.",
+              "Ensure compliance with data governance and security standards.",
+              "Implement automated failover and high-availability solutions.",
+              "Drive continuous improvements in database reliability and scalability."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "25%",
+        "Expected Competancy": [
+          {
+            "Title": "Data Alignment with Product Goals",
+            "Weightage": "15%",
+            "Competencies": [
+              "Align database schemas with evolving product requirements.",
+              "Collaborate with product teams to meet data performance SLAs.",
+              "Ensure minimal downtime during product releases.",
+              "Enable efficient analytics and reporting through optimized structures.",
+              "Support product innovation with advanced database capabilities."
+            ]
+          },
+          {
+            "Title": "User & Customer Impact",
+            "Weightage": "10%",
+            "Competencies": [
+              "Ensure database reliability to enhance user experience.",
+              "Support fast and secure data access for end users.",
+              "Monitor and optimize data storage for cost efficiency.",
+              "Proactively prevent data-related performance issues.",
+              "Enable real-time analytics for customer-facing applications."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends & Benchmarking",
+            "Weightage": "8%",
+            "Competencies": [
+              "Track advancements in cloud database and distributed systems.",
+              "Benchmark internal database performance against industry standards.",
+              "Adopt emerging database technologies like NoSQL and NewSQL.",
+              "Evaluate vendor offerings and negotiate strategic partnerships.",
+              "Promote best practices in data compliance and regulatory adherence."
+            ]
+          },
+          {
+            "Title": "Thought Leadership",
+            "Weightage": "7%",
+            "Competencies": [
+              "Publish thought leadership content on database innovation.",
+              "Represent the company at database technology conferences.",
+              "Build alliances with industry leaders and database vendors.",
+              "Encourage open-source contributions from database teams.",
+              "Lead community-driven database innovation projects."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

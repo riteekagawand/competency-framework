@@ -1,0 +1,121 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 2 - Intermediate",
+  "Role": "Senior Engineer I - CloudOps",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Leadership",
+            "Weightage": "12%",
+            "Competencies": [
+              "Take ownership of cloud infrastructure initiatives.",
+              "Mentor peers on cloud operations and optimization.",
+              "Promote security and compliance in cloud environments.",
+              "Drive operational cost-efficiency initiatives.",
+              "Proactively address operational risks."
+            ]
+          },
+          {
+            "Title": "Self-Development",
+            "Weightage": "8%",
+            "Competencies": [
+              "Pursue cloud certifications (AWS/Azure/GCP).",
+              "Stay updated with emerging cloud-native services.",
+              "Enhance automation and scripting expertise.",
+              "Engage in cloud user groups and communities.",
+              "Experiment with cutting-edge cloud architectures."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "50%",
+        "Expected Competancy": [
+          {
+            "Title": "Cloud Infrastructure Management",
+            "Weightage": "25%",
+            "Competencies": [
+              "Design scalable cloud infrastructure solutions.",
+              "Implement cost monitoring and optimization measures.",
+              "Ensure security and compliance of cloud resources.",
+              "Automate provisioning and scaling operations.",
+              "Handle incident management effectively."
+            ]
+          },
+          {
+            "Title": "Monitoring & Reliability",
+            "Weightage": "25%",
+            "Competencies": [
+              "Build and maintain observability solutions.",
+              "Manage disaster recovery and backup systems.",
+              "Perform root cause analysis of cloud incidents.",
+              "Monitor SLAs and resolve reliability issues.",
+              "Document runbooks and operational procedures."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Product-Aware CloudOps",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understand workload-specific cloud needs.",
+              "Align infrastructure with business priorities.",
+              "Ensure performance supports product SLAs.",
+              "Collaborate with developers on cloud-native designs.",
+              "Manage multi-cloud or hybrid deployments effectively."
+            ]
+          },
+          {
+            "Title": "User Experience & Reliability",
+            "Weightage": "8%",
+            "Competencies": [
+              "Minimize downtime and latency impacts.",
+              "Enhance user experience via optimized infrastructure.",
+              "Support seamless rollouts with minimal disruptions.",
+              "Conduct user impact reviews after incidents.",
+              "Propose reliability-driven infrastructure upgrades."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Cloud Technology Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Adopt relevant innovations in cloud computing.",
+              "Track emerging multi-cloud and hybrid models.",
+              "Assess serverless and edge opportunities.",
+              "Evaluate managed services for cost efficiency.",
+              "Promote environmentally sustainable cloud practices."
+            ]
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Analyze competitor infrastructure models.",
+              "Understand market expectations for uptime.",
+              "Assess cost-performance benchmarks.",
+              "Promote unique differentiators in cloud approach.",
+              "Advocate for continuous cloud innovation."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

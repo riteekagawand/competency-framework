@@ -1,0 +1,121 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 2 - Advanced",
+  "Role": "Senior Software Engineer II",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Leadership",
+            "Weightage": "8%",
+            "Competencies": [
+              "Demonstrate accountability for module delivery and ensure timely completion.",
+              "Take initiative to drive team discussions and resolve blockers.",
+              "Mentor junior engineers and share technical knowledge effectively.",
+              "Actively manage own learning and skill enhancement.",
+              "Set an example of ethical and professional conduct."
+            ]
+          },
+          {
+            "Title": "Adaptability & Growth Mindset",
+            "Weightage": "7%",
+            "Competencies": [
+              "Quickly adapt to changes in technology or process.",
+              "Accept feedback positively and implement improvements.",
+              "Show resilience in challenging or ambiguous situations.",
+              "Contribute ideas for process or product improvement.",
+              "Demonstrate proactive risk identification and mitigation."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "50%",
+        "Expected Competancy": [
+          {
+            "Title": "Advanced Coding & Architecture",
+            "Weightage": "30%",
+            "Competencies": [
+              "Design modular and scalable software components.",
+              "Apply advanced algorithms and data structures effectively.",
+              "Ensure code performance, security, and maintainability.",
+              "Perform deep code reviews and enforce best practices.",
+              "Introduce or optimize frameworks and tools for productivity."
+            ]
+          },
+          {
+            "Title": "DevOps & Quality Engineering",
+            "Weightage": "20%",
+            "Competencies": [
+              "Integrate CI/CD pipelines and automate deployments.",
+              "Enforce quality gates for builds and releases.",
+              "Drive root cause analysis for recurring production issues.",
+              "Collaborate with SRE and QA teams for reliability.",
+              "Contribute to cost optimization and performance tuning."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Feature Ownership",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understand product architecture and dependencies.",
+              "Translate business requirements into technical designs.",
+              "Ensure features align with product roadmap and user needs.",
+              "Coordinate across teams for seamless delivery.",
+              "Review product backlog items for technical feasibility."
+            ]
+          },
+          {
+            "Title": "User Experience & Feedback",
+            "Weightage": "8%",
+            "Competencies": [
+              "Incorporate UX principles in technical solutions.",
+              "Participate in user feedback sessions and adapt designs.",
+              "Identify potential usability issues and suggest improvements.",
+              "Collaborate with design teams to enhance user experience.",
+              "Track and analyze feature performance post-deployment."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Technology Trends",
+            "Weightage": "8%",
+            "Competencies": [
+              "Monitor emerging technologies and evaluate adoption feasibility.",
+              "Present thought leadership within engineering forums.",
+              "Propose innovative solutions based on market trends.",
+              "Benchmark internal products against industry standards.",
+              "Document and share research findings with peers."
+            ]
+          },
+          {
+            "Title": "Competitive Landscape",
+            "Weightage": "7%",
+            "Competencies": [
+              "Analyze competing products and highlight differentiators.",
+              "Support product management in competitive analysis.",
+              "Understand market opportunities and risks.",
+              "Assess competitor technical approaches for insights.",
+              "Incorporate findings into future technical planning."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

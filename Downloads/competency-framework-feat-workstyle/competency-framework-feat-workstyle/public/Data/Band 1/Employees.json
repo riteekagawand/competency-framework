@@ -1,0 +1,72 @@
+[
+  {
+    "Name": "John Doe",
+    "EmployeeId": "E001",
+    "Department": "Engineering",
+    "Level": "Band 1 - Foundational",
+    "Role": "Associate Software Engineer"
+  },
+  {
+    "Name": "Jane Smith",
+    "EmployeeId": "E002",
+    "Department": "Engineering",
+    "Level": "Band 1 - Foundational",
+    "Role": "Associate Engineer - Cloud Ops"
+  },
+  {
+    "Name": "Michael Lee",
+    "EmployeeId": "E003",
+    "Department": "Engineering",
+    "Level": "Band 1 - Foundational",
+    "Role": "Associate Database Administrator"
+  },
+  {
+    "Name": "Emma Johnson",
+    "EmployeeId": "E004",
+    "Department": "Product",
+    "Level": "Band 1 - Foundational",
+    "Role": "Associate Product Analyst"
+  },
+  {
+    "Name": "Amit Patel",
+    "EmployeeId": "E005",
+    "Department": "Engineering",
+    "Level": "Band 1 - Foundational",
+    "Role": "Database Administrator II"
+  },
+  {
+    "Name": "Sophia Brown",
+    "EmployeeId": "E006",
+    "Department": "Sales",
+    "Level": "Band 1 - Foundational",
+    "Role": "Associate Sales Representative"
+  },
+  {
+    "Name": "Liam Wilson",
+    "EmployeeId": "E007",
+    "Department": "Engineering",
+    "Level": "Band 1 - Foundational",
+    "Role": "Engineer 1 - DevOps"
+  },
+  {
+    "Name": "Olivia Garcia",
+    "EmployeeId": "E008",
+    "Department": "Customer Support",
+    "Level": "Band 1 - Foundational",
+    "Role": "Associate Customer Support Agent"
+  },
+  {
+    "Name": "Noah Martinez",
+    "EmployeeId": "E009",
+    "Department": "Human Resources",
+    "Level": "Band 1 - Foundational",
+    "Role": "Associate HR Coordinator"
+  },
+  {
+    "Name": "Ava Rodriguez",
+    "EmployeeId": "E010",
+    "Department": "Engineering",
+    "Level": "Band 1 - Foundational",
+    "Role": "Associate Site Reliability Engineer"
+  }
+]

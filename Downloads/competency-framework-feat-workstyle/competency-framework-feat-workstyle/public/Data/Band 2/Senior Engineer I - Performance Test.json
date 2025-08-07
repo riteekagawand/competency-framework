@@ -1,0 +1,121 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 2 - Intermediate",
+  "Role": "Senior Engineer I - Performance Test",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Leadership",
+            "Weightage": "12%",
+            "Competencies": [
+              "Lead performance testing efforts and mentor juniors.",
+              "Take ownership of test strategy and execution.",
+              "Drive performance improvement initiatives.",
+              "Promote a quality-first approach within teams.",
+              "Provide constructive feedback on testing practices."
+            ]
+          },
+          {
+            "Title": "Self-Development",
+            "Weightage": "8%",
+            "Competencies": [
+              "Enhance expertise in performance testing tools.",
+              "Pursue certifications in performance engineering.",
+              "Participate in internal and external knowledge forums.",
+              "Explore emerging testing technologies and frameworks.",
+              "Demonstrate continuous professional growth."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "50%",
+        "Expected Competancy": [
+          {
+            "Title": "Performance Engineering",
+            "Weightage": "25%",
+            "Competencies": [
+              "Design robust performance test plans and strategies.",
+              "Implement end-to-end performance testing frameworks.",
+              "Analyze results to identify performance bottlenecks.",
+              "Provide performance tuning recommendations.",
+              "Collaborate with developers to resolve performance issues."
+            ]
+          },
+          {
+            "Title": "Tooling & Automation",
+            "Weightage": "25%",
+            "Competencies": [
+              "Utilize performance testing tools effectively (e.g., JMeter, LoadRunner).",
+              "Automate performance testing pipelines.",
+              "Integrate performance testing with CI/CD workflows.",
+              "Monitor system performance under peak loads.",
+              "Benchmark and compare product performance metrics."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Product Performance Awareness",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understand product performance goals and SLAs.",
+              "Analyze the impact of new features on performance.",
+              "Assess scalability and reliability during testing.",
+              "Collaborate with product teams on performance risks.",
+              "Prioritize performance issues based on business value."
+            ]
+          },
+          {
+            "Title": "User Experience Focus",
+            "Weightage": "8%",
+            "Competencies": [
+              "Evaluate response times and user experience metrics.",
+              "Propose enhancements to improve perceived performance.",
+              "Analyze field performance data for user impact.",
+              "Advocate for end-user experience improvements.",
+              "Align testing outcomes with customer expectations."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Performance Standards",
+            "Weightage": "5%",
+            "Competencies": [
+              "Benchmark against competitor performance metrics.",
+              "Analyze market trends in performance testing.",
+              "Promote performance as a product differentiator.",
+              "Evaluate emerging performance tools.",
+              "Advocate best practices in performance testing."
+            ]
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Monitor competitor performance strategies.",
+              "Suggest optimizations based on market analysis.",
+              "Understand performance expectations in the industry.",
+              "Track evolving standards for high-performance apps.",
+              "Assist in positioning product for performance excellence."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

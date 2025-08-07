@@ -1,0 +1,121 @@
+{
+  "Department": "Engineering - Cloud Operations",
+  "Level": "Band 4 - Senior Principal",
+  "Role": "Senior Principal Engineer - CloudOps",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Strategic Leadership & Influence",
+            "Weightage": "8%",
+            "Competencies": [
+              "Influence enterprise cloud adoption and migration strategies.",
+              "Mentor senior engineers in cloud reliability engineering.",
+              "Guide executive stakeholders on cloud cost and performance trade-offs.",
+              "Promote cross-functional collaboration for cloud transformation.",
+              "Model innovation in cloud service operations."
+            ]
+          },
+          {
+            "Title": "Personal Growth & Reflection",
+            "Weightage": "7%",
+            "Competencies": [
+              "Pursue certifications in advanced cloud technologies (AWS/Azure/GCP).",
+              "Engage in thought leadership on cloud-native operations.",
+              "Regularly reflect on leadership and decision-making effectiveness.",
+              "Adopt emerging cloud security and compliance practices.",
+              "Stay resilient and adaptive to evolving cloud landscapes."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "35%",
+        "Expected Competancy": [
+          {
+            "Title": "Cloud Architecture & Operations",
+            "Weightage": "20%",
+            "Competencies": [
+              "Architect multi-cloud operational frameworks for high availability.",
+              "Lead implementation of observability, monitoring, and alerting.",
+              "Develop policies for automated failover and DR readiness.",
+              "Ensure compliance with global regulatory frameworks.",
+              "Guide cost optimization and FinOps practices."
+            ]
+          },
+          {
+            "Title": "Cloud Automation & Governance",
+            "Weightage": "15%",
+            "Competencies": [
+              "Promote Infrastructure as Code (IaC) standardization.",
+              "Integrate security (CloudSecOps) across operations pipelines.",
+              "Implement AI-driven predictive scaling and optimization.",
+              "Define governance models for hybrid cloud deployments.",
+              "Oversee operational risk management in distributed environments."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "30%",
+        "Expected Competancy": [
+          {
+            "Title": "Cloud-First Product Delivery",
+            "Weightage": "15%",
+            "Competencies": [
+              "Ensure cloud architecture aligns with product growth strategies.",
+              "Advise product teams on cloud-native design and optimizations.",
+              "Enable faster releases through automated cloud delivery pipelines.",
+              "Promote observability-first practices in product operations.",
+              "Influence roadmap to leverage cloud-native innovations."
+            ]
+          },
+          {
+            "Title": "Customer Experience & Trust",
+            "Weightage": "15%",
+            "Competencies": [
+              "Ensure SLA compliance exceeding customer expectations.",
+              "Lead critical incident response for major cloud service failures.",
+              "Communicate transparently with clients on cloud reliability.",
+              "Establish disaster recovery solutions that minimize downtime.",
+              "Foster trust via proactive cloud performance reporting."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Cloud Technology Trends",
+            "Weightage": "10%",
+            "Competencies": [
+              "Track emerging multi-cloud and edge computing solutions.",
+              "Analyze competitors' cloud strategies for benchmarking.",
+              "Adopt trends in serverless and container orchestration.",
+              "Engage in cloud-native consortiums and open-source groups.",
+              "Predict and prepare for market disruptions in cloud services."
+            ]
+          },
+          {
+            "Title": "Thought Leadership & Advocacy",
+            "Weightage": "10%",
+            "Competencies": [
+              "Publish cloud operations best practices and case studies.",
+              "Represent the company in cloud industry panels.",
+              "Advocate for sustainable and green cloud initiatives.",
+              "Mentor industry peers on cloud governance frameworks.",
+              "Promote the enterprise as a leader in cloud reliability."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

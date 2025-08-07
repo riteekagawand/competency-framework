@@ -1,0 +1,121 @@
+{
+  "Department": "Engineering - Security",
+  "Level": "Band 4 - Senior Principal",
+  "Role": "Senior Principal Engineer - Security",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Strategic Leadership & Influence",
+            "Weightage": "8%",
+            "Competencies": [
+              "Champion enterprise-wide security culture and awareness.",
+              "Influence security strategy adoption across global teams.",
+              "Guide C-level executives on security and risk management priorities.",
+              "Mentor senior security architects and engineers.",
+              "Model ethical and compliant leadership practices."
+            ]
+          },
+          {
+            "Title": "Personal Growth & Reflection",
+            "Weightage": "7%",
+            "Competencies": [
+              "Pursue advanced cybersecurity certifications (CISSP, CISM).",
+              "Contribute to global cybersecurity thought leadership forums.",
+              "Evaluate own leadership style and adjust to changing risk landscapes.",
+              "Engage in continuous learning on evolving security threats.",
+              "Promote work-life balance for sustainable leadership performance."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "35%",
+        "Expected Competancy": [
+          {
+            "Title": "Enterprise Security Architecture",
+            "Weightage": "20%",
+            "Competencies": [
+              "Define enterprise security roadmap aligned to regulatory standards.",
+              "Lead adoption of zero-trust architectures and advanced security tooling.",
+              "Ensure compliance with data protection and privacy laws globally.",
+              "Evaluate security of mergers, acquisitions, and partnerships.",
+              "Drive automation in threat detection and response."
+            ]
+          },
+          {
+            "Title": "Risk & Compliance Leadership",
+            "Weightage": "15%",
+            "Competencies": [
+              "Anticipate and mitigate emerging security risks.",
+              "Advocate for industry-leading compliance practices (ISO, SOC, GDPR).",
+              "Lead executive-level incident response planning.",
+              "Promote security-first mindset across product development.",
+              "Establish global threat intelligence partnerships."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "30%",
+        "Expected Competancy": [
+          {
+            "Title": "Product Security Strategy",
+            "Weightage": "15%",
+            "Competencies": [
+              "Integrate security into all stages of SDLC.",
+              "Influence product roadmaps with secure design principles.",
+              "Ensure customer trust through transparent security practices.",
+              "Lead red/blue team testing and vulnerability assessments.",
+              "Develop secure frameworks for cloud and on-prem deployments."
+            ]
+          },
+          {
+            "Title": "Customer Assurance & Advocacy",
+            "Weightage": "15%",
+            "Competencies": [
+              "Engage with strategic customers on security posture.",
+              "Promote customer confidence through audits and certifications.",
+              "Support CXO security briefings and advisory boards.",
+              "Integrate customer security feedback into engineering practices.",
+              "Establish public trust through transparency in data protection."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Security Industry Trends",
+            "Weightage": "10%",
+            "Competencies": [
+              "Track global threat landscapes and geopolitical impacts.",
+              "Engage in security consortiums and working groups.",
+              "Analyze competitor security offerings for differentiation.",
+              "Influence industry-wide security best practices.",
+              "Evaluate implications of emerging regulations."
+            ]
+          },
+          {
+            "Title": "Thought Leadership & Advocacy",
+            "Weightage": "10%",
+            "Competencies": [
+              "Represent the company in global security summits.",
+              "Publish security research and white papers.",
+              "Participate in government/industry advisory committees.",
+              "Mentor external security talent and foster partnerships.",
+              "Drive innovation in security-focused community initiatives."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

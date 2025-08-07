@@ -1,0 +1,153 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 1 - Foundational",
+  "Role": "Associate Engineer - Performance Test",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "8%",
+            "Competencies": [
+              "Take responsibility for assigned test deliverables.",
+              "Actively participate in team stand-ups and retrospectives.",
+              "Highlight blockers early and suggest solutions.",
+              "Volunteer to handle additional tasks when needed.",
+              "Ensure timely updates to leads and stakeholders."
+            ],
+            "Default Competencies": [
+              "Take responsibility for assigned test deliverables.",
+              "Highlight blockers early and suggest solutions."
+            ]
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "7%",
+            "Competencies": [
+              "Seek feedback for improving performance testing skills.",
+              "Engage in continuous learning of performance testing tools.",
+              "Participate in cross-team learning sessions.",
+              "Work on communication and documentation improvement.",
+              "Understand ethical practices in testing data."
+            ],
+            "Default Competencies": [
+              "Seek feedback for improving performance testing skills.",
+              "Engage in continuous learning of performance testing tools."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "55%",
+        "Expected Competancy": [
+          {
+            "Title": "Performance Testing Skills",
+            "Weightage": "30%",
+            "Competencies": [
+              "Understand performance testing concepts and KPIs.",
+              "Work with tools like JMeter, LoadRunner, or Gatling.",
+              "Design basic performance test scripts.",
+              "Analyze test results for bottlenecks.",
+              "Document and report findings accurately."
+            ],
+            "Default Competencies": [
+              "Understand performance testing concepts and KPIs.",
+              "Work with tools like JMeter, LoadRunner, or Gatling."
+            ]
+          },
+          {
+            "Title": "Automation & CI/CD",
+            "Weightage": "25%",
+            "Competencies": [
+              "Integrate performance tests with CI/CD pipelines.",
+              "Collaborate with DevOps for environment readiness.",
+              "Use monitoring tools to assess resource utilization.",
+              "Create automated performance regression suites.",
+              "Contribute to test framework improvements."
+            ],
+            "Default Competencies": [
+              "Integrate performance tests with CI/CD pipelines.",
+              "Use monitoring tools to assess resource utilization."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Product Understanding",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understand the product architecture and critical workflows.",
+              "Identify performance-critical features and modules.",
+              "Analyze feature dependencies for load and scalability.",
+              "Collaborate with developers to optimize code.",
+              "Understand SLAs related to performance."
+            ],
+            "Default Competencies": [
+              "Understand the product architecture and critical workflows.",
+              "Identify performance-critical features and modules."
+            ]
+          },
+          {
+            "Title": "User Experience Impact",
+            "Weightage": "8%",
+            "Competencies": [
+              "Understand how performance affects end-user experience.",
+              "Analyze latency and response time from a user perspective.",
+              "Document performance issues affecting usability.",
+              "Assist product teams with optimization priorities.",
+              "Participate in post-release performance assessments."
+            ],
+            "Default Competencies": [
+              "Understand how performance affects end-user experience.",
+              "Analyze latency and response time from a user perspective."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Stay updated on emerging performance testing tools.",
+              "Follow industry benchmarks for scalability testing.",
+              "Understand cloud-based performance testing approaches.",
+              "Share knowledge on competitive test strategies.",
+              "Track evolving best practices in performance engineering."
+            ],
+            "Default Competencies": [
+              "Stay updated on emerging performance testing tools.",
+              "Follow industry benchmarks for scalability testing."
+            ]
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Be aware of competitors’ performance benchmarks.",
+              "Research market expectations for speed and scalability.",
+              "Share performance optimization ideas based on competition.",
+              "Understand key differentiators of similar products.",
+              "Support product positioning with performance metrics."
+            ],
+            "Default Competencies": [
+              "Be aware of competitors’ performance benchmarks.",
+              "Research market expectations for speed and scalability."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

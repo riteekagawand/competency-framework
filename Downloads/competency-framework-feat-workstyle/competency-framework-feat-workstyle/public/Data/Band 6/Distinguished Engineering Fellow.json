@@ -1,0 +1,121 @@
+{
+  "Department": "Engineering - Enterprise",
+  "Level": "Band 6 - Distinguished Engineering Fellow",
+  "Role": "Distinguished Engineering Fellow",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Global Technology Leadership",
+            "Weightage": "8%",
+            "Competencies": [
+              "Act as a global ambassador for enterprise engineering.",
+              "Mentor Engineering Fellows and senior executives.",
+              "Model unparalleled expertise and innovation drive.",
+              "Influence global corporate culture for technical excellence.",
+              "Promote inclusive leadership in technology innovation."
+            ]
+          },
+          {
+            "Title": "Executive & Personal Growth",
+            "Weightage": "7%",
+            "Competencies": [
+              "Engage with global policy, innovation, and academic leaders.",
+              "Refine executive presence and influence continually.",
+              "Produce globally influential technology publications.",
+              "Embrace transformative leadership learning experiences.",
+              "Develop legacy initiatives for engineering impact."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "50%",
+        "Expected Competancy": [
+          {
+            "Title": "Global Technology Strategy",
+            "Weightage": "25%",
+            "Competencies": [
+              "Define global engineering vision and research roadmap.",
+              "Influence billion-dollar product and architecture decisions.",
+              "Drive enterprise adoption of disruptive technologies.",
+              "Shape long-term industry technology standards.",
+              "Steer multi-decade innovation programs."
+            ]
+          },
+          {
+            "Title": "Breakthrough Innovation & IP",
+            "Weightage": "25%",
+            "Competencies": [
+              "Invent globally recognized patents and IP.",
+              "Sponsor global innovation labs and accelerators.",
+              "Lead partnerships with governments and academia.",
+              "Fund and scale deep-tech breakthrough initiatives.",
+              "Establish global reputation for technical originality."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Global Product Vision Alignment",
+            "Weightage": "7%",
+            "Competencies": [
+              "Influence multi-portfolio product and engineering vision.",
+              "Align enterprise platform and service innovations globally.",
+              "Enable business agility through advanced technical enablers.",
+              "Support high-impact client and market engagements.",
+              "Guide future product ecosystems and architectures."
+            ]
+          },
+          {
+            "Title": "Customer & Market Differentiation",
+            "Weightage": "8%",
+            "Competencies": [
+              "Ensure innovation directly enhances customer trust and success.",
+              "Translate customer megatrends into technical opportunities.",
+              "Enable unique long-term market positioning via technology.",
+              "Lead strategic client advisory councils and boards.",
+              "Deliver global impact through engineering-driven market change."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Global Industry Leadership",
+            "Weightage": "10%",
+            "Competencies": [
+              "Shape worldwide technology industry evolution.",
+              "Lead cross-industry standards and alliances.",
+              "Establish influence with global regulatory bodies.",
+              "Advise governments on innovation and technology policy.",
+              "Enable cross-sector collaboration for social impact."
+            ]
+          },
+          {
+            "Title": "Global Thought Leadership",
+            "Weightage": "10%",
+            "Competencies": [
+              "Deliver keynote addresses at major technology summits.",
+              "Publish globally cited engineering research and perspectives.",
+              "Mentor global innovation leaders and startups.",
+              "Champion sustainability and ethical AI leadership globally.",
+              "Leave a lasting legacy of engineering excellence and impact."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

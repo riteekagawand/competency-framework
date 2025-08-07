@@ -1,0 +1,121 @@
+{
+  "Department": "Engineering - DevOps",
+  "Level": "Band 4 - Senior Principal",
+  "Role": "Senior Principal Engineer - DevOps",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Strategic Leadership & Influence",
+            "Weightage": "8%",
+            "Competencies": [
+              "Champion enterprise-wide DevOps culture and principles.",
+              "Mentor senior engineers and leaders in DevOps transformation.",
+              "Influence organizational automation strategies.",
+              "Lead collaboration between operations and engineering leadership.",
+              "Model resilience and adaptability in high-pressure delivery cycles."
+            ]
+          },
+          {
+            "Title": "Personal Growth & Reflection",
+            "Weightage": "7%",
+            "Competencies": [
+              "Stay updated on emerging DevOps and SRE practices.",
+              "Engage with thought leadership in CI/CD and automation.",
+              "Seek advanced certifications in DevOps tooling and methodologies.",
+              "Reflect and refine leadership style for distributed delivery models.",
+              "Promote team well-being and balanced work-life culture."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "35%",
+        "Expected Competancy": [
+          {
+            "Title": "Enterprise CI/CD Leadership",
+            "Weightage": "20%",
+            "Competencies": [
+              "Architect highly resilient CI/CD pipelines at scale.",
+              "Drive automation-first culture across engineering teams.",
+              "Define disaster recovery and rollback best practices.",
+              "Integrate security (DevSecOps) into delivery pipelines.",
+              "Lead modernization of legacy pipelines to cloud-native solutions."
+            ]
+          },
+          {
+            "Title": "Infrastructure as Code (IaC) Excellence",
+            "Weightage": "15%",
+            "Competencies": [
+              "Guide teams on infrastructure provisioning and orchestration.",
+              "Standardize IaC practices across hybrid cloud environments.",
+              "Adopt policy-as-code for compliance automation.",
+              "Promote cost-optimized infrastructure management.",
+              "Ensure audit-ready infrastructure practices."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "30%",
+        "Expected Competancy": [
+          {
+            "Title": "Product Delivery Optimization",
+            "Weightage": "15%",
+            "Competencies": [
+              "Ensure rapid delivery of features with minimal downtime.",
+              "Drive product release automation and version control discipline.",
+              "Influence roadmap planning for deployment readiness.",
+              "Advocate for shift-left testing and deployment reliability.",
+              "Promote observability-first product monitoring practices."
+            ]
+          },
+          {
+            "Title": "Customer Impact & Reliability",
+            "Weightage": "15%",
+            "Competencies": [
+              "Engage with customers on delivery reliability requirements.",
+              "Ensure uptime SLAs exceed market benchmarks.",
+              "Handle high-severity delivery escalations with executive communication.",
+              "Establish real-time feedback loops from production.",
+              "Foster customer trust via transparent DevOps metrics."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "DevOps Trends & Ecosystem",
+            "Weightage": "10%",
+            "Competencies": [
+              "Adopt emerging DevOps tools and cloud-native innovations.",
+              "Benchmark delivery excellence against industry leaders.",
+              "Track competitive CI/CD and automation practices.",
+              "Engage in global DevOps communities and open-source initiatives.",
+              "Anticipate market shifts in delivery technologies."
+            ]
+          },
+          {
+            "Title": "Thought Leadership & Advocacy",
+            "Weightage": "10%",
+            "Competencies": [
+              "Publish insights on high-velocity software delivery.",
+              "Present at global DevOps and SRE conferences.",
+              "Advocate for diversity and inclusion in engineering operations.",
+              "Mentor external talent on modern delivery practices.",
+              "Promote environmental sustainability in infrastructure practices."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

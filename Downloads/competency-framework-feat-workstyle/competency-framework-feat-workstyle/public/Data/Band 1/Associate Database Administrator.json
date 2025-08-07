@@ -1,0 +1,129 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 1 - Foundational",
+  "Role": "Associate Database Administrator",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "8%",
+            "Competencies": [
+              "Take responsibility for database maintenance tasks.",
+              "Communicate risks and potential database issues proactively.",
+              "Participate actively in team knowledge sharing sessions.",
+              "Maintain clear documentation for DB changes.",
+              "Seek opportunities to assist senior DBAs."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "7%",
+            "Competencies": [
+              "Learn new database technologies and concepts.",
+              "Seek feedback to improve query tuning and optimization.",
+              "Participate in database certification programs.",
+              "Engage in SQL and scripting skill improvement.",
+              "Understand compliance requirements in data management."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "60%",
+        "Expected Competancy": [
+          {
+            "Title": "Database Management",
+            "Weightage": "35%",
+            "Competencies": [
+              "Assist in installation and configuration of databases.",
+              "Perform basic backup and recovery tasks.",
+              "Monitor database performance using tools and logs.",
+              "Support schema changes and migrations.",
+              "Document maintenance and tuning activities."
+            ],
+            "Default Competencies": 3
+          },
+          {
+            "Title": "Data Security & Optimization",
+            "Weightage": "25%",
+            "Competencies": [
+              "Support data security initiatives and compliance checks.",
+              "Assist in user access and privilege management.",
+              "Participate in data archiving and retention planning.",
+              "Understand and assist in query optimization.",
+              "Contribute to capacity planning and scaling efforts."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Product Data Model Knowledge",
+            "Weightage": "10%",
+            "Competencies": [
+              "Understand key database schemas supporting the product.",
+              "Know critical data dependencies and workflows.",
+              "Support release cycles involving database changes.",
+              "Assist in building database-related documentation.",
+              "Participate in data quality and integrity reviews."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Analytics Support",
+            "Weightage": "5%",
+            "Competencies": [
+              "Provide data extracts for analytics teams.",
+              "Support ad-hoc data requests efficiently.",
+              "Understand BI/reporting dependencies.",
+              "Assist in optimizing data pipelines for performance.",
+              "Document queries and scripts for analytics use cases."
+            ],
+            "Default Competencies": 4
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Follow database technology advancements.",
+              "Understand cloud database offerings and trends.",
+              "Track innovations in data security and compliance.",
+              "Stay updated with evolving query optimization techniques.",
+              "Share industry knowledge with peers."
+            ],
+            "Default Competencies": 3
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Know database performance benchmarks of competitors.",
+              "Understand emerging open-source DB trends.",
+              "Research modern DB scaling techniques.",
+              "Analyze industry-leading database backup practices.",
+              "Suggest improvements for competitive advantage."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      }
+    ]
+  }
+}

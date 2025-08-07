@@ -1,0 +1,121 @@
+{
+  "Department": "Engineering - Performance Test",
+  "Level": "Band 4 - Senior Principal",
+  "Role": "Senior Principal Engineer - Performance Test",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Strategic Leadership & Influence",
+            "Weightage": "8%",
+            "Competencies": [
+              "Influence enterprise performance engineering strategies.",
+              "Guide executive stakeholders on performance KPIs and SLAs.",
+              "Mentor senior engineers and architects in performance testing practices.",
+              "Model decision-making based on data-driven performance insights.",
+              "Promote cross-functional collaboration for performance excellence."
+            ]
+          },
+          {
+            "Title": "Personal Growth & Reflection",
+            "Weightage": "7%",
+            "Competencies": [
+              "Pursue advanced certifications in performance engineering and scalability.",
+              "Engage in thought leadership for system performance innovation.",
+              "Reflect on leadership approach to manage distributed teams effectively.",
+              "Commit to learning advanced profiling and tuning techniques.",
+              "Balance personal resilience and sustainable leadership performance."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "35%",
+        "Expected Competancy": [
+          {
+            "Title": "Enterprise Performance Engineering",
+            "Weightage": "20%",
+            "Competencies": [
+              "Define organization-wide performance standards and frameworks.",
+              "Architect scalable testing strategies for distributed systems.",
+              "Lead adoption of automated performance benchmarking solutions.",
+              "Ensure alignment with business-critical SLA compliance.",
+              "Integrate AI/ML tools for predictive performance analysis."
+            ]
+          },
+          {
+            "Title": "Advanced Performance Testing Leadership",
+            "Weightage": "15%",
+            "Competencies": [
+              "Oversee performance testing of highly complex cloud-native platforms.",
+              "Define and track KPIs for platform resilience under load.",
+              "Guide investment in performance observability tools.",
+              "Ensure secure and compliant performance test environments.",
+              "Lead training programs for performance test teams globally."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "30%",
+        "Expected Competancy": [
+          {
+            "Title": "Performance-Driven Product Design",
+            "Weightage": "15%",
+            "Competencies": [
+              "Influence architecture decisions to ensure high performance and scalability.",
+              "Collaborate with product managers to define performance goals.",
+              "Ensure product scalability aligns with long-term market goals.",
+              "Promote shift-left performance testing in product design stages.",
+              "Integrate customer feedback loops into performance improvements."
+            ]
+          },
+          {
+            "Title": "Customer Assurance & Experience",
+            "Weightage": "15%",
+            "Competencies": [
+              "Lead executive-level customer performance briefings.",
+              "Ensure client satisfaction for performance SLAs.",
+              "Oversee remediation for critical customer performance escalations.",
+              "Foster trust through transparent performance reports.",
+              "Champion customer-first decision-making in performance testing."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends & Benchmarking",
+            "Weightage": "10%",
+            "Competencies": [
+              "Track emerging performance testing tools and techniques.",
+              "Analyze market leaders for performance differentiation.",
+              "Lead benchmarking studies for competitive positioning.",
+              "Identify performance-related business risks in emerging markets.",
+              "Engage in industry consortia to shape performance standards."
+            ]
+          },
+          {
+            "Title": "Thought Leadership & Advocacy",
+            "Weightage": "10%",
+            "Competencies": [
+              "Publish white papers on performance engineering best practices.",
+              "Speak at global conferences on performance innovations.",
+              "Advocate for sustainable and energy-efficient performance testing.",
+              "Collaborate with research institutions on high-scale system performance.",
+              "Promote open-source contributions to performance tools."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

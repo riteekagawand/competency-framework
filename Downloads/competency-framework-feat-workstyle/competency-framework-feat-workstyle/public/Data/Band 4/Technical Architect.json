@@ -1,0 +1,121 @@
+{
+  "Department": "Engineering - Architecture",
+  "Level": "Band 4 - Technical Architect",
+  "Role": "Technical Architect",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Architectural Leadership & Influence",
+            "Weightage": "8%",
+            "Competencies": [
+              "Demonstrate thought leadership in solution architecture design.",
+              "Influence technology decisions at the program level.",
+              "Mentor senior engineers on architectural patterns.",
+              "Promote innovation across technology solutions.",
+              "Drive consensus among diverse stakeholders."
+            ]
+          },
+          {
+            "Title": "Personal Growth & Reflection",
+            "Weightage": "7%",
+            "Competencies": [
+              "Pursue advanced certifications (TOGAF, AWS Architect).",
+              "Regularly reflect on design decision outcomes.",
+              "Engage with architecture communities and forums.",
+              "Seek feedback from business and technology leaders.",
+              "Stay updated with emerging architectural trends."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "40%",
+        "Expected Competancy": [
+          {
+            "Title": "Solution Architecture & Design",
+            "Weightage": "20%",
+            "Competencies": [
+              "Define solution blueprints for complex systems.",
+              "Ensure alignment with enterprise architecture principles.",
+              "Design scalable, secure, and reliable solutions.",
+              "Evaluate and select appropriate technology stacks.",
+              "Promote reusability and modularity in architecture."
+            ]
+          },
+          {
+            "Title": "Technology Evaluation & Governance",
+            "Weightage": "20%",
+            "Competencies": [
+              "Lead PoCs for emerging technologies.",
+              "Establish architecture review processes.",
+              "Ensure compliance with security and regulatory standards.",
+              "Guide technical debt management strategies.",
+              "Monitor architecture performance and resilience."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "25%",
+        "Expected Competancy": [
+          {
+            "Title": "Business-Driven Architecture",
+            "Weightage": "12%",
+            "Competencies": [
+              "Ensure architecture decisions align with business goals.",
+              "Collaborate with product owners to shape roadmap.",
+              "Translate functional needs into technical capabilities.",
+              "Analyze impact of architecture on time-to-market.",
+              "Promote cost-effective design strategies."
+            ]
+          },
+          {
+            "Title": "Customer Focus & Experience",
+            "Weightage": "13%",
+            "Competencies": [
+              "Design systems with high user experience impact.",
+              "Promote availability and performance SLAs.",
+              "Incorporate customer feedback into architecture evolution.",
+              "Focus on security and privacy as customer priorities.",
+              "Enable rapid feature delivery through flexible architecture."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Architecture Trends",
+            "Weightage": "10%",
+            "Competencies": [
+              "Track microservices, event-driven, and serverless trends.",
+              "Evaluate competitor technology architectures.",
+              "Understand SaaS, PaaS, and IaaS emerging models.",
+              "Adopt new practices in containerization and orchestration.",
+              "Promote adoption of AI-driven architecture insights."
+            ]
+          },
+          {
+            "Title": "Thought Leadership",
+            "Weightage": "10%",
+            "Competencies": [
+              "Publish whitepapers on architecture innovations.",
+              "Present at technical architecture forums.",
+              "Mentor peers in enterprise architecture practices.",
+              "Champion sustainable and green IT practices.",
+              "Establish company as a leader in solution design."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

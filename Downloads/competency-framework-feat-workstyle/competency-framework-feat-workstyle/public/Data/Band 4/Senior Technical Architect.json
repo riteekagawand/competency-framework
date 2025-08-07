@@ -1,0 +1,121 @@
+{
+  "Department": "Engineering - Architecture",
+  "Level": "Band 4 - Senior Technical Architect",
+  "Role": "Senior Technical Architect",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Strategic Leadership & Influence",
+            "Weightage": "8%",
+            "Competencies": [
+              "Shape multi-year technology strategies for the enterprise.",
+              "Influence CxO and VP-level technology decisions.",
+              "Mentor Technical Architects and Principal Engineers.",
+              "Drive innovation across portfolios and lines of business.",
+              "Lead architecture councils and governance boards."
+            ]
+          },
+          {
+            "Title": "Personal Development",
+            "Weightage": "7%",
+            "Competencies": [
+              "Engage in global technology and business strategy summits.",
+              "Acquire expertise in emerging enterprise technologies.",
+              "Continuously evaluate own decision-making effectiveness.",
+              "Publish thought leadership on advanced architecture topics.",
+              "Stay current on global regulatory compliance frameworks."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "40%",
+        "Expected Competancy": [
+          {
+            "Title": "Enterprise Solution Architecture",
+            "Weightage": "20%",
+            "Competencies": [
+              "Define architectures for highly complex enterprise ecosystems.",
+              "Ensure resilience, security, and compliance at scale.",
+              "Architect integration strategies across heterogeneous systems.",
+              "Develop migration strategies for legacy modernization.",
+              "Promote AI-driven architecture automation."
+            ]
+          },
+          {
+            "Title": "Technology Strategy & Governance",
+            "Weightage": "20%",
+            "Competencies": [
+              "Lead enterprise technology evaluation and selection.",
+              "Establish long-term architectural governance models.",
+              "Guide cloud-first and data-first transformation initiatives.",
+              "Define reference architectures for reuse across programs.",
+              "Lead innovation labs and strategic PoCs."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "25%",
+        "Expected Competancy": [
+          {
+            "Title": "Strategic Business Alignment",
+            "Weightage": "12%",
+            "Competencies": [
+              "Ensure architecture enables multi-year business growth.",
+              "Partner with business leaders to influence product strategy.",
+              "Architect systems for global scalability and flexibility.",
+              "Align technical roadmaps to business KPIs.",
+              "Ensure design maximizes ROI and minimizes risk."
+            ]
+          },
+          {
+            "Title": "Customer Value & Trust",
+            "Weightage": "13%",
+            "Competencies": [
+              "Deliver architectures focused on customer experience excellence.",
+              "Address high availability and disaster recovery proactively.",
+              "Promote transparent and secure data practices.",
+              "Enable fast response to market and customer changes.",
+              "Focus on customer data privacy and trust initiatives."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Technology Market Intelligence",
+            "Weightage": "10%",
+            "Competencies": [
+              "Evaluate emerging market trends impacting architecture.",
+              "Analyze competitor strategies to influence enterprise decisions.",
+              "Promote use of advanced cloud and AI-driven architectures.",
+              "Leverage partnerships with vendors and cloud providers.",
+              "Anticipate disruptive technologies impacting the roadmap."
+            ]
+          },
+          {
+            "Title": "Thought Leadership & Advocacy",
+            "Weightage": "10%",
+            "Competencies": [
+              "Publish and present at global tech architecture summits.",
+              "Lead innovation forums within and outside the enterprise.",
+              "Champion sustainable architecture practices.",
+              "Mentor industry peers and create external influence.",
+              "Establish enterprise as an industry architecture leader."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

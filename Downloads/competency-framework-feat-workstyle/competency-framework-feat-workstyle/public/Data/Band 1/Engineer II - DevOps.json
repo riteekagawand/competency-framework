@@ -1,0 +1,153 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 1 - Engineer II - DevOps",
+  "Role": "Engineer II - DevOps",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "12%",
+            "Competencies": [
+              "Take ownership of deployment pipelines and automation scripts.",
+              "Proactively resolve infrastructure and deployment issues.",
+              "Contribute to defining DevOps best practices.",
+              "Mentor team members in automation and CI/CD processes.",
+              "Ensure timely and reliable deployments."
+            ],
+            "Default Competencies": [
+              "Take ownership of deployment pipelines and automation scripts.",
+              "Proactively resolve infrastructure and deployment issues."
+            ]
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "8%",
+            "Competencies": [
+              "Pursue certifications in cloud and DevOps tools (AWS, Azure, GCP).",
+              "Stay updated on containerization and orchestration technologies.",
+              "Seek feedback on deployment and automation improvements.",
+              "Participate in internal learning sessions.",
+              "Engage in hands-on exploration of new DevOps frameworks."
+            ],
+            "Default Competencies": [
+              "Pursue certifications in cloud and DevOps tools (AWS, Azure, GCP).",
+              "Stay updated on containerization and orchestration technologies."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "50%",
+        "Expected Competancy": [
+          {
+            "Title": "Automation & CI/CD",
+            "Weightage": "25%",
+            "Competencies": [
+              "Develop and maintain CI/CD pipelines using Jenkins, GitHub Actions, or similar.",
+              "Automate infrastructure provisioning with tools like Terraform or Ansible.",
+              "Monitor pipeline failures and ensure resolution within SLAs.",
+              "Implement automated rollback strategies.",
+              "Integrate security and compliance checks into pipelines."
+            ],
+            "Default Competencies": [
+              "Develop and maintain CI/CD pipelines using Jenkins, GitHub Actions, or similar.",
+              "Automate infrastructure provisioning with tools like Terraform or Ansible."
+            ]
+          },
+          {
+            "Title": "Infrastructure & Monitoring",
+            "Weightage": "25%",
+            "Competencies": [
+              "Manage cloud infrastructure and scaling strategies.",
+              "Monitor system performance and optimize infrastructure costs.",
+              "Implement observability practices with tools like Prometheus or ELK.",
+              "Support disaster recovery planning and testing.",
+              "Ensure compliance with infrastructure security standards."
+            ],
+            "Default Competencies": [
+              "Manage cloud infrastructure and scaling strategies.",
+              "Monitor system performance and optimize infrastructure costs."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Deployment Strategies",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understand application deployment architecture.",
+              "Support blue-green or canary deployment strategies.",
+              "Collaborate with development teams on release processes.",
+              "Optimize product deployments for minimal downtime.",
+              "Provide deployment metrics and improvement recommendations."
+            ],
+            "Default Competencies": [
+              "Understand application deployment architecture.",
+              "Support blue-green or canary deployment strategies."
+            ]
+          },
+          {
+            "Title": "System Resilience",
+            "Weightage": "8%",
+            "Competencies": [
+              "Implement backup and recovery automation.",
+              "Monitor system health under load conditions.",
+              "Develop strategies for high availability.",
+              "Contribute to incident response processes.",
+              "Provide post-mortem analysis after outages."
+            ],
+            "Default Competencies": [
+              "Implement backup and recovery automation.",
+              "Monitor system health under load conditions."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Stay updated on evolving DevOps practices and tools.",
+              "Research containerization and serverless trends.",
+              "Benchmark CI/CD efficiency against industry standards.",
+              "Engage in DevOps communities and forums.",
+              "Recommend tool upgrades based on industry research."
+            ],
+            "Default Competencies": [
+              "Stay updated on evolving DevOps practices and tools.",
+              "Research containerization and serverless trends."
+            ]
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Understand competitor DevOps efficiency and strategies.",
+              "Identify industry leaders in deployment speed and reliability.",
+              "Propose ideas for improving CI/CD maturity.",
+              "Evaluate competitor tooling landscape.",
+              "Share insights on reducing deployment bottlenecks."
+            ],
+            "Default Competencies": [
+              "Understand competitor DevOps efficiency and strategies.",
+              "Identify industry leaders in deployment speed and reliability."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

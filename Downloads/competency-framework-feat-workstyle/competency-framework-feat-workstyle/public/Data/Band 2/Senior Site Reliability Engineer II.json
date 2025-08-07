@@ -1,0 +1,121 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 2 - Advanced",
+  "Role": "Senior Site Reliability Engineer II",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Leadership",
+            "Weightage": "8%",
+            "Competencies": [
+              "Own service reliability goals and drive incident response leadership.",
+              "Mentor junior SREs on automation and observability best practices.",
+              "Set team processes for on-call and escalation management.",
+              "Promote a blameless culture of postmortems and learnings.",
+              "Champion continuous improvement for availability and performance."
+            ]
+          },
+          {
+            "Title": "Continuous Learning",
+            "Weightage": "7%",
+            "Competencies": [
+              "Stay updated on reliability engineering practices and tools.",
+              "Adopt new frameworks for monitoring and incident automation.",
+              "Seek feedback to enhance incident leadership skills.",
+              "Contribute to community SRE knowledge and best practices.",
+              "Encourage learning across development and operations teams."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "50%",
+        "Expected Competancy": [
+          {
+            "Title": "Reliability Engineering & Automation",
+            "Weightage": "30%",
+            "Competencies": [
+              "Define and maintain service-level objectives (SLOs).",
+              "Build automation for repetitive operational tasks.",
+              "Improve service scalability and resilience through design changes.",
+              "Integrate reliability checks into CI/CD pipelines.",
+              "Reduce toil and manual intervention across operations."
+            ]
+          },
+          {
+            "Title": "Monitoring & Incident Management",
+            "Weightage": "20%",
+            "Competencies": [
+              "Design monitoring and alerting systems aligned with SLOs.",
+              "Lead incident response and postmortem reviews.",
+              "Implement chaos engineering experiments for resiliency testing.",
+              "Analyze reliability data to predict and prevent failures.",
+              "Collaborate with development to resolve performance bottlenecks."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Product Reliability Context",
+            "Weightage": "12%",
+            "Competencies": [
+              "Map reliability goals to business and user needs.",
+              "Work with product teams to balance feature velocity and stability.",
+              "Support reliability in early design decisions.",
+              "Analyze impact of outages on customer experience.",
+              "Contribute to capacity planning aligned with growth forecasts."
+            ]
+          },
+          {
+            "Title": "User Impact & Availability",
+            "Weightage": "8%",
+            "Competencies": [
+              "Ensure customer SLAs are consistently met.",
+              "Minimize downtime and performance degradation incidents.",
+              "Monitor and report on customer-facing reliability metrics.",
+              "Implement zero-downtime deployment strategies.",
+              "Design failover mechanisms with user experience in mind."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "8%",
+            "Competencies": [
+              "Track evolving SRE practices and tooling innovations.",
+              "Adopt industry frameworks for incident management (e.g., ITIL).",
+              "Evaluate cloud-native reliability features and trends.",
+              "Benchmark uptime and latency standards for competitive products.",
+              "Promote site reliability as a differentiator."
+            ]
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "7%",
+            "Competencies": [
+              "Compare competitors' availability SLAs and reliability practices.",
+              "Analyze peer approaches to cost vs. reliability trade-offs.",
+              "Incorporate innovative reliability techniques into roadmaps.",
+              "Monitor regulatory changes affecting service reliability.",
+              "Promote competitive advantage through reliability engineering."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
