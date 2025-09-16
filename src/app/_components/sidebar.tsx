@@ -27,7 +27,7 @@ function StepTwoComponent({ hideDefaultChart }: { hideDefaultChart: boolean }) {
   }
 
   return (
-    <div className="flex items-center w-full">
+    <div className="flex items-center justify-center w-full">
       <RadialChartPage hideSidebar={true} />
     </div>
   );

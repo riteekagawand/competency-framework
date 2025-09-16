@@ -84,7 +84,9 @@ export default function ManagerDashboard() {
   const renderMainContent = () => {
     if (activeStep === 0) {
       return viewMode === "myGoals" ? (
-        <RadialChartPage hideSidebar={true} />
+        <div>
+          <RadialChartPage hideSidebar={true} />
+        </div>
       ) : (
         <ReviewGoalsComponent />
       );
@@ -96,28 +98,15 @@ export default function ManagerDashboard() {
   };
 
   return (
-    <div className="flex flex-col-1 bg-white left-0">
+    <div className="flex flex-col-1 bg-white">
       <Sidebar
         activeStep={activeStep}
         setActiveStep={setActiveStep}
         viewMode={viewMode}
         setViewMode={setViewMode}
       />
-
-      <Header
-        departments={departments}
-        roles={roles}
-        selectedDepartment={selectedDepartment}
-        selectedRole={selectedRole}
-        onDepartmentChange={(dept) => {
-          setSelectedDepartment(dept ?? "");
-          loadData(dept ?? "", selectedRole);
-        }}
-        onRoleChange={(role) => {
-          setSelectedRole(role ?? "");
-          loadData(selectedDepartment, role ?? "");
-        }}
-      />
+      
+      
 
       <div className="flex-1 h-screen">{renderMainContent()}</div>
 

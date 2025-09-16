@@ -33,7 +33,7 @@ export default function Sidebar({
     {
       label: "Set My Goals",
       description: (
-        <div className="flex flex-col gap-2 mr-12 mt-2">
+        <div className="flex flex-col ">
           <button
             className={`px-4 py-2 rounded-md text-sm font-semibold transition ${
               viewMode === "myGoals" ? "text-black" : "text-gray-700"
