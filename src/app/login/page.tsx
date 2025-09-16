@@ -84,7 +84,7 @@ export default function LoginPage() {
     if (formData.Level === "Band 3 - Principal") {
       router.push("/manager-dashboard");
     } else {
-      router.push("/default-competancy");
+      router.push("/employee-dashboard");
     }
   } else {
     setMessage("Login failed. Please check credentials.");

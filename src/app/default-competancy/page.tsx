@@ -215,7 +215,7 @@ export default function RadialChartPage({
       )}
 
       <div
-        className={`flex flex-col justify-center relative ${hideSidebar ? "ml-0" : ""}`}
+        className={`flex flex-col justify-center sticky top-0  w-full relative ${hideSidebar ? "ml-0" : ""}`}
       >
         <Header
           departments={departments}

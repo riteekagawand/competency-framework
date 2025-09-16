@@ -38,19 +38,63 @@ export default function Page() {
         setApprovedGoals(data);
 
         // build unique departments/roles for header
-        const uniqueDepartments = [...new Set(data.map((g) => g.department))];
-        const uniqueRoles = [...new Set(data.map((g) => g.role))];
+        let uniqueDepartments = [...new Set(data.map((g) => g.department).filter(Boolean))];
+        let uniqueRoles = [...new Set(data.map((g) => g.role).filter(Boolean))];
+
+        // ✅ Always read frameworks to ensure non-empty dropdowns
+        let frameworks: any[] = [];
+        try {
+          const frameworkRes = await fetch(`/Data/Band 1/Band1.json`);
+          frameworks = await frameworkRes.json();
+        } catch (e) {
+          frameworks = [];
+        }
+
+        if (frameworks.length > 0) {
+          const allDepts = [...new Set(frameworks.map((f: any) => f.Department))];
+          const allRoles = [...new Set(frameworks.map((f: any) => f.Role))];
+          if (uniqueDepartments.length === 0) uniqueDepartments = allDepts;
+          if (uniqueRoles.length === 0) uniqueRoles = allRoles;
+        }
+
+        // ✅ Try to preselect from current user
+        try {
+          const userRes = await fetch("/api/getUser");
+          if (userRes.ok) {
+            const user = await userRes.json();
+            if (user?.Department) {
+              setSelectedDepartment(user.Department);
+              if (!uniqueDepartments.includes(user.Department)) {
+                uniqueDepartments = [user.Department, ...uniqueDepartments];
+              }
+            }
+            if (user?.Role) {
+              setSelectedRole(user.Role);
+              if (!uniqueRoles.includes(user.Role)) {
+                uniqueRoles = [user.Role, ...uniqueRoles];
+              }
+            }
+          }
+        } catch {}
+
         setDepartments(uniqueDepartments);
         setRoles(uniqueRoles);
 
-        if (uniqueDepartments.length > 0) setSelectedDepartment(uniqueDepartments[0]);
-        if (uniqueRoles.length > 0) setSelectedRole(uniqueRoles[0]);
+        // If still nothing selected, choose first available
+        if (!selectedDepartment && uniqueDepartments.length > 0) setSelectedDepartment(uniqueDepartments[0]);
+        if (!selectedRole && uniqueRoles.length > 0) setSelectedRole(uniqueRoles[0]);
 
         // build chart data map
         const chartMap: Record<string, any> = {};
         for (const goal of data) {
-          const frameworkRes = await fetch(`/Data/Band 1/Band1.json`);
-          const frameworks = await frameworkRes.json();
+          if (frameworks.length === 0) {
+            try {
+              const frameworkRes = await fetch(`/Data/Band 1/Band1.json`);
+              frameworks = await frameworkRes.json();
+            } catch {
+              continue;
+            }
+          }
 
           const framework = frameworks.find(
             (f: any) =>
@@ -93,9 +137,9 @@ export default function Page() {
   if (loading) return <p>Loading...</p>;
 
   return (
-    <div className="w-full min-h-screen bg-white">
-      {/* ✅ Sticky Header */}
-      <div className="fixed top-0 left-0 w-full z-50 bg-white shadow">
+    <div className="w-full overflow-x-hidden bg-white">
+      {/* ✅ Sticky Header within right content pane (no sidebar overlap) */}
+      <div className="sticky top-3 w-full bg-white">
         <Header
           departments={departments}
           roles={roles}
@@ -107,11 +151,11 @@ export default function Page() {
       </div>
 
       {/* -------- Goals List Section -------- */}
-      <section className="pt-28 px-6 max-w-screen">
+      <section className="pt-28 px-6 mx-auto">
         {approvedGoals.length === 0 ? (
           <p>No approved goals yet.</p>
         ) : (
-          <div className="space-y-10 w-full overflow-x-auto scrollbar-hide">
+          <div className="space-y-10  overflow-x-auto scrollbar-hide">
             {approvedGoals.map((goal) => {
               const chartData = chartDataMap[goal._id];
               return (

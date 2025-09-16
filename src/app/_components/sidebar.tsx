@@ -23,7 +23,7 @@ function CustomStepIcon({ active, completed }: StepIconProps) {
 
 function StepTwoComponent({ hideDefaultChart }: { hideDefaultChart: boolean }) {
   if (hideDefaultChart) {
-    return <div className="p-6 text-gray-500 "></div>;
+    return <div className="p-6 text-gray-500">hello</div>;
   }
 
   return (
@@ -35,7 +35,7 @@ function StepTwoComponent({ hideDefaultChart }: { hideDefaultChart: boolean }) {
 
 function StepApprovalComponent() {
   return (
-    <div className="p-6 text-xl">
+    <div className="text-xl">
       <Approval />
     </div>
   );
@@ -199,7 +199,7 @@ export default function CompetencySidebar({
       </div>
 
       {/* Right-side content */}
-      <div className="flex-1 h-screen overflow-y-auto bg-white">
+      <div className="flex-1 h-screen overflow-y-auto overflow-x-hidden bg-white">
         {steps[activeStep]?.content}
       </div>
     </div>
