@@ -1,0 +1,121 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 2 - Intermediate",
+  "Role": "Senior Software Engineer I",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Leadership & Initiative",
+            "Weightage": "12%",
+            "Competencies": [
+              "Mentor junior engineers and support their development.",
+              "Take ownership of complex tasks and deliver independently.",
+              "Promote a positive team culture and collaboration.",
+              "Lead retrospectives and improvement initiatives.",
+              "Actively seek and give constructive feedback."
+            ]
+          },
+          {
+            "Title": "Self-Development",
+            "Weightage": "8%",
+            "Competencies": [
+              "Pursue advanced certifications or deep technical skills.",
+              "Stay updated on industry-leading software practices.",
+              "Actively participate in knowledge-sharing sessions.",
+              "Develop cross-functional knowledge outside primary domain.",
+              "Demonstrate ethical and professional conduct consistently."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "50%",
+        "Expected Competancy": [
+          {
+            "Title": "Advanced Code Quality & Design",
+            "Weightage": "25%",
+            "Competencies": [
+              "Design modular, scalable, and maintainable solutions.",
+              "Apply advanced design patterns in solutions.",
+              "Conduct in-depth code reviews and enforce standards.",
+              "Lead refactoring efforts to improve codebase.",
+              "Automate repetitive development tasks where possible."
+            ]
+          },
+          {
+            "Title": "DevOps & Automation",
+            "Weightage": "25%",
+            "Competencies": [
+              "Design CI/CD pipelines for multiple environments.",
+              "Optimize deployment processes for speed and reliability.",
+              "Automate environment provisioning and monitoring.",
+              "Investigate production issues and resolve root causes.",
+              "Implement best practices for secure deployments."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Product Architecture Understanding",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understand and contribute to overall product architecture.",
+              "Align technical design with product strategy.",
+              "Communicate technical trade-offs to stakeholders.",
+              "Balance feature delivery with technical debt management.",
+              "Ensure scalability and performance of product features."
+            ]
+          },
+          {
+            "Title": "User Impact Focus",
+            "Weightage": "8%",
+            "Competencies": [
+              "Analyze user feedback to inform design decisions.",
+              "Collaborate with design and product teams proactively.",
+              "Propose enhancements that improve user experience.",
+              "Evaluate features from customer value perspective.",
+              "Prioritize user-centric solutions over technical ease."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends & Tools",
+            "Weightage": "5%",
+            "Competencies": [
+              "Monitor emerging frameworks, languages, and tools.",
+              "Introduce new technologies when beneficial.",
+              "Evaluate technology adoption based on ROI.",
+              "Contribute to internal tech talks or blogs.",
+              "Leverage market trends to improve processes."
+            ]
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Compare product features with competitors regularly.",
+              "Highlight differentiating factors for strategic value.",
+              "Provide insights to product management for roadmap planning.",
+              "Track competitors’ tech stack changes.",
+              "Contribute ideas to maintain product advantage."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

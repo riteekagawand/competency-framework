@@ -1,0 +1,121 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 2 - Intermediate",
+  "Role": "Senior Engineer I - Security",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Leadership & Initiative",
+            "Weightage": "12%",
+            "Competencies": [
+              "Lead security-related projects and mentor peers.",
+              "Promote a security-first mindset within the team.",
+              "Take ownership of security compliance efforts.",
+              "Proactively identify and mitigate security risks.",
+              "Actively contribute to process improvement initiatives."
+            ]
+          },
+          {
+            "Title": "Self-Development",
+            "Weightage": "8%",
+            "Competencies": [
+              "Pursue advanced cybersecurity certifications.",
+              "Stay updated on the latest threat vectors and defenses.",
+              "Participate in security communities or events.",
+              "Build cross-functional awareness of security practices.",
+              "Demonstrate ethical handling of sensitive data."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "50%",
+        "Expected Competancy": [
+          {
+            "Title": "Application & Infrastructure Security",
+            "Weightage": "25%",
+            "Competencies": [
+              "Perform threat modeling and security assessments.",
+              "Implement application-level security measures.",
+              "Work with DevOps teams to secure CI/CD pipelines.",
+              "Analyze logs for potential security incidents.",
+              "Design security testing automation strategies."
+            ]
+          },
+          {
+            "Title": "Compliance & Risk Management",
+            "Weightage": "25%",
+            "Competencies": [
+              "Ensure adherence to security policies and standards.",
+              "Assist in audits and regulatory compliance.",
+              "Perform risk analysis and document mitigation plans.",
+              "Respond to security incidents and breaches.",
+              "Educate peers on secure coding practices."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Product Security Awareness",
+            "Weightage": "12%",
+            "Competencies": [
+              "Analyze product features for potential vulnerabilities.",
+              "Work with product teams to design secure features.",
+              "Ensure secure data handling in product workflows.",
+              "Review third-party integrations for security impact.",
+              "Propose security-driven feature enhancements."
+            ]
+          },
+          {
+            "Title": "User Trust & Privacy",
+            "Weightage": "8%",
+            "Competencies": [
+              "Ensure compliance with data privacy laws.",
+              "Implement customer data protection measures.",
+              "Communicate security practices to non-technical stakeholders.",
+              "Help drive user confidence through security transparency.",
+              "Stay aware of evolving privacy regulations."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Security Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Monitor emerging cyber threats and industry attacks.",
+              "Evaluate innovative security tools and methods.",
+              "Advocate for early adoption of effective security practices.",
+              "Participate in security-focused forums or events.",
+              "Leverage threat intelligence to improve product safety."
+            ]
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Compare competitor security postures and capabilities.",
+              "Identify areas for differentiation via security features.",
+              "Analyze breaches in the industry for lessons learned.",
+              "Share insights on market security expectations.",
+              "Assist in positioning product as secure and reliable."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

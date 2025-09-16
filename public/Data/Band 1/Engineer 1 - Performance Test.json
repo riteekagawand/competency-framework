@@ -1,0 +1,152 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 1 - Foundational",
+  "Role": "Engineer 1 - Performance Test",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "8%",
+            "Competencies": [
+              "Take responsibility for assigned performance testing tasks and deliver results on schedule.",
+              "Volunteer for challenging test scenarios to improve system reliability.",
+              "Contribute ideas for test automation and process improvements.",
+              "Actively participate in team meetings and retrospectives.",
+              "Maintain documentation for performance testing processes."
+            ],
+            "Default Competencies": [
+              "Take responsibility for assigned performance testing tasks and deliver results on schedule.",
+              "Volunteer for challenging test scenarios to improve system reliability."
+            ]
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "7%",
+            "Competencies": [
+              "Upskill in new performance testing tools and frameworks.",
+              "Actively seek feedback on performance testing approaches.",
+              "Engage in peer learning and share best practices.",
+              "Stay informed on emerging testing methodologies.",
+              "Develop understanding of ethical testing and data usage."
+            ],
+            "Default Competencies": [
+              "Upskill in new performance testing tools and frameworks.",
+              "Actively seek feedback on performance testing approaches."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "55%",
+        "Expected Competancy": [
+          {
+            "Title": "Performance Testing",
+            "Weightage": "30%",
+            "Competencies": [
+              "Design and execute basic performance test scripts.",
+              "Understand and apply load, stress, and endurance testing principles.",
+              "Use standard performance testing tools such as JMeter or LoadRunner.",
+              "Analyze performance metrics and escalate bottlenecks.",
+              "Support automation of performance tests."
+            ],
+            "Default Competencies": [
+              "Design and execute basic performance test scripts.",
+              "Use standard performance testing tools such as JMeter or LoadRunner.",
+              "Analyze performance metrics and escalate bottlenecks."
+            ]
+          },
+          {
+            "Title": "Monitoring & Reporting",
+            "Weightage": "25%",
+            "Competencies": [
+              "Monitor application performance during testing sessions.",
+              "Create and maintain performance reports.",
+              "Identify trends and anomalies in performance metrics.",
+              "Collaborate with developers to resolve performance issues.",
+              "Document findings for knowledge sharing."
+            ],
+            "Default Competencies": [
+              "Monitor application performance during testing sessions.",
+              "Create and maintain performance reports."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Product Load Characteristics",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understand expected system load and scalability requirements.",
+              "Align test cases with product performance objectives.",
+              "Communicate potential performance risks early.",
+              "Understand how features impact application performance.",
+              "Document known performance thresholds and limitations."
+            ],
+            "Default Competencies": [
+              "Understand expected system load and scalability requirements.",
+              "Align test cases with product performance objectives."
+            ]
+          },
+          {
+            "Title": "User Perspective",
+            "Weightage": "8%",
+            "Competencies": [
+              "Consider user experience while analyzing performance results.",
+              "Collaborate with UX teams on performance-sensitive features.",
+              "Integrate performance insights into product roadmaps.",
+              "Participate in user feedback sessions focused on performance.",
+              "Track user complaints and feedback regarding system speed."
+            ],
+            "Default Competencies": [
+              "Consider user experience while analyzing performance results."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Stay informed about emerging performance testing tools.",
+              "Research best practices in performance optimization.",
+              "Analyze industry benchmarks for response times.",
+              "Understand performance SLAs from competitors.",
+              "Share industry findings with peers."
+            ],
+            "Default Competencies": [
+              "Stay informed about emerging performance testing tools."
+            ]
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Understand competitor performance differentiators.",
+              "Monitor market standards for scalability and speed.",
+              "Identify trends in performance-driven architectures.",
+              "Suggest improvements to align with market benchmarks.",
+              "Document competitive performance testing practices."
+            ],
+            "Default Competencies": [
+              "Understand competitor performance differentiators.",
+              "Monitor market standards for scalability and speed."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

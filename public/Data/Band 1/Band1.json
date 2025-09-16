@@ -1,0 +1,2850 @@
+[
+  {
+  "Department": "Engineering",
+  "Level": "Band 1 - Foundational",
+  "Role": "Associate Software Engineer",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Self-Awareness & Professionalism",
+            "Weightage": "12%",
+            "Competencies": [
+              "Demonstrates integrity and adheres to organizational values.",
+              "Understands personal strengths and areas for development.",
+              "Manages time and work commitments effectively.",
+              "Maintains positive work relationships and respects diversity.",
+              "Displays professionalism and accountability in all tasks."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Continuous Learning",
+            "Weightage": "8%",
+            "Competencies": [
+              "Takes ownership of learning and development.",
+              "Seeks feedback and applies it to improve performance.",
+              "Learns from mistakes and shares lessons learned.",
+              "Stays open to new technologies and methodologies.",
+              "Engages in available training and upskilling programs."
+            ],
+            "Default Competencies": 3
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "50%",
+        "Expected Competancy": [
+          {
+            "Title": "Software Development Fundamentals",
+            "Weightage": "25%",
+            "Competencies": [
+              "Applies basic programming concepts and practices effectively.",
+              "Follows coding standards and organizational guidelines.",
+              "Uses version control and documentation tools effectively.",
+              "Participates actively in code reviews.",
+              "Ensures quality and maintainability of delivered code."
+            ],
+            "Default Competencies": 4
+          },
+          {
+            "Title": "Testing & Delivery Processes",
+            "Weightage": "25%",
+            "Competencies": [
+              "Writes and executes basic unit tests.",
+              "Follows established build and deployment processes.",
+              "Uses issue tracking and defect management tools effectively.",
+              "Adheres to project timelines and delivery quality standards.",
+              "Supports continuous integration and delivery processes."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Product Knowledge",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understands the basic architecture and key features of the product.",
+              "Knows how assigned work contributes to the overall product.",
+              "Recognizes basic user requirements and business goals.",
+              "Identifies how changes impact product performance and user experience.",
+              "Demonstrates awareness of product roadmap and priorities."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Customer Orientation",
+            "Weightage": "8%",
+            "Competencies": [
+              "Understands customer needs and pain points.",
+              "Assists in addressing user-reported issues.",
+              "Supports user acceptance testing activities.",
+              "Incorporates feedback from internal or external customers.",
+              "Focuses on delivering value to end users."
+            ],
+            "Default Competencies": 3
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Understands basic industry trends affecting technology solutions.",
+              "Keeps up with new tools, libraries, and frameworks.",
+              "Participates in knowledge-sharing forums and team learning sessions.",
+              "Recognizes competitors' technical capabilities at a high level.",
+              "Understands industry quality and compliance standards."
+            ],
+            "Default Competencies": 3
+          },
+          {
+            "Title": "Business Value Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Understands how engineering tasks impact business objectives.",
+              "Demonstrates cost and quality consciousness in deliverables.",
+              "Considers business priorities when making technical decisions.",
+              "Communicates the business impact of technical work when required.",
+              "Aligns personal work to organizational strategic goals."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "Department": "Engineering",
+  "Level": "Band 1 - Foundational",
+  "Role": "Associate Engineer - Cloud Ops",
+  "Manager" : "Principal Engineer - Cloud Ops",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "8%",
+            "Competencies": [
+              "Take ownership of assigned cloud infrastructure tasks.",
+              "Proactively communicate system issues and resolutions.",
+              "Participate actively in team sync-ups and operations calls.",
+              "Volunteer to work on challenging cloud operational issues.",
+              "Document cloud tasks and incidents clearly."
+            ],
+            "Default Competencies": 3
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "7%",
+            "Competencies": [
+              "Learn new cloud services and features proactively.",
+              "Seek feedback to improve monitoring and troubleshooting skills.",
+              "Stay updated with certifications on AWS/Azure/GCP.",
+              "Participate in internal learning sessions on cloud practices.",
+              "Understand and follow security and compliance guidelines."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "60%",
+        "Expected Competancy": [
+          {
+            "Title": "Cloud Infrastructure Management",
+            "Weightage": "35%",
+            "Competencies": [
+              "Monitor and maintain cloud resources and services.",
+              "Work with cloud-native monitoring tools for alerts and performance.",
+              "Assist in provisioning and scaling of resources.",
+              "Apply tagging, cost-optimization, and security best practices.",
+              "Document and follow SOPs for cloud operations."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Automation & Security",
+            "Weightage": "25%",
+            "Competencies": [
+              "Automate cloud resource provisioning using IaC tools like Terraform.",
+              "Implement backup and recovery processes.",
+              "Assist in security compliance audits and checks.",
+              "Work with CI/CD pipelines for cloud deployments.",
+              "Collaborate with DevOps for automation tasks."
+            ],
+            "Default Competencies": 3
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Cloud Hosting Knowledge",
+            "Weightage": "10%",
+            "Competencies": [
+              "Understand the hosting and scaling needs of the product.",
+              "Monitor product-specific cloud performance metrics.",
+              "Coordinate with developers for environment needs.",
+              "Support release cycles with environment preparation.",
+              "Understand cloud cost implications of product features."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Service Continuity",
+            "Weightage": "5%",
+            "Competencies": [
+              "Participate in disaster recovery drills.",
+              "Assist in planning high availability solutions.",
+              "Understand SLA and uptime objectives.",
+              "Document incidents and response actions.",
+              "Assist in improving incident response times."
+            ],
+            "Default Competencies": 3
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Track emerging cloud technologies and services.",
+              "Explore cost optimization trends.",
+              "Follow cloud vendor updates and new offerings.",
+              "Understand multi-cloud and hybrid cloud concepts.",
+              "Share relevant industry advancements with the team."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Understand cloud adoption trends in similar products.",
+              "Research competitor cloud performance benchmarks.",
+              "Track cloud provider pricing models.",
+              "Understand evolving security practices in cloud.",
+              "Share optimization suggestions based on research."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "Department": "Engineering",
+  "Level": "Band 1 - Foundational",
+  "Role": "Associate Database Administrator",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "8%",
+            "Competencies": [
+              "Take responsibility for database maintenance tasks.",
+              "Communicate risks and potential database issues proactively.",
+              "Participate actively in team knowledge sharing sessions.",
+              "Maintain clear documentation for DB changes.",
+              "Seek opportunities to assist senior DBAs."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "7%",
+            "Competencies": [
+              "Learn new database technologies and concepts.",
+              "Seek feedback to improve query tuning and optimization.",
+              "Participate in database certification programs.",
+              "Engage in SQL and scripting skill improvement.",
+              "Understand compliance requirements in data management."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "60%",
+        "Expected Competancy": [
+          {
+            "Title": "Database Management",
+            "Weightage": "35%",
+            "Competencies": [
+              "Assist in installation and configuration of databases.",
+              "Perform basic backup and recovery tasks.",
+              "Monitor database performance using tools and logs.",
+              "Support schema changes and migrations.",
+              "Document maintenance and tuning activities."
+            ],
+            "Default Competencies": 3
+          },
+          {
+            "Title": "Data Security & Optimization",
+            "Weightage": "25%",
+            "Competencies": [
+              "Support data security initiatives and compliance checks.",
+              "Assist in user access and privilege management.",
+              "Participate in data archiving and retention planning.",
+              "Understand and assist in query optimization.",
+              "Contribute to capacity planning and scaling efforts."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Product Data Model Knowledge",
+            "Weightage": "10%",
+            "Competencies": [
+              "Understand key database schemas supporting the product.",
+              "Know critical data dependencies and workflows.",
+              "Support release cycles involving database changes.",
+              "Assist in building database-related documentation.",
+              "Participate in data quality and integrity reviews."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Analytics Support",
+            "Weightage": "5%",
+            "Competencies": [
+              "Provide data extracts for analytics teams.",
+              "Support ad-hoc data requests efficiently.",
+              "Understand BI/reporting dependencies.",
+              "Assist in optimizing data pipelines for performance.",
+              "Document queries and scripts for analytics use cases."
+            ],
+            "Default Competencies": 4
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Follow database technology advancements.",
+              "Understand cloud database offerings and trends.",
+              "Track innovations in data security and compliance.",
+              "Stay updated with evolving query optimization techniques.",
+              "Share industry knowledge with peers."
+            ],
+            "Default Competencies": 3
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Know database performance benchmarks of competitors.",
+              "Understand emerging open-source DB trends.",
+              "Research modern DB scaling techniques.",
+              "Analyze industry-leading database backup practices.",
+              "Suggest improvements for competitive advantage."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "Department": "Engineering",
+  "Level": "Band 1 - Foundational",
+  "Role": "Associate Engineer - DevOps",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "8%",
+            "Competencies": [
+              "Take ownership of assigned DevOps tasks.",
+              "Raise issues proactively and suggest solutions.",
+              "Collaborate with developers and operations teams.",
+              "Update documentation as part of process improvement.",
+              "Participate actively in daily stand-ups and retrospectives."
+            ],
+            "Default Competencies Count": 2
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "7%",
+            "Competencies": [
+              "Learn new DevOps tools and cloud practices.",
+              "Seek feedback to improve automation skills.",
+              "Enhance knowledge of containerization and orchestration.",
+              "Participate in internal DevOps knowledge sessions.",
+              "Improve scripting skills for automation."
+            ],
+            "Default Competencies Count": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "60%",
+        "Expected Competancy": [
+          {
+            "Title": "CI/CD & Automation",
+            "Weightage": "35%",
+            "Competencies": [
+              "Build and maintain CI/CD pipelines using Jenkins, GitHub Actions, etc.",
+              "Automate deployment processes and environment setups.",
+              "Monitor and troubleshoot build failures.",
+              "Apply security best practices in DevOps pipelines.",
+              "Collaborate with QA for automated test integration."
+            ],
+            "Default Competencies Count": 2
+          },
+          {
+            "Title": "Infrastructure & Cloud Ops",
+            "Weightage": "25%",
+            "Competencies": [
+              "Work with AWS/Azure or GCP services for deployments.",
+              "Use containerization tools like Docker and Kubernetes.",
+              "Automate infrastructure provisioning using Terraform or Ansible.",
+              "Set up monitoring and alerting tools like Prometheus, Grafana.",
+              "Participate in system performance optimization."
+            ],
+            "Default Competencies Count": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Product Deployment Understanding",
+            "Weightage": "10%",
+            "Competencies": [
+              "Understand deployment architecture and release processes.",
+              "Know the rollback and disaster recovery strategies.",
+              "Coordinate with product teams for release cycles.",
+              "Monitor deployed environments for issues.",
+              "Assist in improving deployment frequency and stability."
+            ],
+            "Default Competencies Count": 2
+          },
+          {
+            "Title": "System Reliability",
+            "Weightage": "5%",
+            "Competencies": [
+              "Support high availability and scalability goals.",
+              "Understand SLA and SLO concepts.",
+              "Participate in root cause analysis for incidents.",
+              "Document reliability issues and fixes.",
+              "Assist in implementing incident automation."
+            ],
+            "Default Competencies Count": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Track latest DevOps tools and practices.",
+              "Understand emerging trends like GitOps and DevSecOps.",
+              "Share relevant innovations with the team.",
+              "Follow open-source DevOps advancements.",
+              "Explore new cloud-native solutions."
+            ],
+            "Default Competencies Count": 2
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Compare CI/CD and automation practices with industry leaders.",
+              "Understand market expectations for deployment frequency.",
+              "Research innovative release engineering strategies.",
+              "Know competitive tooling differences.",
+              "Share learnings for process improvement."
+            ],
+            "Default Competencies Count": 2
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "Department": "Engineering",
+  "Level": "Band 1 - Foundational",
+  "Role": "Associate Engineer - Performance Test",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "8%",
+            "Competencies": [
+              "Take responsibility for assigned test deliverables.",
+              "Actively participate in team stand-ups and retrospectives.",
+              "Highlight blockers early and suggest solutions.",
+              "Volunteer to handle additional tasks when needed.",
+              "Ensure timely updates to leads and stakeholders."
+            ],
+            "Default Competencies Count": 2
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "7%",
+            "Competencies": [
+              "Seek feedback for improving performance testing skills.",
+              "Engage in continuous learning of performance testing tools.",
+              "Participate in cross-team learning sessions.",
+              "Work on communication and documentation improvement.",
+              "Understand ethical practices in testing data."
+            ],
+            "Default Competencies Count": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "55%",
+        "Expected Competancy": [
+          {
+            "Title": "Performance Testing Skills",
+            "Weightage": "30%",
+            "Competencies": [
+              "Understand performance testing concepts and KPIs.",
+              "Work with tools like JMeter, LoadRunner, or Gatling.",
+              "Design basic performance test scripts.",
+              "Analyze test results for bottlenecks.",
+              "Document and report findings accurately."
+            ],
+            "Default Competencies Count": 2
+          },
+          {
+            "Title": "Automation & CI/CD",
+            "Weightage": "25%",
+            "Competencies": [
+              "Integrate performance tests with CI/CD pipelines.",
+              "Collaborate with DevOps for environment readiness.",
+              "Use monitoring tools to assess resource utilization.",
+              "Create automated performance regression suites.",
+              "Contribute to test framework improvements."
+            ],
+            "Default Competencies Count": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Product Understanding",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understand the product architecture and critical workflows.",
+              "Identify performance-critical features and modules.",
+              "Analyze feature dependencies for load and scalability.",
+              "Collaborate with developers to optimize code.",
+              "Understand SLAs related to performance."
+            ],
+            "Default Competencies Count": 2
+          },
+          {
+            "Title": "User Experience Impact",
+            "Weightage": "8%",
+            "Competencies": [
+              "Understand how performance affects end-user experience.",
+              "Analyze latency and response time from a user perspective.",
+              "Document performance issues affecting usability.",
+              "Assist product teams with optimization priorities.",
+              "Participate in post-release performance assessments."
+            ],
+            "Default Competencies Count": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Stay updated on emerging performance testing tools.",
+              "Follow industry benchmarks for scalability testing.",
+              "Understand cloud-based performance testing approaches.",
+              "Share knowledge on competitive test strategies.",
+              "Track evolving best practices in performance engineering."
+            ],
+            "Default Competencies Count": 2
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Be aware of competitors’ performance benchmarks.",
+              "Research market expectations for speed and scalability.",
+              "Share performance optimization ideas based on competition.",
+              "Understand key differentiators of similar products.",
+              "Support product positioning with performance metrics."
+            ],
+            "Default Competencies Count": 2
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "Department": "Engineering",
+  "Level": "Band 1 - Foundational",
+  "Role": "Associate Engineer - Security",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Self-Awareness & Professionalism",
+            "Weightage": "12%",
+            "Competencies": [
+              "Demonstrates integrity and adheres to organizational security policies.",
+              "Understands own strengths and areas for development in security skills.",
+              "Manages workload effectively and maintains confidentiality.",
+              "Builds positive work relationships and respects diversity.",
+              "Displays accountability in assigned security-related tasks."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Continuous Learning",
+            "Weightage": "8%",
+            "Competencies": [
+              "Takes ownership of developing security knowledge.",
+              "Seeks feedback from peers and seniors to improve security practices.",
+              "Keeps up-to-date with emerging security trends and threats.",
+              "Learns from security incidents and shares lessons learned.",
+              "Engages in relevant certifications or skill-building programs."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "50%",
+        "Expected Competancy": [
+          {
+            "Title": "Security Fundamentals",
+            "Weightage": "25%",
+            "Competencies": [
+              "Understands basic security principles and compliance requirements.",
+              "Applies secure coding practices in software development.",
+              "Identifies and mitigates basic security vulnerabilities.",
+              "Assists in implementing access controls and security monitoring tools.",
+              "Follows organizational security policies and procedures consistently."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Incident Handling & Tools",
+            "Weightage": "25%",
+            "Competencies": [
+              "Supports basic incident detection and response activities.",
+              "Uses security tools (e.g., vulnerability scanners, firewalls) effectively.",
+              "Participates in audits and compliance-related documentation.",
+              "Tracks and documents security events accurately.",
+              "Assists in conducting risk assessments and threat modeling."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Product Security Awareness",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understands how product features may impact security posture.",
+              "Assists in ensuring product releases meet security standards.",
+              "Identifies basic product security risks and escalates appropriately.",
+              "Supports secure configuration and deployment of products.",
+              "Understands integration of security in the product lifecycle."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Customer Security Orientation",
+            "Weightage": "8%",
+            "Competencies": [
+              "Understands customer data privacy and compliance requirements.",
+              "Supports addressing user security concerns effectively.",
+              "Collaborates with support teams to resolve security-related issues.",
+              "Ensures security measures align with customer expectations.",
+              "Demonstrates awareness of compliance requirements (e.g., GDPR)."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Security Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Keeps track of emerging cybersecurity threats and tools.",
+              "Shares relevant security updates with the team.",
+              "Participates in internal security knowledge-sharing sessions.",
+              "Understands competitor approaches to security practices.",
+              "Monitors regulatory changes impacting security."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Business Value Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Understands the importance of security to business reputation.",
+              "Balances security needs with business priorities.",
+              "Considers cost-effectiveness of security controls.",
+              "Communicates security’s business impact when required.",
+              "Aligns security work to organizational strategic goals."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "Department": "Engineering",
+  "Level": "Band 1 - Foundational",
+  "Role": "Associate Site Reliability Engineer",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "8%",
+            "Competencies": [
+              "Take responsibility for assigned SRE tasks and SLAs.",
+              "Communicate incidents and escalations promptly.",
+              "Document learnings from incidents and outages.",
+              "Participate in post-incident reviews and retrospectives.",
+              "Volunteer to support on-call operations."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "7%",
+            "Competencies": [
+              "Learn new reliability engineering practices.",
+              "Seek feedback to improve incident response skills.",
+              "Engage in automation learning for operational tasks.",
+              "Stay updated on observability and monitoring tools.",
+              "Enhance scripting skills for operational automation."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "60%",
+        "Expected Competancy": [
+          {
+            "Title": "Reliability & Monitoring",
+            "Weightage": "30%",
+            "Competencies": [
+              "Monitor production systems and alerting thresholds.",
+              "Handle incident response following runbooks.",
+              "Participate in system reliability assessments.",
+              "Analyze trends in downtime and performance issues.",
+              "Document response actions for future improvements."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Automation & Resilience",
+            "Weightage": "30%",
+            "Competencies": [
+              "Automate repetitive operational tasks.",
+              "Assist in infrastructure-as-code implementations.",
+              "Understand capacity planning basics.",
+              "Participate in chaos engineering exercises.",
+              "Collaborate with developers to improve resilience."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Product SLA Knowledge",
+            "Weightage": "10%",
+            "Competencies": [
+              "Understand product SLAs and SLOs.",
+              "Support deployments ensuring SLA adherence.",
+              "Know dependencies that affect product uptime.",
+              "Assist in creating reliability dashboards.",
+              "Participate in release risk assessments."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Incident Handling",
+            "Weightage": "5%",
+            "Competencies": [
+              "Participate in incident triage and escalation.",
+              "Assist in root cause analysis sessions.",
+              "Communicate clearly during incident bridges.",
+              "Follow incident playbooks consistently.",
+              "Update stakeholders during ongoing outages."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Stay updated on SRE best practices.",
+              "Learn about site reliability metrics from industry leaders.",
+              "Understand DevOps and SRE convergence trends.",
+              "Follow open-source observability projects.",
+              "Share reliability engineering improvements."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Understand industry reliability benchmarks.",
+              "Compare incident response practices with competitors.",
+              "Analyze competitive uptime commitments.",
+              "Track new technologies for service resilience.",
+              "Suggest optimizations for competitive differentiation."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "Department": "Engineering",
+  "Level": "Band 1 - Foundational",
+  "Role": "Database Administrator 1",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "8%",
+            "Competencies": [
+              "Take ownership of database-related tasks.",
+              "Monitor database performance proactively.",
+              "Participate in backup and recovery drills.",
+              "Document database processes and improvements.",
+              "Actively work on database automation tasks."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "7%",
+            "Competencies": [
+              "Learn new database technologies and versions.",
+              "Understand emerging database management systems.",
+              "Engage in certification and professional development.",
+              "Seek feedback to improve DBA practices.",
+              "Stay updated on database security and compliance."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "55%",
+        "Expected Competancy": [
+          {
+            "Title": "Database Administration",
+            "Weightage": "30%",
+            "Competencies": [
+              "Perform basic installation, upgrades, and patches.",
+              "Manage user access and security.",
+              "Execute and monitor backups and restores.",
+              "Analyze database performance and optimize queries.",
+              "Document database changes and schema updates."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Monitoring & Maintenance",
+            "Weightage": "25%",
+            "Competencies": [
+              "Monitor database health and storage usage.",
+              "Resolve common database issues promptly.",
+              "Implement automated monitoring tools.",
+              "Assist in capacity planning for database growth.",
+              "Ensure high availability and failover mechanisms."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Product Database Knowledge",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understand product data models and relationships.",
+              "Assist with database schema changes for new features.",
+              "Collaborate with development teams on data optimization.",
+              "Ensure database support for product scalability.",
+              "Maintain documentation for product-specific databases."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Data Integrity & Security",
+            "Weightage": "8%",
+            "Competencies": [
+              "Ensure compliance with data security standards.",
+              "Support data encryption and backup integrity.",
+              "Respond to database security alerts.",
+              "Analyze risks and implement access control policies.",
+              "Assist with audits and data compliance reviews."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Stay updated on new database technologies.",
+              "Understand market movement towards cloud databases.",
+              "Research database performance benchmarking methods.",
+              "Analyze evolving big data management tools.",
+              "Share insights on database innovations."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Understand competitor approaches to database scaling.",
+              "Benchmark uptime and latency against industry standards.",
+              "Analyze how competitors handle high availability.",
+              "Evaluate emerging database automation practices.",
+              "Suggest improvements from competitive research."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "Department": "Engineering",
+   "Level": "Band 1 - Foundational",
+  "Role": "Database Administrator II",
+  "Total Default Competencies": 17,
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "12%",
+            "Competencies": [
+              "Own database uptime, performance, and availability.",
+              "Proactively address performance and capacity issues.",
+              "Mentor junior DBAs on best practices.",
+              "Propose improvements in database processes.",
+              "Ensure timely and accurate backup and recovery."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "8%",
+            "Competencies": [
+              "Pursue certifications like Oracle DBA, AWS Database Specialty.",
+              "Engage in database optimization training.",
+              "Seek feedback on database management skills.",
+              "Participate in database community events.",
+              "Continuously update knowledge of new DBMS versions."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "50%",
+        "Expected Competancy": [
+          {
+            "Title": "Database Management",
+            "Weightage": "25%",
+            "Competencies": [
+              "Perform database installation, upgrades, and patching.",
+              "Monitor database performance and tune queries.",
+              "Implement backup and recovery procedures.",
+              "Ensure database security and user management.",
+              "Automate routine database tasks."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "High Availability & Scalability",
+            "Weightage": "25%",
+            "Competencies": [
+              "Support clustering and replication strategies.",
+              "Implement disaster recovery for critical databases.",
+              "Monitor and manage large-scale databases.",
+              "Design for scalability and elasticity.",
+              "Support database migration projects."
+            ],
+            "Default Competencies": 3
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Application Support",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understand database needs for key applications.",
+              "Optimize queries supporting product features.",
+              "Collaborate with developers for DB schema design.",
+              "Support release cycles with DB changes.",
+              "Analyze database impact on user experience."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Data Security & Compliance",
+            "Weightage": "8%",
+            "Competencies": [
+              "Implement encryption and access control policies.",
+              "Ensure compliance with data protection laws.",
+              "Monitor database for unauthorized access.",
+              "Document compliance for audits.",
+              "Support user data retention and disposal policies."
+            ],
+            "Default Competencies": 1
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Follow emerging DBMS technologies.",
+              "Explore database-as-a-service innovations.",
+              "Stay updated on big data and NoSQL trends.",
+              "Benchmark DB performance against industry norms.",
+              "Engage in database knowledge communities."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Understand competitors’ database technologies.",
+              "Evaluate trends in cloud database adoption.",
+              "Compare database performance strategies.",
+              "Propose database innovations for competitive edge.",
+              "Share findings on industry compliance requirements."
+            ],
+            "Default Competencies": 3
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "Department": "Engineering",
+  "Level": "Band 1 - Foundational",
+  "Role": "Engineer 1 - Cloud Ops",
+  "Total Default Competencies": 16,
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "8%",
+            "Competencies": [
+              "Take responsibility for assigned cloud operations tasks.",
+              "Actively engage in troubleshooting and problem resolution.",
+              "Document and share knowledge of cloud configurations.",
+              "Participate in post-incident reviews and suggest improvements.",
+              "Proactively monitor cloud environments and raise alerts."
+            ],
+            "Default Competencies": 3
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "7%",
+            "Competencies": [
+              "Upskill in cloud technologies (AWS, Azure, or GCP).",
+              "Participate in internal or external cloud certifications.",
+              "Seek mentorship for advanced cloud operations knowledge.",
+              "Contribute to cloud cost optimization initiatives.",
+              "Stay updated on cloud security and compliance standards."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "55%",
+        "Expected Competancy": [
+          {
+            "Title": "Cloud Infrastructure",
+            "Weightage": "30%",
+            "Competencies": [
+              "Provision and manage virtual machines and storage.",
+              "Understand cloud networking fundamentals.",
+              "Perform backups and recovery operations.",
+              "Monitor resource utilization and optimize costs.",
+              "Document configurations for repeatability."
+            ],
+            "Default Competencies": 3
+          },
+          {
+            "Title": "Automation & Monitoring",
+            "Weightage": "25%",
+            "Competencies": [
+              "Use automation scripts for cloud operations.",
+              "Set up monitoring and alerting for cloud systems.",
+              "Respond to cloud environment incidents.",
+              "Ensure uptime and reliability of cloud resources.",
+              "Work on cloud migration support tasks."
+            ],
+            "Default Competencies": 4
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Deployment Support",
+            "Weightage": "12%",
+            "Competencies": [
+              "Ensure product deployments run smoothly on cloud platforms.",
+              "Understand environment requirements for product modules.",
+              "Collaborate with engineering for resource scaling.",
+              "Support continuous integration with cloud services.",
+              "Troubleshoot product-related infrastructure issues."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Operational Readiness",
+            "Weightage": "8%",
+            "Competencies": [
+              "Document operational processes and best practices.",
+              "Prepare for release cycles with proper scaling and failover.",
+              "Ensure product SLAs are met for availability.",
+              "Participate in capacity planning sessions.",
+              "Provide feedback on performance optimization opportunities."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Research cloud operations innovations.",
+              "Understand managed services offerings and trends.",
+              "Evaluate serverless and microservices architectures.",
+              "Monitor emerging best practices for cloud cost efficiency.",
+              "Share insights on evolving cloud regulations."
+            ],
+            "Default Competencies": 1
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Benchmark cloud uptime and reliability with competitors.",
+              "Analyze how competitors handle cloud cost optimization.",
+              "Understand market direction for hybrid/multi-cloud models.",
+              "Identify competitive advantages in automation adoption.",
+              "Suggest improvements based on market best practices."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "Department": "Engineering",
+  "Level": "Band 1 - Foundational",
+  "Role": "Engineer 1 - DevOps",
+  "Total Default Competencies": 15,
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "8%",
+            "Competencies": [
+              "Independently manage assigned CI/CD tasks.",
+              "Take initiative to automate repetitive deployment tasks.",
+              "Propose improvements to DevOps workflows.",
+              "Participate in production support activities when required.",
+              "Maintain clear documentation for all automation processes."
+            ],
+            "Default Competencies": 3
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "7%",
+            "Competencies": [
+              "Stay updated on DevOps tools and trends.",
+              "Engage in cloud and containerization upskilling programs.",
+              "Seek mentorship from senior DevOps engineers.",
+              "Actively participate in learning sessions for new automation scripts.",
+              "Maintain strong adherence to operational ethics and security."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "55%",
+        "Expected Competancy": [
+          {
+            "Title": "Automation & CI/CD",
+            "Weightage": "30%",
+            "Competencies": [
+              "Build and maintain CI/CD pipelines using Jenkins or GitHub Actions.",
+              "Automate basic deployment processes.",
+              "Monitor and troubleshoot pipeline failures.",
+              "Assist in implementing infrastructure as code (IaC).",
+              "Ensure versioning and rollback mechanisms are in place."
+            ],
+            "Default Competencies": 3
+          },
+          {
+            "Title": "Cloud & Containerization",
+            "Weightage": "25%",
+            "Competencies": [
+              "Support cloud deployment tasks.",
+              "Work with container tools such as Docker and Kubernetes.",
+              "Understand cloud resource provisioning basics.",
+              "Assist in environment configuration for development and testing.",
+              "Monitor and optimize containerized applications."
+            ],
+            "Default Competencies": 3
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Infrastructure Understanding",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understand product deployment environments.",
+              "Support product teams with deployment issues.",
+              "Ensure DevOps pipelines align with product release cycles.",
+              "Know infrastructure needs for different features.",
+              "Document deployment steps for new modules."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Release Management",
+            "Weightage": "8%",
+            "Competencies": [
+              "Coordinate with teams for smooth release management.",
+              "Participate in release planning meetings.",
+              "Help track release issues and rollback strategies.",
+              "Communicate downtime or release risks proactively.",
+              "Ensure deployment documentation is updated."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Stay informed about new DevOps practices and automation tools.",
+              "Evaluate emerging container orchestration technologies.",
+              "Understand market trends in cloud cost optimization.",
+              "Share insights on industry-standard release frequencies.",
+              "Learn from case studies of successful DevOps implementations."
+            ],
+            "Default Competencies": 1
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Monitor competitor automation strategies.",
+              "Understand competitor DevOps adoption levels.",
+              "Benchmark CI/CD metrics with industry leaders.",
+              "Suggest improvements based on competitive practices.",
+              "Document lessons learned from comparative studies."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "Department": "Engineering",
+  "Level": "Band 1 - Foundational",
+  "Role": "Engineer 1 - Performance Test",
+  "Total Default Competencies": 14,
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "8%",
+            "Competencies": [
+              "Take responsibility for assigned performance testing tasks and deliver results on schedule.",
+              "Volunteer for challenging test scenarios to improve system reliability.",
+              "Contribute ideas for test automation and process improvements.",
+              "Actively participate in team meetings and retrospectives.",
+              "Maintain documentation for performance testing processes."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "7%",
+            "Competencies": [
+              "Upskill in new performance testing tools and frameworks.",
+              "Actively seek feedback on performance testing approaches.",
+              "Engage in peer learning and share best practices.",
+              "Stay informed on emerging testing methodologies.",
+              "Develop understanding of ethical testing and data usage."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "55%",
+        "Expected Competancy": [
+          {
+            "Title": "Performance Testing",
+            "Weightage": "30%",
+            "Competencies": [
+              "Design and execute basic performance test scripts.",
+              "Understand and apply load, stress, and endurance testing principles.",
+              "Use standard performance testing tools such as JMeter or LoadRunner.",
+              "Analyze performance metrics and escalate bottlenecks.",
+              "Support automation of performance tests."
+            ],
+            "Default Competencies": 3
+          },
+          {
+            "Title": "Monitoring & Reporting",
+            "Weightage": "25%",
+            "Competencies": [
+              "Monitor application performance during testing sessions.",
+              "Create and maintain performance reports.",
+              "Identify trends and anomalies in performance metrics.",
+              "Collaborate with developers to resolve performance issues.",
+              "Document findings for knowledge sharing."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Product Load Characteristics",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understand expected system load and scalability requirements.",
+              "Align test cases with product performance objectives.",
+              "Communicate potential performance risks early.",
+              "Understand how features impact application performance.",
+              "Document known performance thresholds and limitations."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "User Perspective",
+            "Weightage": "8%",
+            "Competencies": [
+              "Consider user experience while analyzing performance results.",
+              "Collaborate with UX teams on performance-sensitive features.",
+              "Integrate performance insights into product roadmaps.",
+              "Participate in user feedback sessions focused on performance.",
+              "Track user complaints and feedback regarding system speed."
+            ],
+            "Default Competencies": 1
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Stay informed about emerging performance testing tools.",
+              "Research best practices in performance optimization.",
+              "Analyze industry benchmarks for response times.",
+              "Understand performance SLAs from competitors.",
+              "Share industry findings with peers."
+            ],
+            "Default Competencies": 1
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Understand competitor performance differentiators.",
+              "Monitor market standards for scalability and speed.",
+              "Identify trends in performance-driven architectures.",
+              "Suggest improvements to align with market benchmarks.",
+              "Document competitive performance testing practices."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "Department": "Engineering",
+  "Level": "Band 1 - Foundational",
+  "Role": "Engineer 1 - Security",
+  "Total Default Competencies": 14,
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "8%",
+            "Competencies": [
+              "Independently manage security-related assigned tasks with minimal supervision.",
+              "Take initiative to identify vulnerabilities and suggest security improvements.",
+              "Actively contribute to discussions on security best practices.",
+              "Participate in internal knowledge-sharing related to security tools and processes.",
+              "Maintain documentation of security processes and workflows."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "7%",
+            "Competencies": [
+              "Keep up to date with security certifications and training modules.",
+              "Seek mentorship from senior security engineers.",
+              "Learn and apply secure coding practices proactively.",
+              "Reflect on personal contributions to security projects and set improvement goals.",
+              "Maintain ethical standards in handling confidential and sensitive information."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "55%",
+        "Expected Competancy": [
+          {
+            "Title": "Security Engineering",
+            "Weightage": "30%",
+            "Competencies": [
+              "Implement secure coding practices in all development activities.",
+              "Assist in running security scanning tools (static and dynamic).",
+              "Identify vulnerabilities and escalate potential risks quickly.",
+              "Participate in incident response exercises and drills.",
+              "Contribute to implementing access controls and encryption mechanisms."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Tools & Compliance",
+            "Weightage": "25%",
+            "Competencies": [
+              "Use security testing tools (e.g., Burp Suite, Nessus).",
+              "Maintain logs and compliance documentation as required.",
+              "Assist with security audits and regulatory checks.",
+              "Monitor systems for basic intrusion detection alerts.",
+              "Understand data privacy and compliance standards applicable to the product."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Security in Features",
+            "Weightage": "12%",
+            "Competencies": [
+              "Identify security implications of new product features.",
+              "Ensure features meet the defined security acceptance criteria.",
+              "Work with developers to integrate security controls.",
+              "Test security aspects as part of feature validation.",
+              "Document potential security concerns for each module."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Risk Perspective",
+            "Weightage": "8%",
+            "Competencies": [
+              "Participate in risk assessment workshops.",
+              "Identify risks and communicate mitigation strategies.",
+              "Collaborate with QA and DevOps for secure deployment pipelines.",
+              "Understand how product vulnerabilities impact user trust.",
+              "Suggest security improvements based on risk analysis."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Security Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Track emerging cyber threats and vulnerabilities.",
+              "Share threat intelligence within the team.",
+              "Experiment with new security tools and practices.",
+              "Understand security-related regulatory changes.",
+              "Benchmark security practices against industry leaders."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Understand competitors’ approach to security features.",
+              "Identify differentiators in product security posture.",
+              "Evaluate impact of security breaches in similar products.",
+              "Stay aware of new compliance benchmarks in the industry.",
+              "Suggest ideas for strengthening product security positioning."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "Department": "Engineering",
+   "Level": "Band 1 - Foundational",
+  "Role": "Engineer II - Cloud Ops",
+  "Total Default Competencies": 14,
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "12%",
+            "Competencies": [
+              "Take ownership of cloud infrastructure stability and scalability.",
+              "Proactively identify cost optimization opportunities.",
+              "Document and improve cloud operations processes.",
+              "Mentor juniors on cloud environment practices.",
+              "Ensure uptime and operational excellence."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "8%",
+            "Competencies": [
+              "Pursue cloud certifications like AWS Solutions Architect, Azure Admin, etc.",
+              "Stay updated on emerging cloud technologies.",
+              "Seek feedback on cloud architecture decisions.",
+              "Engage in self-learning of cloud automation tools.",
+              "Contribute to internal knowledge-sharing sessions."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "50%",
+        "Expected Competancy": [
+          {
+            "Title": "Cloud Infrastructure Management",
+            "Weightage": "25%",
+            "Competencies": [
+              "Deploy and manage cloud-based resources efficiently.",
+              "Monitor and optimize cloud resource usage.",
+              "Implement cost tracking and reporting.",
+              "Ensure compliance with security and governance policies.",
+              "Automate provisioning and scaling."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Monitoring & Incident Response",
+            "Weightage": "25%",
+            "Competencies": [
+              "Set up cloud monitoring and alerting systems.",
+              "Respond quickly to incidents and restore services.",
+              "Perform root cause analysis of cloud outages.",
+              "Document incident response procedures.",
+              "Ensure alignment with service-level agreements (SLAs)."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Cloud Application Support",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understand product cloud architecture requirements.",
+              "Support application deployments in cloud environments.",
+              "Coordinate with DevOps for smooth releases.",
+              "Evaluate resource requirements per feature or release.",
+              "Suggest improvements to cloud application performance."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Data Security & Compliance",
+            "Weightage": "8%",
+            "Competencies": [
+              "Implement cloud security best practices.",
+              "Ensure compliance with data protection laws.",
+              "Support encryption and access management strategies.",
+              "Maintain secure cloud networking.",
+              "Conduct regular security audits."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Stay informed about cloud innovations (Kubernetes, serverless).",
+              "Benchmark cloud efficiency against peers.",
+              "Explore multi-cloud and hybrid solutions.",
+              "Engage in cloud events and webinars.",
+              "Research cost optimization best practices."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Understand competitor cloud strategies.",
+              "Compare cloud architectures of similar companies.",
+              "Evaluate competitor uptime SLAs.",
+              "Recommend adoption of innovative cloud features.",
+              "Share insights with cloud governance teams."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "Department": "Engineering",
+  "Level": "Band 1 - Foundational",
+  "Role": "Engineer II - DevOps",
+  "Total Default Competencies": 14,
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "12%",
+            "Competencies": [
+              "Take ownership of deployment pipelines and automation scripts.",
+              "Proactively resolve infrastructure and deployment issues.",
+              "Contribute to defining DevOps best practices.",
+              "Mentor team members in automation and CI/CD processes.",
+              "Ensure timely and reliable deployments."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "8%",
+            "Competencies": [
+              "Pursue certifications in cloud and DevOps tools (AWS, Azure, GCP).",
+              "Stay updated on containerization and orchestration technologies.",
+              "Seek feedback on deployment and automation improvements.",
+              "Participate in internal learning sessions.",
+              "Engage in hands-on exploration of new DevOps frameworks."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "50%",
+        "Expected Competancy": [
+          {
+            "Title": "Automation & CI/CD",
+            "Weightage": "25%",
+            "Competencies": [
+              "Develop and maintain CI/CD pipelines using Jenkins, GitHub Actions, or similar.",
+              "Automate infrastructure provisioning with tools like Terraform or Ansible.",
+              "Monitor pipeline failures and ensure resolution within SLAs.",
+              "Implement automated rollback strategies.",
+              "Integrate security and compliance checks into pipelines."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Infrastructure & Monitoring",
+            "Weightage": "25%",
+            "Competencies": [
+              "Manage cloud infrastructure and scaling strategies.",
+              "Monitor system performance and optimize infrastructure costs.",
+              "Implement observability practices with tools like Prometheus or ELK.",
+              "Support disaster recovery planning and testing.",
+              "Ensure compliance with infrastructure security standards."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Deployment Strategies",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understand application deployment architecture.",
+              "Support blue-green or canary deployment strategies.",
+              "Collaborate with development teams on release processes.",
+              "Optimize product deployments for minimal downtime.",
+              "Provide deployment metrics and improvement recommendations."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "System Resilience",
+            "Weightage": "8%",
+            "Competencies": [
+              "Implement backup and recovery automation.",
+              "Monitor system health under load conditions.",
+              "Develop strategies for high availability.",
+              "Contribute to incident response processes.",
+              "Provide post-mortem analysis after outages."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Stay updated on evolving DevOps practices and tools.",
+              "Research containerization and serverless trends.",
+              "Benchmark CI/CD efficiency against industry standards.",
+              "Engage in DevOps communities and forums.",
+              "Recommend tool upgrades based on industry research."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Understand competitor DevOps efficiency and strategies.",
+              "Identify industry leaders in deployment speed and reliability.",
+              "Propose ideas for improving CI/CD maturity.",
+              "Evaluate competitor tooling landscape.",
+              "Share insights on reducing deployment bottlenecks."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "Department": "Engineering",
+  "Level": "Band 1 - Foundational",
+  "Role": "Engineer II - Performance Test",
+  "Total Default Competencies": 12,
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "12%",
+            "Competencies": [
+              "Independently execute and optimize performance test suites.",
+              "Identify performance bottlenecks proactively.",
+              "Mentor junior testers on performance test concepts.",
+              "Actively participate in retrospectives and suggest improvements.",
+              "Ensure timely delivery of performance test results."
+            ],
+            "Default Competencies": 3
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "8%",
+            "Competencies": [
+              "Pursue performance testing certifications or courses.",
+              "Seek feedback on test strategy and execution.",
+              "Engage in peer learning sessions.",
+              "Stay updated on load testing frameworks.",
+              "Demonstrate continuous learning in performance optimization."
+            ],
+            "Default Competencies": 1
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "50%",
+        "Expected Competancy": [
+          {
+            "Title": "Testing Tools & Analysis",
+            "Weightage": "25%",
+            "Competencies": [
+              "Proficiently use tools like JMeter or LoadRunner.",
+              "Design and execute complex performance test scenarios.",
+              "Collect, interpret, and report performance metrics.",
+              "Integrate performance tests with CI/CD pipelines.",
+              "Suggest code or infra optimizations based on test results."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "System Performance Knowledge",
+            "Weightage": "25%",
+            "Competencies": [
+              "Understand system architecture for load distribution.",
+              "Monitor system performance during peak usage.",
+              "Support capacity planning based on performance data.",
+              "Conduct root cause analysis for performance issues.",
+              "Document and communicate performance benchmarks."
+            ],
+            "Default Competencies": 3
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Product Performance",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understand product features with performance-critical paths.",
+              "Simulate real-world load patterns based on user behavior.",
+              "Provide input for performance requirements in design stages.",
+              "Benchmark performance against release goals.",
+              "Assist developers with performance best practices."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "User Perspective",
+            "Weightage": "8%",
+            "Competencies": [
+              "Understand user experience impact of performance issues.",
+              "Report end-user performance insights to product teams.",
+              "Analyze performance implications of new features.",
+              "Collaborate with design teams on performance-sensitive modules.",
+              "Support release readiness from a performance standpoint."
+            ],
+            "Default Competencies": 1
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Follow new performance testing tools and techniques.",
+              "Explore AI/ML-based performance testing methods.",
+              "Compare industry benchmarks for similar applications.",
+              "Share insights on evolving performance engineering practices.",
+              "Attend performance testing webinars or communities."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Understand competitor product performance claims.",
+              "Benchmark performance KPIs against competitors.",
+              "Contribute to competitive performance analysis.",
+              "Provide input for improving product performance strategy.",
+              "Recommend industry-standard performance goals."
+            ],
+            "Default Competencies": 1
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "Department": "Engineering",
+  "Level": "Band 1 - Foundational",
+  "Role": "Engineer II - Security",
+  "Total Default Competencies": 12,
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "12%",
+            "Competencies": [
+              "Independently deliver security-related tasks within deadlines.",
+              "Identify potential security issues proactively.",
+              "Mentor junior team members on secure coding practices.",
+              "Engage in planning and retrospectives with actionable inputs.",
+              "Take accountability for compliance and security standards."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "8%",
+            "Competencies": [
+              "Pursue certifications like Security+, CEH or similar.",
+              "Engage in internal security workshops and training.",
+              "Seek and incorporate feedback on security reviews.",
+              "Stay aligned with ethical hacking and compliance policies.",
+              "Participate in peer knowledge-sharing sessions."
+            ],
+            "Default Competencies": 3
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "50%",
+        "Expected Competancy": [
+          {
+            "Title": "Secure Code & Compliance",
+            "Weightage": "25%",
+            "Competencies": [
+              "Develop applications adhering to OWASP guidelines.",
+              "Implement authentication and authorization controls effectively.",
+              "Perform vulnerability scans and remediate findings.",
+              "Ensure compliance with security regulations.",
+              "Support incident response activities."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Monitoring & Threat Detection",
+            "Weightage": "25%",
+            "Competencies": [
+              "Configure and maintain security monitoring tools.",
+              "Analyze logs for potential threats and anomalies.",
+              "Assist in penetration testing and remediation.",
+              "Support cloud and infrastructure security measures.",
+              "Develop and maintain security documentation."
+            ],
+            "Default Competencies": 1
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Product Security",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understand the product architecture from a security perspective.",
+              "Implement security best practices in new features.",
+              "Review dependencies for known vulnerabilities.",
+              "Integrate security considerations in early design stages.",
+              "Support threat modeling activities."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "User Data Protection",
+            "Weightage": "8%",
+            "Competencies": [
+              "Understand and ensure compliance with data privacy laws.",
+              "Implement encryption and secure data storage practices.",
+              "Support secure handling of user credentials and data.",
+              "Contribute to privacy impact assessments.",
+              "Assist in user consent and compliance documentation."
+            ],
+            "Default Competencies": 3
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Track emerging cyber threats and mitigation strategies.",
+              "Stay informed on new security tools and frameworks.",
+              "Share security updates with team members regularly.",
+              "Explore zero-trust and cloud security trends.",
+              "Engage in external security forums or events."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Understand competitors’ security capabilities.",
+              "Identify differentiators based on secure architecture.",
+              "Benchmark product compliance with industry peers.",
+              "Evaluate industry breach case studies for learning.",
+              "Provide inputs for product security strategy."
+            ],
+            "Default Competencies": 1
+          }
+        ]
+      }
+    ]
+  }
+},
+  {
+    "Department": "Engineering",
+    "Level": "Band 1 - Foundational",
+    "Role": "Site Reliability Engineer 1",
+    "Competency Framework": {
+      "Goal Areas": [
+        {
+          "Name": "Know your Self",
+          "TotalWeightage": "15%",
+          "Expected Competancy": [
+            {
+              "Title": "Ownership & Initiative",
+              "Weightage": "8%",
+              "Competencies": [
+                "Own uptime and reliability for assigned systems.",
+                "Participate actively in incident response.",
+                "Drive improvements in system observability.",
+                "Document incident resolutions and lessons learned.",
+                "Suggest reliability engineering enhancements."
+              ],
+              "Default Competencies Count": 3
+            },
+            {
+              "Title": "Self-Growth",
+              "Weightage": "7%",
+              "Competencies": [
+                "Learn site reliability engineering principles.",
+                "Pursue training in automation and monitoring tools.",
+                "Stay updated on operational excellence practices.",
+                "Develop troubleshooting and performance analysis skills.",
+                "Contribute to internal knowledge-sharing sessions."
+              ],
+              "Default Competencies Count": 2
+            }
+          ]
+        },
+        {
+          "Name": "Know your Craft",
+          "TotalWeightage": "55%",
+          "Expected Competancy": [
+            {
+              "Title": "Monitoring & Incident Response",
+              "Weightage": "30%",
+              "Competencies": [
+                "Set up and maintain system monitoring tools.",
+                "Respond to production incidents quickly and effectively.",
+                "Conduct post-mortems and create prevention plans.",
+                "Optimize alerting systems to reduce false positives.",
+                "Develop automation for incident resolution."
+              ],
+              "Default Competencies Count": 2
+            },
+            {
+              "Title": "Reliability Engineering",
+              "Weightage": "25%",
+              "Competencies": [
+                "Implement SRE best practices for scalability and reliability.",
+                "Support performance tuning and optimization efforts.",
+                "Work on infrastructure as code (IaC).",
+                "Assist in disaster recovery planning.",
+                "Promote reliability-focused design principles."
+              ],
+              "Default Competencies Count": 1
+            }
+          ]
+        },
+        {
+          "Name": "Know your Product",
+          "TotalWeightage": "20%",
+          "Expected Competancy": [
+            {
+              "Title": "System Knowledge",
+              "Weightage": "12%",
+              "Competencies": [
+                "Understand core product architecture and dependencies.",
+                "Assess how changes impact system reliability.",
+                "Ensure SLAs are met for product uptime.",
+                "Collaborate with developers to improve reliability.",
+                "Track and resolve recurring reliability issues."
+              ],
+              "Default Competencies Count": 2
+            },
+            {
+              "Title": "Customer Impact",
+              "Weightage": "8%",
+              "Competencies": [
+                "Monitor customer-facing services for uptime.",
+                "Prioritize incident resolution based on business impact.",
+                "Communicate system outages proactively.",
+                "Analyze user feedback to identify reliability issues.",
+                "Collaborate with support teams on critical failures."
+              ],
+              "Default Competencies Count": 3
+            }
+          ]
+        },
+        {
+          "Name": "Know your Market",
+          "TotalWeightage": "10%",
+          "Expected Competancy": [
+            {
+              "Title": "Industry Trends",
+              "Weightage": "5%",
+              "Competencies": [
+                "Stay informed on SRE trends and best practices.",
+                "Research emerging automation technologies.",
+                "Understand resilience patterns like chaos engineering.",
+                "Evaluate innovations in observability platforms.",
+                "Share market insights with the reliability team."
+              ],
+              "Default Competencies Count": 2
+            },
+            {
+              "Title": "Competitive Awareness",
+              "Weightage": "5%",
+              "Competencies": [
+                "Benchmark SLAs and incident response times with competitors.",
+                "Evaluate competitor approaches to reliability engineering.",
+                "Monitor industry use of advanced fault tolerance systems.",
+                "Suggest improvements based on external reliability metrics.",
+                "Document competitive uptime benchmarks."
+              ],
+              "Default Competencies Count": 1
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Department": "Engineering",
+    "Level": "Band 1 - Foundational",
+    "Role": "Site Reliability Engineer II",
+    "Competency Framework": {
+      "Goal Areas": [
+        {
+          "Name": "Know your Self",
+          "TotalWeightage": "20%",
+          "Expected Competancy": [
+            {
+              "Title": "Ownership & Initiative",
+              "Weightage": "12%",
+              "Competencies": [
+                "Own the reliability and availability of critical systems.",
+                "Proactively address potential reliability issues.",
+                "Mentor junior engineers in SRE practices.",
+                "Actively participate in incident post-mortems.",
+                "Ensure continuous improvement of operational processes."
+              ],
+              "Default Competencies Count": 3
+            },
+            {
+              "Title": "Self-Growth",
+              "Weightage": "8%",
+              "Competencies": [
+                "Obtain certifications in site reliability or cloud operations.",
+                "Stay updated on SRE tooling advancements.",
+                "Seek feedback on incident response skills.",
+                "Engage in reliability-focused workshops and communities.",
+                "Document learnings and share them with peers."
+              ],
+              "Default Competencies Count": 2
+            }
+          ]
+        },
+        {
+          "Name": "Know your Craft",
+          "TotalWeightage": "50%",
+          "Expected Competancy": [
+            {
+              "Title": "System Monitoring & Automation",
+              "Weightage": "25%",
+              "Competencies": [
+                "Develop and maintain robust monitoring systems.",
+                "Automate operational tasks for efficiency.",
+                "Implement SLOs, SLAs, and SLIs effectively.",
+                "Integrate observability tools like Grafana or ELK.",
+                "Build automated incident detection mechanisms."
+              ],
+              "Default Competencies Count": 2
+            },
+            {
+              "Title": "Incident & Reliability Engineering",
+              "Weightage": "25%",
+              "Competencies": [
+                "Lead incident response and root cause analysis.",
+                "Design systems for high availability and fault tolerance.",
+                "Contribute to scalability and performance improvements.",
+                "Develop playbooks for common failure scenarios.",
+                "Participate in chaos engineering exercises."
+              ],
+              "Default Competencies Count": 1
+            }
+          ]
+        },
+        {
+          "Name": "Know your Product",
+          "TotalWeightage": "20%",
+          "Expected Competancy": [
+            {
+              "Title": "Resilience & Scalability",
+              "Weightage": "12%",
+              "Competencies": [
+                "Understand product architecture reliability goals.",
+                "Ensure reliability during releases and changes.",
+                "Advocate for design changes improving resilience.",
+                "Provide input on capacity planning.",
+                "Track reliability KPIs per release."
+              ],
+              "Default Competencies Count": 2
+            },
+            {
+              "Title": "User Experience",
+              "Weightage": "8%",
+              "Competencies": [
+                "Link reliability metrics with user experience impact.",
+                "Monitor latency and downtime from the end-user perspective.",
+                "Highlight reliability bottlenecks impacting customers.",
+                "Promote practices reducing customer-facing outages.",
+                "Report on user experience metrics related to uptime."
+              ],
+              "Default Competencies Count": 3
+            }
+          ]
+        },
+        {
+          "Name": "Know your Market",
+          "TotalWeightage": "10%",
+          "Expected Competancy": [
+            {
+              "Title": "Industry Trends",
+              "Weightage": "5%",
+              "Competencies": [
+                "Stay updated on reliability engineering practices.",
+                "Engage with SRE community for learning and sharing.",
+                "Explore advances in auto-healing infrastructure.",
+                "Benchmark reliability practices against industry leaders.",
+                "Research emerging observability platforms."
+              ],
+              "Default Competencies Count": 2
+            },
+            {
+              "Title": "Competitive Awareness",
+              "Weightage": "5%",
+              "Competencies": [
+                "Understand competitors’ uptime commitments.",
+                "Benchmark service reliability features.",
+                "Evaluate best practices for competitive advantage.",
+                "Provide input on improving reliability KPIs.",
+                "Recommend market-driven reliability innovations."
+              ],
+              "Default Competencies Count": 1
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+  "Department": "Engineering",
+  "Level": "Band 1 - Foundational",
+  "Role": "Software Engineer 1",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "8%",
+            "Competencies": [
+              "Independently manage assigned modules or features with minimal supervision.",
+              "Take initiative to identify and fix small bugs or performance issues without being asked.",
+              "Actively contribute ideas for process and workflow improvements.",
+              "Participate and sometimes lead small internal knowledge-sharing sessions.",
+              "Track and report progress proactively, ensuring visibility to stakeholders."
+            ],
+            "Default Competencies Count": 2
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "7%",
+            "Competencies": [
+              "Continuously enhance knowledge of programming languages and frameworks used.",
+              "Seek mentorship opportunities while actively mentoring interns or new associates.",
+              "Maintain awareness of personal productivity metrics and act on feedback.",
+              "Pursue professional certifications or advanced coursework relevant to the role.",
+              "Stay aware of ethical responsibilities and compliance requirements."
+            ],
+            "Default Competencies Count": 1
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "55%",
+        "Expected Competancy": [
+          {
+            "Title": "Software Development & Code Quality",
+            "Weightage": "30%",
+            "Competencies": [
+              "Design, develop, and deliver efficient, reusable, and reliable code for assigned modules.",
+              "Write integration and functional tests beyond unit testing scope.",
+              "Follow continuous integration best practices and resolve pipeline issues independently.",
+              "Use profiling tools to identify performance bottlenecks and propose solutions.",
+              "Perform peer code reviews and provide constructive feedback."
+            ],
+            "Default Competencies Count": 2
+          },
+          {
+            "Title": "System Understanding & DevOps",
+            "Weightage": "25%",
+            "Competencies": [
+              "Understand deployment processes and assist in maintaining CI/CD workflows.",
+              "Work with containerization technologies like Docker for development environments.",
+              "Diagnose and resolve environment configuration issues.",
+              "Handle basic database operations (queries, schema updates, indexing basics).",
+              "Automate repetitive tasks using scripts or tooling where applicable."
+            ],
+            "Default Competencies Count": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Feature Ownership",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understand product modules deeply and manage assigned features end-to-end.",
+              "Clarify and refine feature requirements with product managers or business analysts.",
+              "Evaluate technical feasibility of features and suggest alternatives.",
+              "Ensure feature delivery aligns with user experience and business goals.",
+              "Track defects related to owned features and prioritize fixes."
+            ],
+            "Default Competencies Count": 1
+          },
+          {
+            "Title": "User Perspective",
+            "Weightage": "8%",
+            "Competencies": [
+              "Contribute to usability and accessibility considerations in assigned work.",
+              "Analyze user feedback for assigned modules and suggest improvements.",
+              "Work closely with QA to ensure a user-centric quality perspective.",
+              "Participate in product demo sessions and gather real-time feedback.",
+              "Monitor analytics or performance metrics for owned features."
+            ],
+            "Default Competencies Count": 3
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Technology & Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Stay updated on advancements in frameworks, libraries, and tools relevant to your work.",
+              "Experiment with new technologies and propose their applicability.",
+              "Understand impact of technology choices on product scalability and maintainability.",
+              "Share knowledge about new tools or practices in team forums.",
+              "Analyze industry case studies related to software design patterns."
+            ],
+            "Default Competencies Count": 2
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Understand competing products and their key differentiators.",
+              "Analyze performance benchmarks against competitors when relevant.",
+              "Research security, performance, or feature innovations by competitors.",
+              "Stay informed about cost-effective solutions being adopted in the market.",
+              "Identify opportunities to improve product differentiation."
+            ],
+            "Default Competencies Count": 1
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "Department": "Engineering",
+  "Level": "Band 1 - Foundational",
+  "Role": "Software Engineer II",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "12%",
+            "Competencies": [
+              "Independently manage moderately complex tasks and deliver on time.",
+              "Proactively identify issues and suggest solutions.",
+              "Mentor junior engineers or interns on basic tasks.",
+              "Contribute actively in sprint planning and retrospectives.",
+              "Demonstrate accountability in delivering business value."
+            ],
+            "Default Competencies":3
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "8%",
+            "Competencies": [
+              "Seek feedback regularly and integrate it into work.",
+              "Develop deeper knowledge of chosen tech stack or framework.",
+              "Engage in peer knowledge sharing sessions.",
+              "Pursue relevant certifications or internal training.",
+              "Demonstrate understanding of organizational values."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "50%",
+        "Expected Competancy": [
+          {
+            "Title": "Code Quality & Tooling",
+            "Weightage": "25%",
+            "Competencies": [
+              "Write maintainable and optimized code for production systems.",
+              "Ensure code review comments are minimal and mostly stylistic.",
+              "Apply secure coding and performance best practices.",
+              "Automate routine tasks and workflows where possible.",
+              "Demonstrate fluency with CI/CD and debugging tools."
+            ],
+            "Default Competencies": 3
+          },
+          {
+            "Title": "Testing & DevOps",
+            "Weightage": "25%",
+            "Competencies": [
+              "Design and maintain test cases for new features.",
+              "Contribute to automation frameworks and pipelines.",
+              "Perform root cause analysis for recurring issues.",
+              "Manage deployments with minimal supervision.",
+              "Participate in improving monitoring and alerting systems."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Product Features",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understand module-level dependencies and integrations.",
+              "Develop features aligned with product roadmap priorities.",
+              "Highlight risks and propose mitigation strategies early.",
+              "Consider scalability and maintainability during design.",
+              "Contribute to knowledge base and documentation."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "User Perspective",
+            "Weightage": "8%",
+            "Competencies": [
+              "Understand user pain points for assigned modules.",
+              "Participate in usability reviews and incorporate feedback.",
+              "Translate product requirements into user-focused designs.",
+              "Evaluate performance impacts of user-facing features.",
+              "Analyze user behavior data to guide feature decisions."
+            ],
+            "Default Competencies":2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Stay updated with emerging tools and frameworks.",
+              "Propose new technologies to improve product efficiency.",
+              "Document and share learnings from external events.",
+              "Identify competitive feature differentiators.",
+              "Follow thought leaders in relevant technical areas."
+            ],
+            "Default Competencies": 1
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Understand competitive offerings at a feature level.",
+              "Compare product modules with industry best practices.",
+              "Recognize opportunities to improve technical positioning.",
+              "Propose innovative solutions to improve product market fit.",
+              "Assist in product demos or technical showcases."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "Department": "Engineering",
+  "Level": "Band 3 - Principal",
+  "Role": "Principal Engineer - Cloud Ops",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Strategic Leadership & Ownership",
+            "Weightage": "12%",
+            "Default Competencies": 3,
+            "Competencies": [
+              "Lead the cloud operations strategy ensuring alignment with enterprise goals.",
+              "Mentor teams in cloud infrastructure management and reliability practices.",
+              "Drive cultural adoption of automation and cloud-native thinking.",
+              "Ensure operational readiness for large-scale cloud platforms.",
+              "Champion resilience and performance optimization across teams."
+            ]
+          },
+          {
+            "Title": "Continuous Learning & Growth",
+            "Weightage": "8%",
+            "Default Competencies": 2,
+            "Competencies": [
+              "Stay updated on advancements in cloud technologies and architectures.",
+              "Promote training and certifications for cloud engineers.",
+              "Host and lead cross-functional knowledge-sharing sessions.",
+              "Engage with industry forums and cloud vendor communities.",
+              "Encourage experimentation with emerging cloud solutions."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "40%",
+        "Expected Competancy": [
+          {
+            "Title": "Cloud Infrastructure Management",
+            "Weightage": "20%",
+            "Default Competencies": 4,
+            "Competencies": [
+              "Architect secure, scalable, and cost-efficient cloud solutions.",
+              "Implement best practices for multi-cloud and hybrid environments.",
+              "Establish disaster recovery and business continuity plans.",
+              "Optimize cloud spend and resource utilization.",
+              "Monitor and manage capacity planning for critical systems."
+            ]
+          },
+          {
+            "Title": "Automation & Reliability Engineering",
+            "Weightage": "20%",
+            "Default Competencies": 3,
+            "Competencies": [
+              "Implement Infrastructure as Code (IaC) across platforms.",
+              "Automate routine operational processes to reduce manual effort.",
+              "Define and monitor SLOs and SLAs for cloud operations.",
+              "Drive root cause analysis for high-severity incidents.",
+              "Develop and enforce observability standards across services."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "25%",
+        "Expected Competancy": [
+          {
+            "Title": "Product Reliability & Compliance",
+            "Weightage": "15%",
+            "Default Competencies": 4,
+            "Competencies": [
+              "Ensure platform compliance with industry security standards.",
+              "Embed reliability requirements into the product life cycle.",
+              "Monitor uptime and availability impacting product KPIs.",
+              "Implement proactive alerting and automated self-healing.",
+              "Support new product launches with robust infrastructure readiness."
+            ]
+          },
+          {
+            "Title": "User-Centric Cloud Delivery",
+            "Weightage": "10%",
+            "Default Competencies": 3,
+            "Competencies": [
+              "Minimize downtime during releases and upgrades.",
+              "Ensure quick restoration of services during incidents.",
+              "Support teams with operational insights to improve UX.",
+              "Provide transparency through operational metrics dashboards.",
+              "Collaborate with product teams for cloud-driven feature delivery."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Cloud Trends & Innovations",
+            "Weightage": "8%",
+            "Default Competencies": 2,
+            "Competencies": [
+              "Monitor advancements in cloud computing models and services.",
+              "Evaluate cloud-native technologies like containers and serverless.",
+              "Benchmark organizational cloud performance against industry leaders.",
+              "Assess emerging vendor solutions and tools for adoption.",
+              "Promote adoption of sustainable cloud practices (GreenOps)."
+            ]
+          },
+          {
+            "Title": "Technology Evangelism",
+            "Weightage": "7%",
+            "Default Competencies": 1,
+            "Competencies": [
+              "Represent cloud practices at industry events and panels.",
+              "Publish white papers on cloud operational excellence.",
+              "Build strategic alliances with cloud vendors.",
+              "Encourage open-source contributions from internal teams.",
+              "Drive organizational adoption of future-ready cloud practices."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
+]

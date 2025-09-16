@@ -1,0 +1,153 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 1 - Foundational",
+  "Role": "Database Administrator 1",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "8%",
+            "Competencies": [
+              "Take ownership of database-related tasks.",
+              "Monitor database performance proactively.",
+              "Participate in backup and recovery drills.",
+              "Document database processes and improvements.",
+              "Actively work on database automation tasks."
+            ],
+            "Default Competencies": [
+              "Take ownership of database-related tasks.",
+              "Monitor database performance proactively."
+            ]
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "7%",
+            "Competencies": [
+              "Learn new database technologies and versions.",
+              "Understand emerging database management systems.",
+              "Engage in certification and professional development.",
+              "Seek feedback to improve DBA practices.",
+              "Stay updated on database security and compliance."
+            ],
+            "Default Competencies": [
+              "Learn new database technologies and versions.",
+              "Seek feedback to improve DBA practices."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "55%",
+        "Expected Competancy": [
+          {
+            "Title": "Database Administration",
+            "Weightage": "30%",
+            "Competencies": [
+              "Perform basic installation, upgrades, and patches.",
+              "Manage user access and security.",
+              "Execute and monitor backups and restores.",
+              "Analyze database performance and optimize queries.",
+              "Document database changes and schema updates."
+            ],
+            "Default Competencies": [
+              "Perform basic installation, upgrades, and patches.",
+              "Analyze database performance and optimize queries."
+            ]
+          },
+          {
+            "Title": "Monitoring & Maintenance",
+            "Weightage": "25%",
+            "Competencies": [
+              "Monitor database health and storage usage.",
+              "Resolve common database issues promptly.",
+              "Implement automated monitoring tools.",
+              "Assist in capacity planning for database growth.",
+              "Ensure high availability and failover mechanisms."
+            ],
+            "Default Competencies": [
+              "Monitor database health and storage usage.",
+              "Resolve common database issues promptly."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Product Database Knowledge",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understand product data models and relationships.",
+              "Assist with database schema changes for new features.",
+              "Collaborate with development teams on data optimization.",
+              "Ensure database support for product scalability.",
+              "Maintain documentation for product-specific databases."
+            ],
+            "Default Competencies": [
+              "Understand product data models and relationships.",
+              "Ensure database support for product scalability."
+            ]
+          },
+          {
+            "Title": "Data Integrity & Security",
+            "Weightage": "8%",
+            "Competencies": [
+              "Ensure compliance with data security standards.",
+              "Support data encryption and backup integrity.",
+              "Respond to database security alerts.",
+              "Analyze risks and implement access control policies.",
+              "Assist with audits and data compliance reviews."
+            ],
+            "Default Competencies": [
+              "Ensure compliance with data security standards.",
+              "Support data encryption and backup integrity."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Stay updated on new database technologies.",
+              "Understand market movement towards cloud databases.",
+              "Research database performance benchmarking methods.",
+              "Analyze evolving big data management tools.",
+              "Share insights on database innovations."
+            ],
+            "Default Competencies": [
+              "Stay updated on new database technologies.",
+              "Understand market movement towards cloud databases."
+            ]
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Understand competitor approaches to database scaling.",
+              "Benchmark uptime and latency against industry standards.",
+              "Analyze how competitors handle high availability.",
+              "Evaluate emerging database automation practices.",
+              "Suggest improvements from competitive research."
+            ],
+            "Default Competencies": [
+              "Understand competitor approaches to database scaling.",
+              "Analyze how competitors handle high availability."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

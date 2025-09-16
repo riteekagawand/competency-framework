@@ -1,0 +1,153 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 1 - Foundational",
+  "Role": "Associate Site Reliability Engineer",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "8%",
+            "Competencies": [
+              "Take responsibility for assigned SRE tasks and SLAs.",
+              "Communicate incidents and escalations promptly.",
+              "Document learnings from incidents and outages.",
+              "Participate in post-incident reviews and retrospectives.",
+              "Volunteer to support on-call operations."
+            ],
+            "Default Competencies": [
+              "Take responsibility for assigned SRE tasks and SLAs.",
+              "Communicate incidents and escalations promptly."
+            ]
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "7%",
+            "Competencies": [
+              "Learn new reliability engineering practices.",
+              "Seek feedback to improve incident response skills.",
+              "Engage in automation learning for operational tasks.",
+              "Stay updated on observability and monitoring tools.",
+              "Enhance scripting skills for operational automation."
+            ],
+            "Default Competencies": [
+              "Learn new reliability engineering practices.",
+              "Stay updated on observability and monitoring tools."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "60%",
+        "Expected Competancy": [
+          {
+            "Title": "Reliability & Monitoring",
+            "Weightage": "30%",
+            "Competencies": [
+              "Monitor production systems and alerting thresholds.",
+              "Handle incident response following runbooks.",
+              "Participate in system reliability assessments.",
+              "Analyze trends in downtime and performance issues.",
+              "Document response actions for future improvements."
+            ],
+            "Default Competencies": [
+              "Monitor production systems and alerting thresholds.",
+              "Handle incident response following runbooks."
+            ]
+          },
+          {
+            "Title": "Automation & Resilience",
+            "Weightage": "30%",
+            "Competencies": [
+              "Automate repetitive operational tasks.",
+              "Assist in infrastructure-as-code implementations.",
+              "Understand capacity planning basics.",
+              "Participate in chaos engineering exercises.",
+              "Collaborate with developers to improve resilience."
+            ],
+            "Default Competencies": [
+              "Automate repetitive operational tasks.",
+              "Assist in infrastructure-as-code implementations."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Product SLA Knowledge",
+            "Weightage": "10%",
+            "Competencies": [
+              "Understand product SLAs and SLOs.",
+              "Support deployments ensuring SLA adherence.",
+              "Know dependencies that affect product uptime.",
+              "Assist in creating reliability dashboards.",
+              "Participate in release risk assessments."
+            ],
+            "Default Competencies": [
+              "Understand product SLAs and SLOs.",
+              "Support deployments ensuring SLA adherence."
+            ]
+          },
+          {
+            "Title": "Incident Handling",
+            "Weightage": "5%",
+            "Competencies": [
+              "Participate in incident triage and escalation.",
+              "Assist in root cause analysis sessions.",
+              "Communicate clearly during incident bridges.",
+              "Follow incident playbooks consistently.",
+              "Update stakeholders during ongoing outages."
+            ],
+            "Default Competencies": [
+              "Participate in incident triage and escalation.",
+              "Follow incident playbooks consistently."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Stay updated on SRE best practices.",
+              "Learn about site reliability metrics from industry leaders.",
+              "Understand DevOps and SRE convergence trends.",
+              "Follow open-source observability projects.",
+              "Share reliability engineering improvements."
+            ],
+            "Default Competencies": [
+              "Stay updated on SRE best practices.",
+              "Learn about site reliability metrics from industry leaders."
+            ]
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Understand industry reliability benchmarks.",
+              "Compare incident response practices with competitors.",
+              "Analyze competitive uptime commitments.",
+              "Track new technologies for service resilience.",
+              "Suggest optimizations for competitive differentiation."
+            ],
+            "Default Competencies": [
+              "Understand industry reliability benchmarks.",
+              "Track new technologies for service resilience."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

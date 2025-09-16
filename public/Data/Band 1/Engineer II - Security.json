@@ -1,0 +1,153 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 1 - Engineer II - Security",
+  "Role": "Engineer II - Security",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "12%",
+            "Competencies": [
+              "Independently deliver security-related tasks within deadlines.",
+              "Identify potential security issues proactively.",
+              "Mentor junior team members on secure coding practices.",
+              "Engage in planning and retrospectives with actionable inputs.",
+              "Take accountability for compliance and security standards."
+            ],
+            "Default Competencies": [
+              "Independently deliver security-related tasks within deadlines.",
+              "Mentor junior team members on secure coding practices."
+            ]
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "8%",
+            "Competencies": [
+              "Pursue certifications like Security+, CEH or similar.",
+              "Engage in internal security workshops and training.",
+              "Seek and incorporate feedback on security reviews.",
+              "Stay aligned with ethical hacking and compliance policies.",
+              "Participate in peer knowledge-sharing sessions."
+            ],
+            "Default Competencies": [
+              "Pursue certifications like Security+, CEH or similar.",
+              "Stay aligned with ethical hacking and compliance policies.",
+              "Participate in peer knowledge-sharing sessions."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "50%",
+        "Expected Competancy": [
+          {
+            "Title": "Secure Code & Compliance",
+            "Weightage": "25%",
+            "Competencies": [
+              "Develop applications adhering to OWASP guidelines.",
+              "Implement authentication and authorization controls effectively.",
+              "Perform vulnerability scans and remediate findings.",
+              "Ensure compliance with security regulations.",
+              "Support incident response activities."
+            ],
+            "Default Competencies": [
+              "Develop applications adhering to OWASP guidelines.",
+              "Ensure compliance with security regulations."
+            ]
+          },
+          {
+            "Title": "Monitoring & Threat Detection",
+            "Weightage": "25%",
+            "Competencies": [
+              "Configure and maintain security monitoring tools.",
+              "Analyze logs for potential threats and anomalies.",
+              "Assist in penetration testing and remediation.",
+              "Support cloud and infrastructure security measures.",
+              "Develop and maintain security documentation."
+            ],
+            "Default Competencies": [
+              "Analyze logs for potential threats and anomalies."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Product Security",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understand the product architecture from a security perspective.",
+              "Implement security best practices in new features.",
+              "Review dependencies for known vulnerabilities.",
+              "Integrate security considerations in early design stages.",
+              "Support threat modeling activities."
+            ],
+            "Default Competencies": [
+              "Implement security best practices in new features.",
+              "Support threat modeling activities."
+            ]
+          },
+          {
+            "Title": "User Data Protection",
+            "Weightage": "8%",
+            "Competencies": [
+              "Understand and ensure compliance with data privacy laws.",
+              "Implement encryption and secure data storage practices.",
+              "Support secure handling of user credentials and data.",
+              "Contribute to privacy impact assessments.",
+              "Assist in user consent and compliance documentation."
+            ],
+            "Default Competencies": [
+              "Implement encryption and secure data storage practices.",
+              "Support secure handling of user credentials and data.",
+              "Contribute to privacy impact assessments."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Track emerging cyber threats and mitigation strategies.",
+              "Stay informed on new security tools and frameworks.",
+              "Share security updates with team members regularly.",
+              "Explore zero-trust and cloud security trends.",
+              "Engage in external security forums or events."
+            ],
+            "Default Competencies": [
+              "Track emerging cyber threats and mitigation strategies.",
+              "Explore zero-trust and cloud security trends."
+            ]
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Understand competitors’ security capabilities.",
+              "Identify differentiators based on secure architecture.",
+              "Benchmark product compliance with industry peers.",
+              "Evaluate industry breach case studies for learning.",
+              "Provide inputs for product security strategy."
+            ],
+            "Default Competencies": [
+              "Identify differentiators based on secure architecture."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

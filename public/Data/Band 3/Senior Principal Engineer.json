@@ -1,0 +1,121 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 4 - Senior Principal",
+  "Role": "Senior Principal Engineer",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Strategic Leadership & Influence",
+            "Weightage": "8%",
+            "Competencies": [
+              "Demonstrate visionary leadership and guide cross-functional engineering teams.",
+              "Influence organizational culture towards innovation and excellence.",
+              "Take ownership of complex, multi-year engineering strategies.",
+              "Mentor senior engineering leaders and architects across departments.",
+              "Model resilience, ethical leadership, and decision-making under ambiguity."
+            ]
+          },
+          {
+            "Title": "Personal Growth & Reflection",
+            "Weightage": "7%",
+            "Competencies": [
+              "Regularly assess personal leadership effectiveness through feedback and reflection.",
+              "Invest in executive coaching, advanced leadership programs, or global certifications.",
+              "Engage in thought leadership activities (conferences, publications).",
+              "Adapt personal leadership style to evolving organizational needs.",
+              "Maintain balance to ensure sustainable leadership performance."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "35%",
+        "Expected Competancy": [
+          {
+            "Title": "Enterprise Architecture & Technology Strategy",
+            "Weightage": "20%",
+            "Competencies": [
+              "Define long-term technology vision and architecture roadmap.",
+              "Drive adoption of emerging technologies aligned with business goals.",
+              "Ensure architectural decisions support scalability and resiliency.",
+              "Guide technical due diligence for acquisitions and large-scale initiatives.",
+              "Champion standards for system interoperability and compliance."
+            ]
+          },
+          {
+            "Title": "Innovation & Technical Excellence",
+            "Weightage": "15%",
+            "Competencies": [
+              "Identify breakthrough technologies to maintain competitive edge.",
+              "Foster a culture of engineering innovation and experimentation.",
+              "Oversee advanced R&D initiatives and prototypes.",
+              "Advocate for continuous improvement in engineering processes.",
+              "Represent the company in global tech forums and innovation councils."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "30%",
+        "Expected Competancy": [
+          {
+            "Title": "Portfolio & Ecosystem Thinking",
+            "Weightage": "15%",
+            "Competencies": [
+              "Influence product portfolio strategy and prioritization.",
+              "Assess product alignment with long-term market needs.",
+              "Guide product design for global scalability and compliance.",
+              "Integrate partner and ecosystem capabilities into product strategy.",
+              "Balance innovation with operational stability and risk management."
+            ]
+          },
+          {
+            "Title": "Customer-Centric Innovation",
+            "Weightage": "15%",
+            "Competencies": [
+              "Promote deep customer empathy and experience-driven design.",
+              "Align product innovation with customer success metrics.",
+              "Engage directly with strategic customers for feedback and co-creation.",
+              "Translate complex user needs into future-proof product features.",
+              "Support CXOs in customer briefings and technical partnership discussions."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry & Competitive Landscape",
+            "Weightage": "10%",
+            "Competencies": [
+              "Anticipate global market shifts impacting technology strategies.",
+              "Monitor competitors’ technology roadmaps and innovation patterns.",
+              "Build external partnerships for strategic market advantage.",
+              "Analyze emerging regulatory or economic trends affecting business.",
+              "Ensure engineering strategy supports market differentiation."
+            ]
+          },
+          {
+            "Title": "Thought Leadership & Advocacy",
+            "Weightage": "10%",
+            "Competencies": [
+              "Represent company technology vision at global industry events.",
+              "Publish thought leadership content and patents.",
+              "Advocate for company solutions within government and industry bodies.",
+              "Foster external collaborations with academia and research labs.",
+              "Promote engineering excellence in media and professional networks."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

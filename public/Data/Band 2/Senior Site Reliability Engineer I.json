@@ -1,0 +1,121 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 2 - Intermediate",
+  "Role": "Senior Site Reliability Engineer I",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Leadership",
+            "Weightage": "12%",
+            "Competencies": [
+              "Lead SRE initiatives and guide incident response.",
+              "Mentor junior SRE team members.",
+              "Promote a culture of reliability and resilience.",
+              "Take ownership of reliability strategies.",
+              "Proactively identify risks to system availability."
+            ]
+          },
+          {
+            "Title": "Self-Development",
+            "Weightage": "8%",
+            "Competencies": [
+              "Pursue certifications in reliability and cloud ops.",
+              "Engage with SRE communities and conferences.",
+              "Stay updated on incident management frameworks.",
+              "Adopt advanced observability practices.",
+              "Enhance automation skills for reliability improvement."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "50%",
+        "Expected Competancy": [
+          {
+            "Title": "System Reliability Engineering",
+            "Weightage": "25%",
+            "Competencies": [
+              "Design systems with reliability as a core goal.",
+              "Set and monitor SLOs and SLIs.",
+              "Conduct chaos engineering experiments.",
+              "Implement auto-remediation strategies.",
+              "Optimize on-call and incident management processes."
+            ]
+          },
+          {
+            "Title": "Monitoring & Incident Response",
+            "Weightage": "25%",
+            "Competencies": [
+              "Create effective monitoring dashboards.",
+              "Automate alerting and reduce noise.",
+              "Perform root cause analysis and RCA documentation.",
+              "Improve mean-time-to-detection (MTTD) and mean-time-to-resolution (MTTR).",
+              "Conduct post-mortems and reliability reviews."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Product Reliability Awareness",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understand product-specific reliability requirements.",
+              "Collaborate with product teams to design resilient features.",
+              "Identify reliability risks in product changes.",
+              "Implement solutions that enhance customer experience.",
+              "Ensure redundancy for business-critical components."
+            ]
+          },
+          {
+            "Title": "End-User Experience",
+            "Weightage": "8%",
+            "Competencies": [
+              "Evaluate performance impact of reliability solutions.",
+              "Measure customer experience metrics for uptime.",
+              "Propose reliability improvements based on user feedback.",
+              "Ensure smooth rollout of reliability changes.",
+              "Communicate reliability status to stakeholders."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Reliability Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Stay updated on SRE industry practices.",
+              "Adopt chaos engineering and resilience patterns.",
+              "Analyze cloud provider reliability features.",
+              "Evaluate open-source observability solutions.",
+              "Promote modern reliability-driven practices."
+            ]
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Benchmark competitor uptime and SLAs.",
+              "Study reliability case studies in the market.",
+              "Advocate for exceeding industry reliability standards.",
+              "Analyze customer expectations for resilience.",
+              "Position product as reliable and stable."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

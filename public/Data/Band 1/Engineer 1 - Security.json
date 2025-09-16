@@ -1,0 +1,153 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 1 - Foundational",
+  "Role": "Engineer 1 - Security",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "8%",
+            "Competencies": [
+              "Independently manage security-related assigned tasks with minimal supervision.",
+              "Take initiative to identify vulnerabilities and suggest security improvements.",
+              "Actively contribute to discussions on security best practices.",
+              "Participate in internal knowledge-sharing related to security tools and processes.",
+              "Maintain documentation of security processes and workflows."
+            ],
+            "Default Competencies": [
+              "Independently manage security-related assigned tasks with minimal supervision.",
+              "Take initiative to identify vulnerabilities and suggest security improvements."
+            ]
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "7%",
+            "Competencies": [
+              "Keep up to date with security certifications and training modules.",
+              "Seek mentorship from senior security engineers.",
+              "Learn and apply secure coding practices proactively.",
+              "Reflect on personal contributions to security projects and set improvement goals.",
+              "Maintain ethical standards in handling confidential and sensitive information."
+            ],
+            "Default Competencies": [
+              "Keep up to date with security certifications and training modules.",
+              "Learn and apply secure coding practices proactively."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "55%",
+        "Expected Competancy": [
+          {
+            "Title": "Security Engineering",
+            "Weightage": "30%",
+            "Competencies": [
+              "Implement secure coding practices in all development activities.",
+              "Assist in running security scanning tools (static and dynamic).",
+              "Identify vulnerabilities and escalate potential risks quickly.",
+              "Participate in incident response exercises and drills.",
+              "Contribute to implementing access controls and encryption mechanisms."
+            ],
+            "Default Competencies": [
+              "Implement secure coding practices in all development activities.",
+              "Assist in running security scanning tools (static and dynamic)."
+            ]
+          },
+          {
+            "Title": "Tools & Compliance",
+            "Weightage": "25%",
+            "Competencies": [
+              "Use security testing tools (e.g., Burp Suite, Nessus).",
+              "Maintain logs and compliance documentation as required.",
+              "Assist with security audits and regulatory checks.",
+              "Monitor systems for basic intrusion detection alerts.",
+              "Understand data privacy and compliance standards applicable to the product."
+            ],
+            "Default Competencies": [
+              "Use security testing tools (e.g., Burp Suite, Nessus).",
+              "Assist with security audits and regulatory checks."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Security in Features",
+            "Weightage": "12%",
+            "Competencies": [
+              "Identify security implications of new product features.",
+              "Ensure features meet the defined security acceptance criteria.",
+              "Work with developers to integrate security controls.",
+              "Test security aspects as part of feature validation.",
+              "Document potential security concerns for each module."
+            ],
+            "Default Competencies": [
+              "Identify security implications of new product features.",
+              "Ensure features meet the defined security acceptance criteria."
+            ]
+          },
+          {
+            "Title": "Risk Perspective",
+            "Weightage": "8%",
+            "Competencies": [
+              "Participate in risk assessment workshops.",
+              "Identify risks and communicate mitigation strategies.",
+              "Collaborate with QA and DevOps for secure deployment pipelines.",
+              "Understand how product vulnerabilities impact user trust.",
+              "Suggest security improvements based on risk analysis."
+            ],
+            "Default Competencies": [
+              "Participate in risk assessment workshops.",
+              "Identify risks and communicate mitigation strategies."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Security Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Track emerging cyber threats and vulnerabilities.",
+              "Share threat intelligence within the team.",
+              "Experiment with new security tools and practices.",
+              "Understand security-related regulatory changes.",
+              "Benchmark security practices against industry leaders."
+            ],
+            "Default Competencies": [
+              "Track emerging cyber threats and vulnerabilities.",
+              "Share threat intelligence within the team."
+            ]
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Understand competitors’ approach to security features.",
+              "Identify differentiators in product security posture.",
+              "Evaluate impact of security breaches in similar products.",
+              "Stay aware of new compliance benchmarks in the industry.",
+              "Suggest ideas for strengthening product security positioning."
+            ],
+            "Default Competencies": [
+              "Understand competitors’ approach to security features.",
+              "Identify differentiators in product security posture."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

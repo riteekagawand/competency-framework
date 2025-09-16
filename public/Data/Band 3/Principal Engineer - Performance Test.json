@@ -1,0 +1,121 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 3 - Principal",
+  "Role": "Principal Engineer - Performance Test",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Strategic Leadership & Ownership",
+            "Weightage": "12%",
+            "Competencies": [
+              "Own organization-wide performance testing strategy and roadmap.",
+              "Mentor engineers on performance tuning and scalability best practices.",
+              "Build a culture of proactive performance engineering across teams.",
+              "Drive post-incident analysis for performance-related outages.",
+              "Advocate for performance as a key product quality attribute."
+            ]
+          },
+          {
+            "Title": "Continuous Learning & Growth",
+            "Weightage": "8%",
+            "Competencies": [
+              "Stay updated on emerging performance testing tools and techniques.",
+              "Lead knowledge sessions on performance metrics and analysis.",
+              "Participate in advanced certification programs in performance engineering.",
+              "Contribute to research and publish findings on scalability optimization.",
+              "Coach engineers on capacity planning and cloud cost optimization."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "40%",
+        "Expected Competancy": [
+          {
+            "Title": "Performance Testing & Automation",
+            "Weightage": "20%",
+            "Competencies": [
+              "Define enterprise-level performance testing frameworks.",
+              "Design stress, load, endurance, and spike test strategies.",
+              "Integrate performance tests into CI/CD pipelines.",
+              "Collaborate on infrastructure provisioning for performance testing.",
+              "Drive adoption of automated performance regression testing."
+            ]
+          },
+          {
+            "Title": "Performance Monitoring & Optimization",
+            "Weightage": "20%",
+            "Competencies": [
+              "Architect solutions to monitor system health and SLAs in real-time.",
+              "Identify and resolve performance bottlenecks across applications.",
+              "Implement observability standards using tools like Prometheus, Grafana, or New Relic.",
+              "Establish baseline metrics and SLAs for every major product component.",
+              "Partner with product teams to influence design decisions for scalability."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "25%",
+        "Expected Competancy": [
+          {
+            "Title": "Product Scalability & Reliability",
+            "Weightage": "15%",
+            "Competencies": [
+              "Ensure product roadmap includes performance and scalability milestones.",
+              "Collaborate with architects to embed performance in the design phase.",
+              "Develop capacity planning strategies for future growth.",
+              "Anticipate workload changes and ensure systems are ready for scale.",
+              "Incorporate customer feedback into performance improvement initiatives."
+            ]
+          },
+          {
+            "Title": "User Experience & Performance",
+            "Weightage": "10%",
+            "Competencies": [
+              "Ensure UI and API response times meet defined SLAs.",
+              "Analyze end-user behavior to optimize perceived performance.",
+              "Identify and address performance pain points impacting UX.",
+              "Influence business decisions with data-driven performance metrics.",
+              "Champion customer trust through transparent performance reporting."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends & Best Practices",
+            "Weightage": "8%",
+            "Competencies": [
+              "Stay updated on high-scale architecture patterns in the industry.",
+              "Benchmark performance standards against competitors.",
+              "Evaluate emerging technologies for performance improvements.",
+              "Contribute to performance engineering open-source tools or communities.",
+              "Bring insights from industry to influence product architecture."
+            ]
+          },
+          {
+            "Title": "Technology Evangelism",
+            "Weightage": "7%",
+            "Competencies": [
+              "Represent the company at performance engineering conferences.",
+              "Publish thought leadership on scaling and performance reliability.",
+              "Foster cross-team collaboration on scalability initiatives.",
+              "Develop vendor and partner ecosystems to enhance performance testing capabilities.",
+              "Promote culture of performance ownership across business units."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

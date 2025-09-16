@@ -1,0 +1,121 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 2 - Advanced",
+  "Role": "Senior Engineer II - CloudOps",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Leadership",
+            "Weightage": "8%",
+            "Competencies": [
+              "Lead cloud infrastructure optimization initiatives.",
+              "Mentor cloud engineers and set governance practices.",
+              "Drive adoption of best practices in cost and performance.",
+              "Take accountability for cloud availability and security.",
+              "Foster a culture of proactive risk management."
+            ]
+          },
+          {
+            "Title": "Continuous Learning",
+            "Weightage": "7%",
+            "Competencies": [
+              "Keep updated with cloud platform changes and features.",
+              "Pursue advanced certifications in cloud platforms.",
+              "Promote continuous improvement and team knowledge growth.",
+              "Experiment with new cloud services and innovations.",
+              "Share knowledge through workshops and technical sessions."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "50%",
+        "Expected Competancy": [
+          {
+            "Title": "Cloud Infrastructure Management",
+            "Weightage": "30%",
+            "Competencies": [
+              "Design scalable and resilient cloud architectures.",
+              "Implement automation for provisioning and scaling.",
+              "Monitor cloud resource utilization and costs.",
+              "Ensure compliance with security and governance policies.",
+              "Plan disaster recovery and business continuity strategies."
+            ]
+          },
+          {
+            "Title": "Cloud Security & Compliance",
+            "Weightage": "20%",
+            "Competencies": [
+              "Implement identity and access management best practices.",
+              "Monitor for vulnerabilities and security incidents.",
+              "Ensure compliance with data and privacy regulations.",
+              "Secure APIs and workloads in the cloud environment.",
+              "Establish regular security audits and reporting."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Product-Centric Cloud Design",
+            "Weightage": "12%",
+            "Competencies": [
+              "Align cloud resources to product performance goals.",
+              "Support rapid scaling during demand spikes.",
+              "Collaborate with developers to optimize workloads.",
+              "Map cloud costs to product revenue models.",
+              "Design cloud architecture to meet SLAs."
+            ]
+          },
+          {
+            "Title": "Customer Impact",
+            "Weightage": "8%",
+            "Competencies": [
+              "Ensure cloud choices enhance customer experience.",
+              "Minimize downtime and latency through design choices.",
+              "Monitor customer-facing metrics impacted by cloud usage.",
+              "Respond quickly to client escalations related to hosting.",
+              "Support global customer needs through multi-region design."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "8%",
+            "Competencies": [
+              "Evaluate emerging cloud services and architectures.",
+              "Adopt industry-leading cost optimization techniques.",
+              "Benchmark against hyperscaler best practices.",
+              "Explore multi-cloud and hybrid architectures.",
+              "Promote sustainability in cloud resource usage."
+            ]
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "7%",
+            "Competencies": [
+              "Analyze competitor cloud infrastructure strategies.",
+              "Evaluate differences in uptime, cost, and scaling models.",
+              "Adopt features to differentiate based on cloud performance.",
+              "Benchmark compliance and security levels with peers.",
+              "Integrate learnings into CloudOps strategy."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

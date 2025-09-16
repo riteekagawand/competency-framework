@@ -1,0 +1,121 @@
+{
+  "Department": "Engineering - Enterprise",
+  "Level": "Band 6 - Engineering Fellow",
+  "Role": "Engineering Fellow",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Visionary Leadership",
+            "Weightage": "8%",
+            "Competencies": [
+              "Define and influence enterprise-wide technology direction.",
+              "Mentor senior engineering leaders and fellows.",
+              "Model innovation-driven culture and mindset.",
+              "Set benchmarks for technical excellence across the company.",
+              "Champion diversity and inclusion in engineering innovation."
+            ]
+          },
+          {
+            "Title": "Continuous Growth & Reflection",
+            "Weightage": "7%",
+            "Competencies": [
+              "Engage in global innovation leadership forums.",
+              "Refine strategic leadership capabilities continually.",
+              "Develop advanced thought leadership publications.",
+              "Seek feedback from board-level and external experts.",
+              "Commit to lifelong learning and cutting-edge research."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "45%",
+        "Expected Competancy": [
+          {
+            "Title": "Enterprise Technical Strategy",
+            "Weightage": "25%",
+            "Competencies": [
+              "Shape technology roadmaps across all business units.",
+              "Guide architecture and product innovation at scale.",
+              "Drive emerging tech adoption (AI/ML, quantum, edge).",
+              "Develop frameworks for long-term platform sustainability.",
+              "Advise on billion-dollar transformation initiatives."
+            ]
+          },
+          {
+            "Title": "Innovation & Research",
+            "Weightage": "20%",
+            "Competencies": [
+              "Lead enterprise research partnerships with academia and industry.",
+              "Sponsor high-impact technology patents and intellectual property.",
+              "Evaluate and incubate breakthrough innovations.",
+              "Establish global R&D collaborations and innovation hubs.",
+              "Build ecosystems for continuous technical experimentation."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Enterprise Business Alignment",
+            "Weightage": "10%",
+            "Competencies": [
+              "Ensure engineering strategies align with corporate goals.",
+              "Influence multi-year product and platform strategies.",
+              "Balance innovation with cost optimization and risk management.",
+              "Enable product scalability and resilience globally.",
+              "Focus on customer and business outcomes in all technical decisions."
+            ]
+          },
+          {
+            "Title": "Customer & Market Impact",
+            "Weightage": "10%",
+            "Competencies": [
+              "Ensure innovations enhance customer experience and trust.",
+              "Drive customer-centric platform capabilities.",
+              "Translate market feedback into enterprise technology design.",
+              "Support strategic customer engagements and partnerships.",
+              "Enable long-term market differentiation through technology."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Market Intelligence & Trends",
+            "Weightage": "10%",
+            "Competencies": [
+              "Anticipate and influence global tech disruptions.",
+              "Benchmark enterprise capability vs global peers.",
+              "Lead evaluation of emerging ecosystems and markets.",
+              "Shape long-term technology investments proactively.",
+              "Translate trends into actionable enterprise initiatives."
+            ]
+          },
+          {
+            "Title": "Thought Leadership & Ecosystem Impact",
+            "Weightage": "10%",
+            "Competencies": [
+              "Publish globally recognized technology research.",
+              "Represent enterprise at top industry forums and boards.",
+              "Drive cross-industry technology standards and innovation coalitions.",
+              "Promote ethical and sustainable innovation at scale.",
+              "Establish company as a global technology thought leader."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 1 - Foundational",
+  "Role": "Engineer 1 - Cloud Ops",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "8%",
+            "Competencies": [
+              "Take responsibility for assigned cloud operations tasks.",
+              "Actively engage in troubleshooting and problem resolution.",
+              "Document and share knowledge of cloud configurations.",
+              "Participate in post-incident reviews and suggest improvements.",
+              "Proactively monitor cloud environments and raise alerts."
+            ],
+            "Default Competencies": [
+              "Take responsibility for assigned cloud operations tasks.",
+              "Actively engage in troubleshooting and problem resolution.",
+              "Proactively monitor cloud environments and raise alerts."
+            ]
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "7%",
+            "Competencies": [
+              "Upskill in cloud technologies (AWS, Azure, or GCP).",
+              "Participate in internal or external cloud certifications.",
+              "Seek mentorship for advanced cloud operations knowledge.",
+              "Contribute to cloud cost optimization initiatives.",
+              "Stay updated on cloud security and compliance standards."
+            ],
+            "Default Competencies": [
+              "Upskill in cloud technologies (AWS, Azure, or GCP).",
+              "Participate in internal or external cloud certifications."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "55%",
+        "Expected Competancy": [
+          {
+            "Title": "Cloud Infrastructure",
+            "Weightage": "30%",
+            "Competencies": [
+              "Provision and manage virtual machines and storage.",
+              "Understand cloud networking fundamentals.",
+              "Perform backups and recovery operations.",
+              "Monitor resource utilization and optimize costs.",
+              "Document configurations for repeatability."
+            ],
+            "Default Competencies": [
+              "Provision and manage virtual machines and storage.",
+              "Monitor resource utilization and optimize costs.",
+              "Perform backups and recovery operations."
+            ]
+          },
+          {
+            "Title": "Automation & Monitoring",
+            "Weightage": "25%",
+            "Competencies": [
+              "Use automation scripts for cloud operations.",
+              "Set up monitoring and alerting for cloud systems.",
+              "Respond to cloud environment incidents.",
+              "Ensure uptime and reliability of cloud resources.",
+              "Work on cloud migration support tasks."
+            ],
+            "Default Competencies": [
+              "Use automation scripts for cloud operations.",
+              "Set up monitoring and alerting for cloud systems.",
+              "Respond to cloud environment incidents.",
+              "Ensure uptime and reliability of cloud resources."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Deployment Support",
+            "Weightage": "12%",
+            "Competencies": [
+              "Ensure product deployments run smoothly on cloud platforms.",
+              "Understand environment requirements for product modules.",
+              "Collaborate with engineering for resource scaling.",
+              "Support continuous integration with cloud services.",
+              "Troubleshoot product-related infrastructure issues."
+            ],
+            "Default Competencies": [
+              "Ensure product deployments run smoothly on cloud platforms.",
+              "Support continuous integration with cloud services."
+            ]
+          },
+          {
+            "Title": "Operational Readiness",
+            "Weightage": "8%",
+            "Competencies": [
+              "Document operational processes and best practices.",
+              "Prepare for release cycles with proper scaling and failover.",
+              "Ensure product SLAs are met for availability.",
+              "Participate in capacity planning sessions.",
+              "Provide feedback on performance optimization opportunities."
+            ],
+            "Default Competencies": [
+              "Document operational processes and best practices.",
+              "Ensure product SLAs are met for availability."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Research cloud operations innovations.",
+              "Understand managed services offerings and trends.",
+              "Evaluate serverless and microservices architectures.",
+              "Monitor emerging best practices for cloud cost efficiency.",
+              "Share insights on evolving cloud regulations."
+            ],
+            "Default Competencies": [
+              "Research cloud operations innovations."
+            ]
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Benchmark cloud uptime and reliability with competitors.",
+              "Analyze how competitors handle cloud cost optimization.",
+              "Understand market direction for hybrid/multi-cloud models.",
+              "Identify competitive advantages in automation adoption.",
+              "Suggest improvements based on market best practices."
+            ],
+            "Default Competencies": [
+              "Benchmark cloud uptime and reliability with competitors.",
+              "Analyze how competitors handle cloud cost optimization."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

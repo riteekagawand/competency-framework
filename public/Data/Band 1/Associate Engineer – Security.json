@@ -1,0 +1,153 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 1 - Foundational",
+  "Role": "Associate Engineer - Security",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Self-Awareness & Professionalism",
+            "Weightage": "12%",
+            "Competencies": [
+              "Demonstrates integrity and adheres to organizational security policies.",
+              "Understands own strengths and areas for development in security skills.",
+              "Manages workload effectively and maintains confidentiality.",
+              "Builds positive work relationships and respects diversity.",
+              "Displays accountability in assigned security-related tasks."
+            ],
+            "Default Competencies": [
+              "Demonstrates integrity and adheres to organizational security policies.",
+              "Manages workload effectively and maintains confidentiality."
+            ]
+          },
+          {
+            "Title": "Continuous Learning",
+            "Weightage": "8%",
+            "Competencies": [
+              "Takes ownership of developing security knowledge.",
+              "Seeks feedback from peers and seniors to improve security practices.",
+              "Keeps up-to-date with emerging security trends and threats.",
+              "Learns from security incidents and shares lessons learned.",
+              "Engages in relevant certifications or skill-building programs."
+            ],
+            "Default Competencies": [
+              "Takes ownership of developing security knowledge.",
+              "Keeps up-to-date with emerging security trends and threats."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "50%",
+        "Expected Competancy": [
+          {
+            "Title": "Security Fundamentals",
+            "Weightage": "25%",
+            "Competencies": [
+              "Understands basic security principles and compliance requirements.",
+              "Applies secure coding practices in software development.",
+              "Identifies and mitigates basic security vulnerabilities.",
+              "Assists in implementing access controls and security monitoring tools.",
+              "Follows organizational security policies and procedures consistently."
+            ],
+            "Default Competencies": [
+              "Understands basic security principles and compliance requirements.",
+              "Identifies and mitigates basic security vulnerabilities."
+            ]
+          },
+          {
+            "Title": "Incident Handling & Tools",
+            "Weightage": "25%",
+            "Competencies": [
+              "Supports basic incident detection and response activities.",
+              "Uses security tools (e.g., vulnerability scanners, firewalls) effectively.",
+              "Participates in audits and compliance-related documentation.",
+              "Tracks and documents security events accurately.",
+              "Assists in conducting risk assessments and threat modeling."
+            ],
+            "Default Competencies": [
+              "Supports basic incident detection and response activities.",
+              "Uses security tools (e.g., vulnerability scanners, firewalls) effectively."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Product Security Awareness",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understands how product features may impact security posture.",
+              "Assists in ensuring product releases meet security standards.",
+              "Identifies basic product security risks and escalates appropriately.",
+              "Supports secure configuration and deployment of products.",
+              "Understands integration of security in the product lifecycle."
+            ],
+            "Default Competencies": [
+              "Understands how product features may impact security posture.",
+              "Assists in ensuring product releases meet security standards."
+            ]
+          },
+          {
+            "Title": "Customer Security Orientation",
+            "Weightage": "8%",
+            "Competencies": [
+              "Understands customer data privacy and compliance requirements.",
+              "Supports addressing user security concerns effectively.",
+              "Collaborates with support teams to resolve security-related issues.",
+              "Ensures security measures align with customer expectations.",
+              "Demonstrates awareness of compliance requirements (e.g., GDPR)."
+            ],
+            "Default Competencies": [
+              "Understands customer data privacy and compliance requirements.",
+              "Supports addressing user security concerns effectively."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Security Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Keeps track of emerging cybersecurity threats and tools.",
+              "Shares relevant security updates with the team.",
+              "Participates in internal security knowledge-sharing sessions.",
+              "Understands competitor approaches to security practices.",
+              "Monitors regulatory changes impacting security."
+            ],
+            "Default Competencies": [
+              "Keeps track of emerging cybersecurity threats and tools.",
+              "Shares relevant security updates with the team."
+            ]
+          },
+          {
+            "Title": "Business Value Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Understands the importance of security to business reputation.",
+              "Balances security needs with business priorities.",
+              "Considers cost-effectiveness of security controls.",
+              "Communicates security’s business impact when required.",
+              "Aligns security work to organizational strategic goals."
+            ],
+            "Default Competencies": [
+              "Understands the importance of security to business reputation.",
+              "Balances security needs with business priorities."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

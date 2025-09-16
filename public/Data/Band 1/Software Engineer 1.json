@@ -1,0 +1,152 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 1 - Foundational",
+  "Role": "Software Engineer 1",
+  "Manager": "Principal Engineer - Software",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "8%",
+            "Competencies": [
+              "Independently manage assigned modules or features with minimal supervision.",
+              "Take initiative to identify and fix small bugs or performance issues without being asked.",
+              "Actively contribute ideas for process and workflow improvements.",
+              "Participate and sometimes lead small internal knowledge-sharing sessions.",
+              "Track and report progress proactively, ensuring visibility to stakeholders."
+            ],
+            "Default Competencies": [
+              "Independently manage assigned modules or features with minimal supervision.",
+              "Actively contribute ideas for process and workflow improvements."
+            ]
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "7%",
+            "Competencies": [
+              "Continuously enhance knowledge of programming languages and frameworks used.",
+              "Seek mentorship opportunities while actively mentoring interns or new associates.",
+              "Maintain awareness of personal productivity metrics and act on feedback.",
+              "Pursue professional certifications or advanced coursework relevant to the role.",
+              "Stay aware of ethical responsibilities and compliance requirements."
+            ],
+            "Default Competencies": [
+              "Continuously enhance knowledge of programming languages and frameworks used."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "55%",
+        "Expected Competancy": [
+          {
+            "Title": "Software Development & Code Quality",
+            "Weightage": "30%",
+            "Competencies": [
+              "Design, develop, and deliver efficient, reusable, and reliable code for assigned modules.",
+              "Write integration and functional tests beyond unit testing scope.",
+              "Follow continuous integration best practices and resolve pipeline issues independently.",
+              "Use profiling tools to identify performance bottlenecks and propose solutions.",
+              "Perform peer code reviews and provide constructive feedback."
+            ],
+            "Default Competencies": [
+              "Design, develop, and deliver efficient, reusable, and reliable code for assigned modules.",
+              "Perform peer code reviews and provide constructive feedback."
+            ]
+          },
+          {
+            "Title": "System Understanding & DevOps",
+            "Weightage": "25%",
+            "Competencies": [
+              "Understand deployment processes and assist in maintaining CI/CD workflows.",
+              "Work with containerization technologies like Docker for development environments.",
+              "Diagnose and resolve environment configuration issues.",
+              "Handle basic database operations (queries, schema updates, indexing basics).",
+              "Automate repetitive tasks using scripts or tooling where applicable."
+            ],
+            "Default Competencies": [
+              "Understand deployment processes and assist in maintaining CI/CD workflows.",
+              "Automate repetitive tasks using scripts or tooling where applicable."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Feature Ownership",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understand product modules deeply and manage assigned features end-to-end.",
+              "Clarify and refine feature requirements with product managers or business analysts.",
+              "Evaluate technical feasibility of features and suggest alternatives.",
+              "Ensure feature delivery aligns with user experience and business goals.",
+              "Track defects related to owned features and prioritize fixes."
+            ],
+            "Default Competencies": [
+              "Understand product modules deeply and manage assigned features end-to-end."
+            ]
+          },
+          {
+            "Title": "User Perspective",
+            "Weightage": "8%",
+            "Competencies": [
+              "Contribute to usability and accessibility considerations in assigned work.",
+              "Analyze user feedback for assigned modules and suggest improvements.",
+              "Work closely with QA to ensure a user-centric quality perspective.",
+              "Participate in product demo sessions and gather real-time feedback.",
+              "Monitor analytics or performance metrics for owned features."
+            ],
+            "Default Competencies": [
+              "Contribute to usability and accessibility considerations in assigned work.",
+              "Analyze user feedback for assigned modules and suggest improvements.",
+              "Monitor analytics or performance metrics for owned features."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Technology & Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Stay updated on advancements in frameworks, libraries, and tools relevant to your work.",
+              "Experiment with new technologies and propose their applicability.",
+              "Understand impact of technology choices on product scalability and maintainability.",
+              "Share knowledge about new tools or practices in team forums.",
+              "Analyze industry case studies related to software design patterns."
+            ],
+            "Default Competencies": [
+              "Stay updated on advancements in frameworks, libraries, and tools relevant to your work.",
+              "Experiment with new technologies and propose their applicability."
+            ]
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Understand competing products and their key differentiators.",
+              "Analyze performance benchmarks against competitors when relevant.",
+              "Research security, performance, or feature innovations by competitors.",
+              "Stay informed about cost-effective solutions being adopted in the market.",
+              "Identify opportunities to improve product differentiation."
+            ],
+            "Default Competencies": [
+              "Understand competing products and their key differentiators."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

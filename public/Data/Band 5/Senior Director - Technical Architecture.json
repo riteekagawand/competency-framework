@@ -1,0 +1,121 @@
+{
+  "Department": "Engineering - Architecture",
+  "Level": "Band 5 - Senior Director - Technical Architecture",
+  "Role": "Senior Director - Technical Architecture",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Enterprise Technology Vision & Leadership",
+            "Weightage": "8%",
+            "Competencies": [
+              "Set enterprise-wide technology vision and direction.",
+              "Influence board-level technology investment priorities.",
+              "Coach executive technical leaders and architects.",
+              "Build strong technology leadership succession pipeline.",
+              "Drive organizational alignment to innovation strategy."
+            ]
+          },
+          {
+            "Title": "Executive Growth & Influence",
+            "Weightage": "7%",
+            "Competencies": [
+              "Participate in global leadership councils and technology panels.",
+              "Develop strategic partnerships with external thought leaders.",
+              "Champion diversity, equity, and inclusion across technology teams.",
+              "Author global architecture thought leadership papers.",
+              "Continuously refine executive communication and negotiation skills."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "40%",
+        "Expected Competancy": [
+          {
+            "Title": "Enterprise-Wide Architecture Leadership",
+            "Weightage": "20%",
+            "Competencies": [
+              "Oversee enterprise architecture functions across all portfolios.",
+              "Define strategic architecture blueprints for the future state.",
+              "Lead technology roadmaps for multi-billion-dollar programs.",
+              "Ensure alignment to regulatory, security, and global compliance.",
+              "Sponsor innovation and incubation centers for emerging technology."
+            ]
+          },
+          {
+            "Title": "Transformation & Modernization Leadership",
+            "Weightage": "20%",
+            "Competencies": [
+              "Guide end-to-end digital transformation strategy.",
+              "Enable multi-cloud, AI/ML, and edge technology adoption.",
+              "Establish frameworks for sustainable and green IT initiatives.",
+              "Promote reference architectures for reusability enterprise-wide.",
+              "Oversee architecture maturity assessments across business units."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "25%",
+        "Expected Competancy": [
+          {
+            "Title": "Business Growth & Strategic Alignment",
+            "Weightage": "12%",
+            "Competencies": [
+              "Ensure architecture strategy accelerates business growth.",
+              "Influence product portfolio and global solution strategies.",
+              "Balance innovation with operational efficiency at scale.",
+              "Promote cost-optimized architectures without sacrificing performance.",
+              "Ensure technology enablers deliver measurable business value."
+            ]
+          },
+          {
+            "Title": "Customer Advocacy & Trust",
+            "Weightage": "13%",
+            "Competencies": [
+              "Deliver secure and customer-trusted architecture solutions.",
+              "Focus on high-value customer experience capabilities.",
+              "Enable architecture flexibility for changing market demands.",
+              "Build trust with enterprise customers via architecture transparency.",
+              "Champion customer-first policies in technology design."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Market Intelligence & Industry Leadership",
+            "Weightage": "10%",
+            "Competencies": [
+              "Continuously track technology and industry disruption.",
+              "Influence regulatory bodies and standards committees.",
+              "Benchmark and surpass competitor architecture capabilities.",
+              "Develop technology partnerships and alliances.",
+              "Leverage ecosystem insights for strategic advantage."
+            ]
+          },
+          {
+            "Title": "Executive Thought Leadership",
+            "Weightage": "10%",
+            "Competencies": [
+              "Represent enterprise at global technology conferences.",
+              "Publish visionary executive architecture papers.",
+              "Lead industry-wide architecture innovation coalitions.",
+              "Promote sustainable and ethical technology adoption globally.",
+              "Establish company reputation as a top global architecture leader."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 1 - Site Reliability Engineer II",
+  "Role": "Site Reliability Engineer II",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "12%",
+            "Competencies": [
+              "Own the reliability and availability of critical systems.",
+              "Proactively address potential reliability issues.",
+              "Mentor junior engineers in SRE practices.",
+              "Actively participate in incident post-mortems.",
+              "Ensure continuous improvement of operational processes."
+            ],
+            "Default Competencies": [
+              "Own the reliability and availability of critical systems.",
+              "Proactively address potential reliability issues.",
+              "Ensure continuous improvement of operational processes."
+            ]
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "8%",
+            "Competencies": [
+              "Obtain certifications in site reliability or cloud operations.",
+              "Stay updated on SRE tooling advancements.",
+              "Seek feedback on incident response skills.",
+              "Engage in reliability-focused workshops and communities.",
+              "Document learnings and share them with peers."
+            ],
+            "Default Competencies": [
+              "Obtain certifications in site reliability or cloud operations.",
+              "Stay updated on SRE tooling advancements."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "50%",
+        "Expected Competancy": [
+          {
+            "Title": "System Monitoring & Automation",
+            "Weightage": "25%",
+            "Competencies": [
+              "Develop and maintain robust monitoring systems.",
+              "Automate operational tasks for efficiency.",
+              "Implement SLOs, SLAs, and SLIs effectively.",
+              "Integrate observability tools like Grafana or ELK.",
+              "Build automated incident detection mechanisms."
+            ],
+            "Default Competencies": [
+              "Develop and maintain robust monitoring systems.",
+              "Integrate observability tools like Grafana or ELK."
+            ]
+          },
+          {
+            "Title": "Incident & Reliability Engineering",
+            "Weightage": "25%",
+            "Competencies": [
+              "Lead incident response and root cause analysis.",
+              "Design systems for high availability and fault tolerance.",
+              "Contribute to scalability and performance improvements.",
+              "Develop playbooks for common failure scenarios.",
+              "Participate in chaos engineering exercises."
+            ],
+            "Default Competencies": [
+              "Lead incident response and root cause analysis."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "Resilience & Scalability",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understand product architecture reliability goals.",
+              "Ensure reliability during releases and changes.",
+              "Advocate for design changes improving resilience.",
+              "Provide input on capacity planning.",
+              "Track reliability KPIs per release."
+            ],
+            "Default Competencies": [
+              "Understand product architecture reliability goals.",
+              "Track reliability KPIs per release."
+            ]
+          },
+          {
+            "Title": "User Experience",
+            "Weightage": "8%",
+            "Competencies": [
+              "Link reliability metrics with user experience impact.",
+              "Monitor latency and downtime from the end-user perspective.",
+              "Highlight reliability bottlenecks impacting customers.",
+              "Promote practices reducing customer-facing outages.",
+              "Report on user experience metrics related to uptime."
+            ],
+            "Default Competencies": [
+              "Link reliability metrics with user experience impact.",
+              "Highlight reliability bottlenecks impacting customers.",
+              "Report on user experience metrics related to uptime."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Stay updated on reliability engineering practices.",
+              "Engage with SRE community for learning and sharing.",
+              "Explore advances in auto-healing infrastructure.",
+              "Benchmark reliability practices against industry leaders.",
+              "Research emerging observability platforms."
+            ],
+            "Default Competencies": [
+              "Stay updated on reliability engineering practices.",
+              "Explore advances in auto-healing infrastructure."
+            ]
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Understand competitors’ uptime commitments.",
+              "Benchmark service reliability features.",
+              "Evaluate best practices for competitive advantage.",
+              "Provide input on improving reliability KPIs.",
+              "Recommend market-driven reliability innovations."
+            ],
+            "Default Competencies": [
+              "Understand competitors’ uptime commitments."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

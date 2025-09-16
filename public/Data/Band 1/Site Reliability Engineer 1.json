@@ -1,0 +1,153 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 1 - Foundational",
+  "Role": "Site Reliability Engineer 1",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "8%",
+            "Competencies": [
+              "Own uptime and reliability for assigned systems.",
+              "Participate actively in incident response.",
+              "Drive improvements in system observability.",
+              "Document incident resolutions and lessons learned.",
+              "Suggest reliability engineering enhancements."
+            ],
+            "Default Competencies": [
+              "Own uptime and reliability for assigned systems.",
+              "Participate actively in incident response.",
+              "Drive improvements in system observability."
+            ]
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "7%",
+            "Competencies": [
+              "Learn site reliability engineering principles.",
+              "Pursue training in automation and monitoring tools.",
+              "Stay updated on operational excellence practices.",
+              "Develop troubleshooting and performance analysis skills.",
+              "Contribute to internal knowledge-sharing sessions."
+            ],
+            "Default Competencies": [
+              "Pursue training in automation and monitoring tools.",
+              "Develop troubleshooting and performance analysis skills."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "55%",
+        "Expected Competancy": [
+          {
+            "Title": "Monitoring & Incident Response",
+            "Weightage": "30%",
+            "Competencies": [
+              "Set up and maintain system monitoring tools.",
+              "Respond to production incidents quickly and effectively.",
+              "Conduct post-mortems and create prevention plans.",
+              "Optimize alerting systems to reduce false positives.",
+              "Develop automation for incident resolution."
+            ],
+            "Default Competencies": [
+              "Respond to production incidents quickly and effectively.",
+              "Conduct post-mortems and create prevention plans."
+            ]
+          },
+          {
+            "Title": "Reliability Engineering",
+            "Weightage": "25%",
+            "Competencies": [
+              "Implement SRE best practices for scalability and reliability.",
+              "Support performance tuning and optimization efforts.",
+              "Work on infrastructure as code (IaC).",
+              "Assist in disaster recovery planning.",
+              "Promote reliability-focused design principles."
+            ],
+            "Default Competencies": [
+              "Implement SRE best practices for scalability and reliability."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "20%",
+        "Expected Competancy": [
+          {
+            "Title": "System Knowledge",
+            "Weightage": "12%",
+            "Competencies": [
+              "Understand core product architecture and dependencies.",
+              "Assess how changes impact system reliability.",
+              "Ensure SLAs are met for product uptime.",
+              "Collaborate with developers to improve reliability.",
+              "Track and resolve recurring reliability issues."
+            ],
+            "Default Competencies": [
+              "Understand core product architecture and dependencies.",
+              "Track and resolve recurring reliability issues."
+            ]
+          },
+          {
+            "Title": "Customer Impact",
+            "Weightage": "8%",
+            "Competencies": [
+              "Monitor customer-facing services for uptime.",
+              "Prioritize incident resolution based on business impact.",
+              "Communicate system outages proactively.",
+              "Analyze user feedback to identify reliability issues.",
+              "Collaborate with support teams on critical failures."
+            ],
+            "Default Competencies": [
+              "Prioritize incident resolution based on business impact.",
+              "Communicate system outages proactively.",
+              "Collaborate with support teams on critical failures."
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Stay informed on SRE trends and best practices.",
+              "Research emerging automation technologies.",
+              "Understand resilience patterns like chaos engineering.",
+              "Evaluate innovations in observability platforms.",
+              "Share market insights with the reliability team."
+            ],
+            "Default Competencies": [
+              "Stay informed on SRE trends and best practices.",
+              "Understand resilience patterns like chaos engineering."
+            ]
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Benchmark SLAs and incident response times with competitors.",
+              "Evaluate competitor approaches to reliability engineering.",
+              "Monitor industry use of advanced fault tolerance systems.",
+              "Suggest improvements based on external reliability metrics.",
+              "Document competitive uptime benchmarks."
+            ],
+            "Default Competencies": [
+              "Benchmark SLAs and incident response times with competitors."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

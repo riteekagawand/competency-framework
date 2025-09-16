@@ -1,0 +1,129 @@
+{
+  "Department": "Engineering",
+  "Level": "Band 1 - Foundational",
+  "Role": "Associate Engineer - Cloud Ops",
+  "Competency Framework": {
+    "Goal Areas": [
+      {
+        "Name": "Know your Self",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Ownership & Initiative",
+            "Weightage": "8%",
+            "Competencies": [
+              "Take ownership of assigned cloud infrastructure tasks.",
+              "Proactively communicate system issues and resolutions.",
+              "Participate actively in team sync-ups and operations calls.",
+              "Volunteer to work on challenging cloud operational issues.",
+              "Document cloud tasks and incidents clearly."
+            ],
+            "Default Competencies": 3
+          },
+          {
+            "Title": "Self-Growth",
+            "Weightage": "7%",
+            "Competencies": [
+              "Learn new cloud services and features proactively.",
+              "Seek feedback to improve monitoring and troubleshooting skills.",
+              "Stay updated with certifications on AWS/Azure/GCP.",
+              "Participate in internal learning sessions on cloud practices.",
+              "Understand and follow security and compliance guidelines."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      },
+      {
+        "Name": "Know your Craft",
+        "TotalWeightage": "60%",
+        "Expected Competancy": [
+          {
+            "Title": "Cloud Infrastructure Management",
+            "Weightage": "35%",
+            "Competencies": [
+              "Monitor and maintain cloud resources and services.",
+              "Work with cloud-native monitoring tools for alerts and performance.",
+              "Assist in provisioning and scaling of resources.",
+              "Apply tagging, cost-optimization, and security best practices.",
+              "Document and follow SOPs for cloud operations."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Automation & Security",
+            "Weightage": "25%",
+            "Competencies": [
+              "Automate cloud resource provisioning using IaC tools like Terraform.",
+              "Implement backup and recovery processes.",
+              "Assist in security compliance audits and checks.",
+              "Work with CI/CD pipelines for cloud deployments.",
+              "Collaborate with DevOps for automation tasks."
+            ],
+            "Default Competencies": 3
+          }
+        ]
+      },
+      {
+        "Name": "Know your Product",
+        "TotalWeightage": "15%",
+        "Expected Competancy": [
+          {
+            "Title": "Cloud Hosting Knowledge",
+            "Weightage": "10%",
+            "Competencies": [
+              "Understand the hosting and scaling needs of the product.",
+              "Monitor product-specific cloud performance metrics.",
+              "Coordinate with developers for environment needs.",
+              "Support release cycles with environment preparation.",
+              "Understand cloud cost implications of product features."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Service Continuity",
+            "Weightage": "5%",
+            "Competencies": [
+              "Participate in disaster recovery drills.",
+              "Assist in planning high availability solutions.",
+              "Understand SLA and uptime objectives.",
+              "Document incidents and response actions.",
+              "Assist in improving incident response times."
+            ],
+            "Default Competencies": 3
+          }
+        ]
+      },
+      {
+        "Name": "Know your Market",
+        "TotalWeightage": "10%",
+        "Expected Competancy": [
+          {
+            "Title": "Industry Trends",
+            "Weightage": "5%",
+            "Competencies": [
+              "Track emerging cloud technologies and services.",
+              "Explore cost optimization trends.",
+              "Follow cloud vendor updates and new offerings.",
+              "Understand multi-cloud and hybrid cloud concepts.",
+              "Share relevant industry advancements with the team."
+            ],
+            "Default Competencies": 2
+          },
+          {
+            "Title": "Competitive Awareness",
+            "Weightage": "5%",
+            "Competencies": [
+              "Understand cloud adoption trends in similar products.",
+              "Research competitor cloud performance benchmarks.",
+              "Track cloud provider pricing models.",
+              "Understand evolving security practices in cloud.",
+              "Share optimization suggestions based on research."
+            ],
+            "Default Competencies": 2
+          }
+        ]
+      }
+    ]
+  }
+}
