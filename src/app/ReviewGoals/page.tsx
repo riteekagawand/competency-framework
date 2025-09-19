@@ -38,6 +38,8 @@ export default function ReviewGoalsPage() {
     "Volunteer for a community service activity.",
     "Deliver a presentation at an internal knowledge-sharing session.",
   ]);
+  const [showApproveDialog, setShowApproveDialog] = useState(false);
+  const [editableLevels, setEditableLevels] = useState<Record<string, number>>({});
 
   useEffect(() => {
     const fetchGoals = async () => {
@@ -74,19 +76,69 @@ export default function ReviewGoalsPage() {
       const { category, defaultVals, tooltips, groupMap } =
         mapJsonToSpider(framework);
 
-      const selfVals = category.map(
-        (c: any) =>
-          entry.goals.Changed?.[c.name] ?? entry.goals.Default?.[c.name] ?? 0
+      const selfVals = category.map((c: any) =>
+        entry.goals.Changed?.[c.name] ?? entry.goals.Default?.[c.name] ?? 0,
       );
 
       const baseDefaultVals = category.map(
         (c: any) => entry.goals.Default?.[c.name] ?? 0
       );
 
-      const approvedVals =
-        entry.status === "Approved"
-          ? selfVals
-          : new Array(category.length).fill(0);
+      // Fetch approved values for this user from approvedGoals
+      let approvedVals: number[] = new Array(category.length).fill(0);
+      try {
+        const approvedRes = await fetch(`/api/getApprovedGoals?sourceId=${encodeURIComponent(entry._id)}`);
+        if (approvedRes.ok) {
+          const approvedList = await approvedRes.json();
+          // Prefer exact user match
+          const norm = (s: string) => s?.toString().trim().toLowerCase().replace(/\u2013|\u2014|–|—/g, "-");
+          let approvedDoc = Array.isArray(approvedList)
+            ? approvedList[0]
+            : null;
+          if (!approvedDoc && Array.isArray(approvedList)) {
+            // Fallback by normalized role/department/level
+            approvedDoc = approvedList.find(
+              (g: any) =>
+                norm(g.role) === norm(entry.role) &&
+                norm(g.department) === norm(entry.department) &&
+                norm(g.level) === norm(entry.level),
+            ) || approvedList[0];
+          }
+          if (approvedDoc && approvedDoc.goals) {
+            const changed = approvedDoc.goals?.Changed ?? {};
+            const defaults = approvedDoc.goals?.Default ?? {};
+            const normChanged: Record<string, number> = {};
+            const normDefault: Record<string, number> = {};
+            Object.entries(changed).forEach(([k, v]: any) => {
+              normChanged[k.toString().trim().toLowerCase()] = Number(v) ?? 0;
+            });
+            Object.entries(defaults).forEach(([k, v]: any) => {
+              normDefault[k.toString().trim().toLowerCase()] = Number(v) ?? 0;
+            });
+
+            approvedVals = category.map((c: any) => {
+              const key = c.name.toString().trim().toLowerCase();
+              return (key in normChanged
+                ? normChanged[key]
+                : normDefault[key]) ?? 0;
+            });
+
+            // Debug mapping for verification in console
+            try {
+              // eslint-disable-next-line no-console
+              console.log("[Approved Mapping]", {
+                entry: { userId: entry.userId, name: entry.name },
+                categories: category.map((c: any) => c.name),
+                changed: normChanged,
+                defaults: normDefault,
+                approvedVals,
+              });
+            } catch {}
+          }
+        }
+      } catch {
+        // ignore fetch errors, keep zeros
+      }
 
       setChartData({
         category,
@@ -100,6 +152,22 @@ export default function ReviewGoalsPage() {
       setSelectedEntry(entry);
       setSelectedTasks(entry.beyondRole || []);
       setActiveView(entry.status === "Approved" ? "approved" : "changed");
+
+      // Initialize editableLevels from current values
+      const initialLevels: Record<string, number> = {};
+      category.forEach((c: any, idx: number) => {
+        initialLevels[c.name] = selfVals[idx] ?? baseDefaultVals[idx] ?? 0;
+      });
+      setEditableLevels(initialLevels);
+
+      // Publish initial state for sidebar consumers
+      if (typeof window !== "undefined") {
+        (window as any).__mgrReviewState = {
+          category: category.map((c: any) => ({ name: c.name })),
+          levels: { ...initialLevels },
+        };
+        window.dispatchEvent(new CustomEvent("mgrStateUpdated"));
+      }
     } catch (err) {
       console.error(err);
       alert("Error: " + (err as any).message);
@@ -116,6 +184,18 @@ export default function ReviewGoalsPage() {
     }
     finalTasks = [...new Set(finalTasks)]; // dedupe
 
+    // Build managerChanged relative to defaults
+    const managerChanged: Record<string, number> = {};
+    if (chartData?.category && chartData?.defaultVals) {
+      chartData.category.forEach((c: any, idx: number) => {
+        const defVal = chartData.defaultVals[idx] ?? 0;
+        const newVal = editableLevels[c.name] ?? defVal;
+        if (newVal !== defVal) {
+          managerChanged[c.name] = newVal;
+        }
+      });
+    }
+
     try {
       const res = await fetch("/api/approveGoals", {
         method: "POST",
@@ -123,6 +203,7 @@ export default function ReviewGoalsPage() {
         body: JSON.stringify({
           goalId: selectedEntry._id,
           beyondRole: finalTasks,
+          managerChanged,
         }),
       });
 
@@ -140,6 +221,61 @@ export default function ReviewGoalsPage() {
           status: "Approved",
           beyondRole: finalTasks,
         });
+
+        // Update from server-returned approved doc if available
+        if (data.approved && chartData?.category) {
+          const changed = data.approved.goals?.Changed ?? {};
+          const defaults = data.approved.goals?.Default ?? {};
+          const normChanged: Record<string, number> = {};
+          const normDefault: Record<string, number> = {};
+          Object.entries(changed).forEach(([k, v]: any) => {
+            normChanged[k.toString().trim().toLowerCase()] = Number(v) ?? 0;
+          });
+          Object.entries(defaults).forEach(([k, v]: any) => {
+            normDefault[k.toString().trim().toLowerCase()] = Number(v) ?? 0;
+          });
+
+          const newApprovedVals = chartData.category.map((c: any) => {
+            const key = c.name.toString().trim().toLowerCase();
+            return (key in normChanged ? normChanged[key] : normDefault[key]) ?? 0;
+          });
+
+          setChartData((prev: any) => ({
+            ...prev,
+            approvedVals: newApprovedVals,
+          }));
+        } else {
+          // Re-fetch from DB to reflect the latest approved values
+          try {
+            const approvedRes = await fetch(`/api/getApprovedGoals?sourceId=${encodeURIComponent(selectedEntry._id)}`);
+            if (approvedRes.ok) {
+              const approvedList = await approvedRes.json();
+              const approvedDoc = Array.isArray(approvedList) ? approvedList[0] : null;
+              if (approvedDoc && chartData?.category) {
+                const changed = approvedDoc.goals?.Changed ?? {};
+                const defaults = approvedDoc.goals?.Default ?? {};
+                const normChanged: Record<string, number> = {};
+                const normDefault: Record<string, number> = {};
+                Object.entries(changed).forEach(([k, v]: any) => {
+                  normChanged[k.toString().trim().toLowerCase()] = Number(v) ?? 0;
+                });
+                Object.entries(defaults).forEach(([k, v]: any) => {
+                  normDefault[k.toString().trim().toLowerCase()] = Number(v) ?? 0;
+                });
+
+                const newApprovedVals = chartData.category.map((c: any) => {
+                  const key = c.name.toString().trim().toLowerCase();
+                  return (key in normChanged ? normChanged[key] : normDefault[key]) ?? 0;
+                });
+
+                setChartData((prev: any) => ({
+                  ...prev,
+                  approvedVals: newApprovedVals,
+                }));
+              }
+            }
+          } catch {}
+        }
         setActiveView("approved");
         setCustomTask(""); // clear input after approve
       } else {
@@ -183,6 +319,48 @@ export default function ReviewGoalsPage() {
       ? SelectedType.Self
       : SelectedType.Approved;
 
+  // Listen for sidebar level changes
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const handler = (e: Event) => {
+      const detail = (e as CustomEvent).detail as { name: string; level: number } | undefined;
+      if (!detail) return;
+      setEditableLevels((prev) => ({ ...prev, [detail.name]: detail.level }));
+    };
+    window.addEventListener("mgrSetLevel", handler as EventListener);
+    return () => window.removeEventListener("mgrSetLevel", handler as EventListener);
+  }, []);
+
+  // Whenever editableLevels or category changes, publish to sidebar
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    if (!chartData?.category) return;
+    (window as any).__mgrReviewState = {
+      category: chartData.category.map((c: any) => ({ name: c.name })),
+      levels: { ...editableLevels },
+    };
+    window.dispatchEvent(new CustomEvent("mgrStateUpdated"));
+  }, [editableLevels, chartData?.category]);
+
+  // Debug: log what the graph is rendering
+  useEffect(() => {
+    if (!chartData?.category) return;
+    const categories = chartData.category.map((c: any) => c.name);
+    const selfSeries =
+      activeView === "changed" && chartData?.category
+        ? chartData.category.map((c: any) => editableLevels[c.name] ?? 0)
+        : chartData.selfVals;
+    // eslint-disable-next-line no-console
+    console.log("[Graph Render]", {
+      user: { id: selectedEntry?.userId, name: selectedEntry?.name },
+      view: activeView,
+      categories,
+      defaultVals: chartData.defaultVals,
+      selfVals: selfSeries,
+      approvedVals: chartData.approvedVals,
+    });
+  }, [chartData, activeView, selectedEntry, editableLevels]);
+
   return (
     <div className="flex p-6 mt-20">
       <div className="flex flex-col w-full">
@@ -207,7 +385,13 @@ export default function ReviewGoalsPage() {
                   <SpiderRadarChart
                     rows={5}
                     radiusStep={30}
-                    selfVals={chartData.selfVals}
+                    selfVals={
+                      activeView === "changed" && chartData?.category
+                        ? chartData.category.map((c: any) =>
+                            editableLevels[c.name] ?? 0,
+                          )
+                        : chartData.selfVals
+                    }
                     defaultVals={chartData.defaultVals}
                     achievedVals={chartData.approvedVals}
                     type={selectedType}
@@ -296,7 +480,7 @@ export default function ReviewGoalsPage() {
                     ? "bg-[#84b7f5] text-white"
                     : "bg-[#c5e0ff] text-gray-700 hover:bg-[#a9d0ff]"
                 }`}
-                onClick={handleApprove}
+                onClick={() => setShowApproveDialog(true)}
                 disabled={selectedEntry?.status === "Approved"}
               >
                 {selectedEntry?.status === "Approved"
@@ -304,6 +488,50 @@ export default function ReviewGoalsPage() {
                   : "Approve Goals"}
               </button>
             </div>
+
+            {/* Approve Confirmation Dialog */}
+            {showApproveDialog && (
+              <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70">
+                <div className="bg-white p-6 rounded-xl border border-purple-400 shadow-lg max-w-sm w-[400px] text-center">
+                  <p className="mb-6 text-gray-800">
+                    Do you want to edit or approve these goals?
+                  </p>
+                  <div className="flex justify-center gap-4">
+                    <button
+                      className="px-6 py-2 rounded-lg bg-[#8e8e93] text-white hover:bg-purple-400"
+                      onClick={() => {
+                        setShowApproveDialog(false);
+                        setActiveView("changed");
+                        if (typeof window !== "undefined") {
+                          (window as any).__mgrShowEdit = true;
+                          window.dispatchEvent(
+                            new CustomEvent("mgrToggleEdit", { detail: { show: true } }),
+                          );
+                        }
+                      }}
+                    >
+                      Edit
+                    </button>
+                    <button
+                      className="px-6 py-2 rounded-lg bg-[#84b7f5] text-white hover:bg-[#6ea8f0]"
+                      onClick={() => {
+                        setShowApproveDialog(false);
+                        if (typeof window !== "undefined") {
+                          (window as any).__mgrShowEdit = false;
+                          window.dispatchEvent(
+                            new CustomEvent("mgrToggleEdit", { detail: { show: false } }),
+                          );
+                        }
+                        handleApprove();
+                      }}
+                    >
+                      Approve
+                    </button>
+                  </div>
+                </div>
+              </div>
+            )}
+
           </>
         ) : (
           <p className="text-gray-500">Loading or no goal data available</p>

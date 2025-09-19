@@ -87,14 +87,8 @@ export default function Page() {
         // build chart data map
         const chartMap: Record<string, any> = {};
         for (const goal of data) {
-          if (frameworks.length === 0) {
-            try {
-              const frameworkRes = await fetch(`/Data/Band 1/Band1.json`);
-              frameworks = await frameworkRes.json();
-            } catch {
-              continue;
-            }
-          }
+          const frameworkRes = await fetch(`/Data/Band 1/Band1.json`);
+          const frameworks = await frameworkRes.json();
 
           const framework = frameworks.find(
             (f: any) =>
@@ -107,18 +101,20 @@ export default function Page() {
           const { category, defaultVals, tooltips, groupMap } =
             mapJsonToSpider(framework);
 
-          // ✅ Use Changed goals if approved, else default goals
+          // ✅ Use Changed goals if approved; fallback to Default per category
           const selfVals = category.map((c: any) => {
+            const changed = goal.goals?.Changed?.[c.name];
+            const def = goal.goals?.Default?.[c.name] ?? 0;
             if (goal.status === "Approved") {
-              return goal.goals?.Changed?.[c.name] ?? 0;
+              return changed ?? def;
             }
-            return goal.goals?.Default?.[c.name] ?? 0;
+            return def;
           });
 
           chartMap[goal._id] = {
             category,
             defaultVals,
-            approvedVals: selfVals, // ✅ always correct values
+            approvedVals: selfVals, // ✅ Changed overriding Default
             tooltips,
             groupMap,
           };

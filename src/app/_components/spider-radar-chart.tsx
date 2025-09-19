@@ -43,15 +43,12 @@ export default function SpiderRadarChart({
     const defaultVal = defaultVals[col] ?? 0;
     const selfVal = selfVals[col] ?? 0;
 
+    // Self has special styling to highlight differences vs defaults
     if (type === SelectedType.Self) {
       const isDifferent = selfVal !== defaultVal;
       const color = isDifferent ? CellColor.Yellow : CellColor.Yellow_light;
       return selfVal >= row ? color : CellColor.White;
     }
-
-    if (type === SelectedType.Default) return defaultVal >= row ? CellColor.Gray : CellColor.White;
-    if (type === SelectedType.Manager) return defaultVal >= row ? CellColor.Blue : CellColor.White;
-    if (type === SelectedType.Approved) return defaultVal >= row ? CellColor.Blue : CellColor.White;
 
     const valueMap: Record<SelectedType, number[]> = {
       [SelectedType.Default]: defaultVals,
@@ -63,8 +60,8 @@ export default function SpiderRadarChart({
     const colorMap: Record<SelectedType, string> = {
       [SelectedType.Default]: CellColor.Gray,
       [SelectedType.Self]: CellColor.Yellow_light,
-      [SelectedType.Manager]: "#ADD8E6",
-      [SelectedType.Approved]: "#90EE90",
+      [SelectedType.Manager]: CellColor.Blue,
+      [SelectedType.Approved]: CellColor.Blue,
     };
 
     const val = valueMap[type]?.[col] ?? 0;

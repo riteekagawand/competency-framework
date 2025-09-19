@@ -7,6 +7,7 @@ import StepContent from "@mui/material/StepContent";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import RadioButtonUncheckedIcon from "@mui/icons-material/RadioButtonUnchecked";
 import type { StepIconProps } from "@mui/material";
+import React from "react";
 
 type SidebarProps = {
   activeStep: number;
@@ -29,6 +30,37 @@ export default function Sidebar({
   viewMode,
   setViewMode,
 }: SidebarProps) {
+  const [mgrCategories, setMgrCategories] = React.useState<{ name: string }[]>([]);
+  const [mgrLevels, setMgrLevels] = React.useState<Record<string, number>>({});
+  const [showEdit, setShowEdit] = React.useState(false);
+
+  React.useEffect(() => {
+    const updateFromWindow = () => {
+      const state = (window as any).__mgrReviewState as
+        | { category: { name: string }[]; levels: Record<string, number> }
+        | undefined;
+      if (state) {
+        setMgrCategories(state.category || []);
+        setMgrLevels(state.levels || {});
+      }
+    };
+    updateFromWindow();
+    window.addEventListener("mgrStateUpdated", updateFromWindow);
+    const toggleHandler = (e: Event) => {
+      const detail = (e as CustomEvent).detail as { show: boolean } | undefined;
+      if (detail && typeof detail.show === "boolean") setShowEdit(detail.show);
+    };
+    window.addEventListener("mgrToggleEdit", toggleHandler as EventListener);
+    return () => window.removeEventListener("mgrStateUpdated", updateFromWindow);
+  }, []);
+
+  const setLevel = (name: string, level: number) => {
+    setMgrLevels((prev) => ({ ...prev, [name]: level }));
+    window.dispatchEvent(
+      new CustomEvent("mgrSetLevel", { detail: { name, level } }),
+    );
+  };
+
   const steps = [
     {
       label: "Set My Goals",
@@ -46,10 +78,38 @@ export default function Sidebar({
             className={`px-4 py-2 rounded-md text-sm font-semibold transition  ${
               viewMode === "reviewGoals" ? "text-black" : "text-gray-700"
             }`}
-            onClick={() => setViewMode("reviewGoals")}
+            onClick={() => {
+              setViewMode("reviewGoals");
+            }}
           >
             Review Goals
           </button>
+          {viewMode === "reviewGoals" && showEdit && mgrCategories.length > 0 && (
+            <div className="mt-3 space-y-3">
+              {mgrCategories.map((c) => (
+                <div key={c.name} className="px-2">
+                  <div className="text-xs font-medium text-gray-800 mb-1 truncate">
+                    {c.name}
+                  </div>
+                  <div className="flex gap-1">
+                    {[1, 2, 3, 4, 5].map((lvl) => (
+                      <button
+                        key={lvl}
+                        onClick={() => setLevel(c.name, lvl)}
+                        className={`w-7 h-7 rounded border text-xs font-medium ${
+                          (mgrLevels[c.name] ?? 0) >= lvl
+                            ? "bg-[#ffd566] text-black border-gray-700"
+                            : "text-black border-black"
+                        }`}
+                      >
+                        {lvl}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
         </div>
       ),
     },
