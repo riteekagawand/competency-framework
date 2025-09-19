@@ -191,12 +191,14 @@ export default function Page() {
                           groupMap={chartData.groupMap}
                         />
 
+                        {/* Detailed competency write-up */}
+                        
                         {/* Changed Goals */}
                         {goal.goals?.Changed && (
                           <div className="mt-4 pt-3">
                             <h4 className="font-medium mb-2">Changed Goals:</h4>
-
-                            <p className="text-gray-700 leading-relaxed mt-4 ml-40 text-justify mb-6 w-[700px]">
+                            <div className="ml-40"> 
+                            <p className="text-gray-700 leading-relaxed mt-4  text-justify mb-6 w-[700px]">
                               Here are your finalized goals for this quarter,
                               designed to guide your progress effectively.
                               Review each goal to understand your focus areas
@@ -204,17 +206,35 @@ export default function Page() {
                               aligned and make the most of your quarterly
                               journey.
                             </p>
+                            <div className="mt-4 pt-3">
+                          <div className="space-y-3 text-gray-800 leading-relaxed">
+                            {chartData.category.map((c: any, i: number) => {
+                              const level = Number(chartData.approvedVals?.[i] ?? 0);
+                              const levelCount = Math.max(0, Math.min(5, level));
+                              const tooltipLevels: string[] = chartData.tooltips?.[i] ?? [];
+                              const items = Array.from({ length: levelCount }, (_, idx) => tooltipLevels[idx] || "");
+                              return (
+                                <div key={c.name} className="">
+                                  <p className="font-semibold mb-1">{c.name}</p>
+                                  {items.length > 0 ? (
+                                    <ol className="list-decimal ml-6 space-y-1">
+                                      {items.map((html, idx) => (
+                                        <li key={idx} className="text-sm text-gray-700" dangerouslySetInnerHTML={{ __html: html }} />
+                                      ))}
+                                    </ol>
+                                  ) : (
+                                    <p className="text-sm text-gray-500">No description available.</p>
+                                  )}
+                                </div>
+                              );
+                            })}
+                          </div>
+                        </div>
 
-                            <ul className="list-disc ml-5 text-sm text-gray-700">
-                              {Object.entries(goal.goals.Changed).map(
-                                ([key, value]) => (
-                                  <li key={key}>
-                                    <span className="font-semibold">{key}:</span>{" "}
-                                    {value}
-                                  </li>
-                                )
-                              )}
-                            </ul>
+                            </div>
+                            
+
+                        
                           </div>
                         )}
                       </div>
